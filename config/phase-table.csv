@@ -1,0 +1,21 @@
+Phase,Owner,Entry,Exit,Status
+IDENTITY_AND_CENSUS,01C,exact external ROM,verified target contract plus total conservative physical-byte census,CLOSED
+CPU_SEMANTICS,02C,closed 01C,complete offline W65C816 semantics,CLOSED_REPAIRED
+LEXICAL_UNIVERSE,03C,closed 02C,deterministic whole-ROM candidate universe,CLOSED
+EXACT_CONTEXTS,04C,closed 03C,deterministic exact context/root manifests,CLOSED_DIRECT_FLOW
+FLOW_CLOSURE,05C,closed 04C,source-proved control-flow and interrupt re-entry,CLOSED
+EXECUTABLE_MEMORY,06C,closed 05C,source-proved executable-memory epochs,CLOSED
+STATIC_SCPU_GENERATION,07C,closed 06C,complete reconciled native S-CPU authority,CLOSED_STATIC_LIBRARIES_NO_EXECUTABLE
+BUS_RESET_MEMORY_MMIO,08C,closed 07C,exact bus/reset/memory/MMIO boundary,CLOSED_STATIC_LIBRARIES_NO_EXECUTABLE
+MASTER_SCHEDULER,09C,closed 08C,one monotonic scheduler and interrupt owner,CLOSED_STATIC_LIBRARIES_NO_EXECUTABLE
+DMA_HDMA,10C,closed 09C,general DMA/HDMA controller,CLOSED_STATIC_LIBRARIES_NO_EXECUTABLE
+PPU_STATE,11C,closed 10C,PPU register/memory state plus exact CPU/DMA/HDMA receiver join,CLOSED
+SMP_BOOTSTRAP,12C,closed 11C,S-SMP bootstrap APUIO timers and ARAM,CLOSED_STATIC_LIBRARIES_NO_EXECUTABLE
+STATIC_SMP_GENERATION,13C,closed 12C,static S-SMP AOT authority,CLOSED_1392_EXACT_PC_STATIC_LIBRARIES_NO_EXECUTABLE
+RASTER_RENDERER,14C,closed 13C,raster renderer and visual boundary,CLOSED_MODES_2_3_PUBLISHED_FRAME_STATIC_LIBRARIES_NO_EXECUTABLE
+INPUT,15C,closed 14C,controller transitions,CLOSED_STANDARD_PAD_AUTOJOY_RESET_ZERO_SRAM_STATIC_LIBRARIES_NO_EXECUTABLE
+SDSP_AUDIO,16C,closed 15C,S-DSP and audio state,CLOSED_PROJECT_SDSP_32_PHASE_KNOWN_PCM_STATIC_LIBRARIES_NO_EXECUTABLE
+WHOLE_CORE_RECONCILIATION,17C,closed 16C,whole-core fixed point Pass A,IN_PROGRESS_SOURCE_AUTHORITY_RECONCILED_NATURAL_INTEGRATION_BLOCKING
+STATIC_CORE_FIXED_POINT,18C,closed 17C,cold Pass B and static-core certificate,PENDING
+FRONTEND,POST_18C,closed 18C,connected Starter-v10-derived host port,PENDING
+

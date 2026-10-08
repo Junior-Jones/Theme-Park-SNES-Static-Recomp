@@ -1,0 +1,36 @@
+{
+  "schema": "theme-park-pal-timing-profile-v1",
+  "status": "09C_PROJECT_DETERMINISTIC_PROFILE",
+  "region": "PAL_EUROPE",
+  "master_clock_hz": {
+    "numerator": 21281370,
+    "denominator": 1,
+    "claim": "PROJECT_PROFILE_NOT_UNIVERSAL_PHYSICAL_TRUTH"
+  },
+  "raster": {
+    "normal_scanline_master_clocks": 1364,
+    "pal_noninterlace_scanlines": 312,
+    "dram_refresh_master_clocks_per_scanline": 40,
+    "normal_visible_lines": 224,
+    "overscan_visible_lines": 239
+  },
+  "independent_domains": {
+    "ssmp": {
+      "nominal_hz": 1024000,
+      "ratio_numerator": 102400,
+      "ratio_denominator": 2128137,
+      "initial_remainder": 0,
+      "initial_phase_claim": "DETERMINISTIC_PROJECT_SELECTION; PHYSICAL_CROSS_DOMAIN_PHASE_UNSPECIFIED",
+      "reset_policy": "PRESERVE_REMAINDER_AND_TARGET_ACROSS_SCPU_RESET"
+    },
+    "sdsp_sample": {
+      "nominal_hz": 32000,
+      "ratio_numerator": 3200,
+      "ratio_denominator": 2128137,
+      "initial_remainder": 0,
+      "initial_phase_claim": "DETERMINISTIC_PROJECT_SELECTION; PHYSICAL_CROSS_DOMAIN_PHASE_UNSPECIFIED",
+      "reset_policy": "PRESERVE_REMAINDER_AND_TARGET_ACROSS_SCPU_RESET"
+    }
+  },
+  "frontend_or_wall_clock_is_guest_authority": false
+}

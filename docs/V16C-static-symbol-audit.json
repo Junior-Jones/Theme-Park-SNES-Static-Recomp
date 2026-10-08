@@ -1,0 +1,31 @@
+{
+  "forbidden_archive_members": [],
+  "forbidden_symbols": [],
+  "forbidden_terms": [
+    "snes9x",
+    "mesen",
+    "bsnes",
+    "bapu",
+    "spc_dsp",
+    "snes_spc"
+  ],
+  "gcc_archive_members": 684,
+  "gcc_defined_symbol_listing_sha256": "4111d2bdab51a5364b3729e90aec7325a3597c7fe17d5cc120511e6f3a60e2b5",
+  "gcc_member_listing_sha256": "3fcd4643ffa9a01e3aeacff21daa0dd625c5e9fd907b251a79523a8be641ec22",
+  "missing_required_symbols": [],
+  "msvc_archive_members": 684,
+  "msvc_member_listing_sha256": "596da0a1f407c97c2d6f1d7f3459506da0605219209d412ec162ab21c0a62492",
+  "project_sdsp_objects": {
+    "gcc": 1,
+    "msvc": 1
+  },
+  "required_symbols": [
+    "tp_sdsp_step_phase",
+    "tp_sdsp_write_register",
+    "tp_sdsp_read_register",
+    "tp_sdsp_pcm_read",
+    "tp_machine_pcm_read"
+  ],
+  "schema": "theme-park-v16c-static-symbol-audit-v1",
+  "status": "PASS_PROJECT_SDSP_PRESENT_NO_THIRD_PARTY_APU_OR_DSP_OWNER"
+}

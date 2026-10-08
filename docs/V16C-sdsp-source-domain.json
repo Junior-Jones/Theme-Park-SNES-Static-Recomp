@@ -1,0 +1,959 @@
+{
+  "access_counts": {
+    "$F2_WRITE": 47,
+    "$F3_READ": 1,
+    "$F3_WRITE": 46
+  },
+  "authority_policy": "SOURCE_RECONSTRUCTED_ARAM_AND_13C_EXACT_AOT_ONLY_NO_ORACLE_NO_TRACE",
+  "dynamic_register_address_sites_present": true,
+  "exact_access_sites": 94,
+  "exact_pc_sites": 94,
+  "frontend_used": false,
+  "inputs_sha256": {
+    "spc700_aot": "4c24db6e0380f9f7f799eeb29b24782d557743e01cc2cba095c11f08e3f123e7",
+    "spc700_discovery": "60132b9e2e53ec530d9edfcd3fb88c2bf80ce707c2820e4afde88efb71ae1bf3"
+  },
+  "lexical_immediate_pairs": [
+    {
+      "address_pc": "$0301",
+      "data_access": "WRITE",
+      "data_pc": "$0304",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$6C"
+    },
+    {
+      "address_pc": "$0307",
+      "data_access": "WRITE",
+      "data_pc": "$030A",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$4D"
+    },
+    {
+      "address_pc": "$030D",
+      "data_access": "WRITE",
+      "data_pc": "$0310",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$6D"
+    },
+    {
+      "address_pc": "$0313",
+      "data_access": "WRITE",
+      "data_pc": "$0316",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$7D"
+    },
+    {
+      "address_pc": "$0352",
+      "data_access": "WRITE",
+      "data_pc": "$0355",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$7C"
+    },
+    {
+      "address_pc": "$03AC",
+      "data_access": "WRITE",
+      "data_pc": "$03AF",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$0C"
+    },
+    {
+      "address_pc": "$03B2",
+      "data_access": "WRITE",
+      "data_pc": "$03B5",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$1C"
+    },
+    {
+      "address_pc": "$03C5",
+      "data_access": "READ",
+      "data_pc": "$03C8",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$7C"
+    },
+    {
+      "address_pc": "$056A",
+      "data_access": "WRITE",
+      "data_pc": "$056D",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$0C"
+    },
+    {
+      "address_pc": "$056F",
+      "data_access": "WRITE",
+      "data_pc": "$0572",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$1C"
+    },
+    {
+      "address_pc": "$0591",
+      "data_access": "WRITE",
+      "data_pc": "$0594",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$0C"
+    },
+    {
+      "address_pc": "$0598",
+      "data_access": "WRITE",
+      "data_pc": "$059B",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$1C"
+    },
+    {
+      "address_pc": "$0727",
+      "data_access": "WRITE",
+      "data_pc": "$072A",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$5C"
+    },
+    {
+      "address_pc": "$0745",
+      "data_access": "WRITE",
+      "data_pc": "$0748",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$4C"
+    },
+    {
+      "address_pc": "$074B",
+      "data_access": "WRITE",
+      "data_pc": "$074E",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$5C"
+    },
+    {
+      "address_pc": "$0B49",
+      "data_access": "WRITE",
+      "data_pc": "$0B4C",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$5C"
+    },
+    {
+      "address_pc": "$0BF8",
+      "data_access": "WRITE",
+      "data_pc": "$0BFB",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$7D"
+    },
+    {
+      "address_pc": "$0C00",
+      "data_access": "WRITE",
+      "data_pc": "$0C03",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$0D"
+    },
+    {
+      "address_pc": "$0C08",
+      "data_access": "WRITE",
+      "data_pc": "$0C0B",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$4D"
+    },
+    {
+      "address_pc": "$0C10",
+      "data_access": "WRITE",
+      "data_pc": "$0C13",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$2C"
+    },
+    {
+      "address_pc": "$0C18",
+      "data_access": "WRITE",
+      "data_pc": "$0C1B",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$3C"
+    },
+    {
+      "address_pc": "$0D2B",
+      "data_access": "WRITE",
+      "data_pc": "$0D2E",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$4C"
+    },
+    {
+      "address_pc": "$0D39",
+      "data_access": "WRITE",
+      "data_pc": "$0D3C",
+      "qualification": "LEXICALLY_ADJACENT_EXACT_AOT_SITES_NOT_A_RUNTIME_TRACE",
+      "register": "$5C"
+    }
+  ],
+  "lexically_proved_immediate_registers": [
+    "$0C",
+    "$0D",
+    "$1C",
+    "$2C",
+    "$3C",
+    "$4C",
+    "$4D",
+    "$5C",
+    "$6C",
+    "$6D",
+    "$7C",
+    "$7D"
+  ],
+  "oracle_used": false,
+  "receiver": {
+    "address_owner": "TPApu.dsp_address",
+    "all_128_register_addresses_accepted": true,
+    "data_owner": "TPSdsp.registers[128]",
+    "fixed_hardware_owner": "runtime/src/theme_park_sdsp.c",
+    "unknown_aram_propagates_knownness": true,
+    "unknown_control_flow": "FAIL_CLOSED_BY_13C_AOT"
+  },
+  "schema": "theme-park-v16c-sdsp-source-domain-v1",
+  "sites": [
+    {
+      "access": "WRITE",
+      "immediate_value": "$6C",
+      "instruction_bytes": "8F6CF2",
+      "pc": "$0301",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$38",
+      "instruction_bytes": "8F38F3",
+      "pc": "$0304",
+      "port": "$F3",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$4D",
+      "instruction_bytes": "8F4DF2",
+      "pc": "$0307",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$00",
+      "instruction_bytes": "8F00F3",
+      "pc": "$030A",
+      "port": "$F3",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$6D",
+      "instruction_bytes": "8F6DF2",
+      "pc": "$030D",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$60",
+      "instruction_bytes": "8F60F3",
+      "pc": "$0310",
+      "port": "$F3",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$7D",
+      "instruction_bytes": "8F7DF2",
+      "pc": "$0313",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$00",
+      "instruction_bytes": "8F00F3",
+      "pc": "$0316",
+      "port": "$F3",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$7C",
+      "instruction_bytes": "8F7CF2",
+      "pc": "$0352",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$00",
+      "instruction_bytes": "8F00F3",
+      "pc": "$0355",
+      "port": "$F3",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$0C",
+      "instruction_bytes": "8F0CF2",
+      "pc": "$03AC",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$00",
+      "instruction_bytes": "8F00F3",
+      "pc": "$03AF",
+      "port": "$F3",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$1C",
+      "instruction_bytes": "8F1CF2",
+      "pc": "$03B2",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$00",
+      "instruction_bytes": "8F00F3",
+      "pc": "$03B5",
+      "port": "$F3",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$7C",
+      "instruction_bytes": "8F7CF2",
+      "pc": "$03C5",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "READ",
+      "immediate_value": null,
+      "instruction_bytes": "E4F3",
+      "pc": "$03C8",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$0C",
+      "instruction_bytes": "8F0CF2",
+      "pc": "$056A",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$056D",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$1C",
+      "instruction_bytes": "8F1CF2",
+      "pc": "$056F",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0572",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$0C",
+      "instruction_bytes": "8F0CF2",
+      "pc": "$0591",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0594",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$1C",
+      "instruction_bytes": "8F1CF2",
+      "pc": "$0598",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$059B",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$5C",
+      "instruction_bytes": "8F5CF2",
+      "pc": "$0727",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "FA20F3",
+      "pc": "$072A",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "CBF2",
+      "pc": "$0732",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0734",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "CBF2",
+      "pc": "$073A",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$FF",
+      "instruction_bytes": "8FFFF3",
+      "pc": "$073C",
+      "port": "$F3",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "CBF2",
+      "pc": "$0740",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$E0",
+      "instruction_bytes": "8FE0F3",
+      "pc": "$0742",
+      "port": "$F3",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$4C",
+      "instruction_bytes": "8F4CF2",
+      "pc": "$0745",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "FA20F3",
+      "pc": "$0748",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$5C",
+      "instruction_bytes": "8F5CF2",
+      "pc": "$074B",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$00",
+      "instruction_bytes": "8F00F3",
+      "pc": "$074E",
+      "port": "$F3",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$077D",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$077F",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0785",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0787",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F2",
+      "pc": "$084B",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0856",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0A1C",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0A1E",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0A24",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0A26",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$5C",
+      "instruction_bytes": "8F5CF2",
+      "pc": "$0B49",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$00",
+      "instruction_bytes": "8F00F3",
+      "pc": "$0B4C",
+      "port": "$F3",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$7D",
+      "instruction_bytes": "8F7DF2",
+      "pc": "$0BF8",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0BFB",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$0D",
+      "instruction_bytes": "8F0DF2",
+      "pc": "$0C00",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0C03",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$4D",
+      "instruction_bytes": "8F4DF2",
+      "pc": "$0C08",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0C0B",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$2C",
+      "instruction_bytes": "8F2CF2",
+      "pc": "$0C10",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0C13",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$3C",
+      "instruction_bytes": "8F3CF2",
+      "pc": "$0C18",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0C1B",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0CA5",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0CA7",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0CB2",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0CB4",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0CBC",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0CBE",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0CC5",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0CC7",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0CF9",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0CFB",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0D03",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0D05",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0D17",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "CBF3",
+      "pc": "$0D19",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0D20",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "CBF3",
+      "pc": "$0D22",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$4C",
+      "instruction_bytes": "8F4CF2",
+      "pc": "$0D2B",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0D2E",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": "$5C",
+      "instruction_bytes": "8F5CF2",
+      "pc": "$0D39",
+      "port": "$F2",
+      "value_expression_class": "IMMEDIATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0D3C",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0D61",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0D63",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0D70",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0D72",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0D7F",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0D81",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0D8E",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0D90",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0D9D",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0D9F",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0DAC",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0DAE",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0DBB",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0DBD",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "D8F2",
+      "pc": "$0DCA",
+      "port": "$F2",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    },
+    {
+      "access": "WRITE",
+      "immediate_value": null,
+      "instruction_bytes": "C4F3",
+      "pc": "$0DCC",
+      "port": "$F3",
+      "value_expression_class": "LIVE_S_SMP_STATE"
+    }
+  ],
+  "status": "CLOSED_EXACT_AOT_DSP_PORT_PRODUCERS_JOINED_TO_GENERIC_128_REGISTER_OWNER",
+  "trace_used": false
+}

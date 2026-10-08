@@ -1,0 +1,149 @@
+{
+  "context_count": 382,
+  "dbr_proof": "V05C closed DBR=0 theorem; absolute accesses fail closed if DBR differs",
+  "dependencies": {
+    "family_plan_sha256": "2d9b721ef5ef4179e409f03f6acccd7c62847b358e602f150a2e2f9f3bd7b20c",
+    "v05_contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "v05_dynamic_proofs_sha256": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "v05_edges_sha256": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "v05_summary_sha256": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "v06_summary_sha256": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577"
+  },
+  "executable_memory_epoch": "IMMUTABLE_CANONICAL_LOROM; V06C proves zero RAM epochs",
+  "family_id": "TP07F371",
+  "instruction_form_counts": {
+    "ADC:ABS": 4,
+    "ADC:IMM_M": 2,
+    "AND:IMM_M": 3,
+    "ASL:ACC": 5,
+    "BCC:REL8": 2,
+    "BEQ:REL8": 5,
+    "BNE:REL8": 5,
+    "BRA:REL8": 7,
+    "BRL:REL16": 4,
+    "CLC:IMP": 6,
+    "CMP:IMM_M": 8,
+    "CPX:IMM_X": 1,
+    "INC:ACC": 5,
+    "INY:IMP": 4,
+    "JMP:ABS_JUMP": 1,
+    "JSL:ABSL_JUMP": 13,
+    "LDA:ABS": 19,
+    "LDA:ABSL_X": 3,
+    "LDA:ABS_Y": 9,
+    "LDA:DP_IND_LONG": 1,
+    "LDA:DP_IND_LONG_Y": 11,
+    "LDA:IMM_M": 28,
+    "LDX:ABS": 6,
+    "LDX:IMM_X": 2,
+    "LDY:ABS": 9,
+    "LDY:IMM_X": 39,
+    "NOP:IMP": 8,
+    "PHA:IMP": 4,
+    "PHX:IMP": 2,
+    "PLA:IMP": 4,
+    "PLX:IMP": 2,
+    "REP:IMM8": 39,
+    "RTS:IMP": 1,
+    "SBC:ABS": 1,
+    "SEC:IMP": 1,
+    "SEP:IMM8": 23,
+    "STA:ABS": 24,
+    "STA:ABS_Y": 1,
+    "STA:DP_IND_LONG_Y": 34,
+    "STX:ABS": 6,
+    "STY:ABS": 1,
+    "TAX:IMP": 2,
+    "TAY:IMP": 15,
+    "TXA:IMP": 1,
+    "TYA:IMP": 10,
+    "TYX:IMP": 1
+  },
+  "internal_edge_count": 380,
+  "kind": "LEAF_PROCEDURE_REACHED_FROM_RESET_BOOTSTRAP",
+  "mode_set": [
+    "0:0:0",
+    "0:0:1",
+    "0:1:0",
+    "0:1:1"
+  ],
+  "nested_call_count": 13,
+  "nested_calls": [
+    {
+      "call_source": "00:FD25:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "00:FD40:0:0:0",
+      "call_target": "07:9FB9:0:0:0"
+    },
+    {
+      "call_source": "00:FD4D:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "00:FDCA:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "00:FE5A:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "00:FE75:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "00:FEA9:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "00:FED3:0:0:1",
+      "call_target": "07:8530:0:0:1"
+    },
+    {
+      "call_source": "00:FEDC:0:0:0",
+      "call_target": "00:C2E4:0:0:0"
+    },
+    {
+      "call_source": "00:FEE3:0:0:0",
+      "call_target": "07:9529:0:0:0"
+    },
+    {
+      "call_source": "00:FEF0:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "00:FF7E:0:0:0",
+      "call_target": "04:ED14:0:0:0"
+    },
+    {
+      "call_source": "00:FF84:0:0:0",
+      "call_target": "04:ED2A:0:0:0"
+    }
+  ],
+  "parent_calls": [
+    {
+      "call_source": "00:C185:0:0:0",
+      "proof_id": "V05P00223"
+    }
+  ],
+  "products": {
+    "contexts_sha256": "716a1578291440c033158f8f6c0b0f02d4d3a3892e9d7564ce45c60b2c97b7aa",
+    "edges_sha256": "14a56d53553a3f7cc6c0c5f9b83551b6d7dfaba7281e5ec7ac17416feda15fdb"
+  },
+  "return_relations": [
+    {
+      "call_source": "00:C185:0:0:0",
+      "return_source": "00:FFA6:0:0:0",
+      "return_target": "00:C188:0:0:0"
+    }
+  ],
+  "root_context": "00:FC58:0:0:0",
+  "runtime_decoder_required": false,
+  "runtime_return_edge_count": 1,
+  "runtime_return_edges_sha256": "8e10e87c65806de912405937b1d18c8f3ecb1a203a68836b223a2d0cc00ed3c1",
+  "schema": "theme-park-v07c-family-understanding-v1",
+  "status": "UNDERSTOOD_SOURCE_PROVED_NOT_YET_ADMITTED",
+  "trace_or_oracle_inputs": []
+}

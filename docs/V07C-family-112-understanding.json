@@ -1,0 +1,190 @@
+{
+  "context_count": 52,
+  "dbr_proof": "V05C closed DBR=0 theorem; absolute accesses fail closed if DBR differs",
+  "dependencies": {
+    "family_plan_sha256": "2d9b721ef5ef4179e409f03f6acccd7c62847b358e602f150a2e2f9f3bd7b20c",
+    "v05_contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "v05_dynamic_proofs_sha256": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "v05_edges_sha256": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "v05_summary_sha256": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "v06_summary_sha256": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577"
+  },
+  "executable_memory_epoch": "IMMUTABLE_CANONICAL_LOROM; V06C proves zero RAM epochs",
+  "family_id": "TP07F112",
+  "instruction_form_counts": {
+    "BPL:REL8": 2,
+    "JSL:ABSL_JUMP": 1,
+    "LDA:ABS": 11,
+    "LDA:IMM_M": 2,
+    "LDX:ABS": 1,
+    "PHA:IMP": 8,
+    "PLA:IMP": 8,
+    "REP:IMM8": 4,
+    "RTL:IMP": 1,
+    "STA:ABS": 11,
+    "STX:ABS": 1,
+    "STZ:ABS": 2
+  },
+  "internal_edge_count": 52,
+  "kind": "SHARED_LEAF_PROCEDURE",
+  "mode_set": [
+    "0:0:0"
+  ],
+  "nested_call_count": 1,
+  "nested_calls": [
+    {
+      "call_source": "07:F84F:0:0:0",
+      "call_target": "07:F87E:0:0:0"
+    }
+  ],
+  "parent_calls": [
+    {
+      "call_source": "00:AF6D:0:0:0",
+      "proof_id": "V05P00166"
+    },
+    {
+      "call_source": "00:B083:0:0:0",
+      "proof_id": "V05P00172"
+    },
+    {
+      "call_source": "00:CC32:0:0:0",
+      "proof_id": "V05P00279"
+    },
+    {
+      "call_source": "04:E612:0:0:0",
+      "proof_id": "V05P00983"
+    },
+    {
+      "call_source": "04:E74C:0:0:0",
+      "proof_id": "V05P00990"
+    },
+    {
+      "call_source": "06:E85A:0:0:0",
+      "proof_id": "V05P01504"
+    },
+    {
+      "call_source": "06:E863:0:0:0",
+      "proof_id": "V05P01505"
+    },
+    {
+      "call_source": "06:E8BB:0:0:0",
+      "proof_id": "V05P01508"
+    },
+    {
+      "call_source": "06:E8C4:0:0:0",
+      "proof_id": "V05P01509"
+    },
+    {
+      "call_source": "06:E918:0:0:0",
+      "proof_id": "V05P01512"
+    },
+    {
+      "call_source": "07:A000:0:0:0",
+      "proof_id": "V05P01719"
+    },
+    {
+      "call_source": "07:A008:0:0:0",
+      "proof_id": "V05P01720"
+    },
+    {
+      "call_source": "07:A01E:0:0:0",
+      "proof_id": "V05P01721"
+    },
+    {
+      "call_source": "07:CBB6:0:0:0",
+      "proof_id": "V05P01792"
+    },
+    {
+      "call_source": "07:F26E:0:0:0",
+      "proof_id": "V05P01868"
+    }
+  ],
+  "products": {
+    "contexts_sha256": "1536b91b306f386a4c679c27f2547a47089259e44ac57ff8c7beed1a43002f85",
+    "edges_sha256": "71b03895fb211dcfe168ae593facf6e8ed223b2930213c112158e11f4b74ec65"
+  },
+  "return_relations": [
+    {
+      "call_source": "00:AF6D:0:0:0",
+      "return_source": "07:F87D:0:0:0",
+      "return_target": "00:AF71:0:0:0"
+    },
+    {
+      "call_source": "00:B083:0:0:0",
+      "return_source": "07:F87D:0:0:0",
+      "return_target": "00:B087:0:0:0"
+    },
+    {
+      "call_source": "00:CC32:0:0:0",
+      "return_source": "07:F87D:0:0:0",
+      "return_target": "00:CC36:0:0:0"
+    },
+    {
+      "call_source": "04:E612:0:0:0",
+      "return_source": "07:F87D:0:0:0",
+      "return_target": "04:E616:0:0:0"
+    },
+    {
+      "call_source": "04:E74C:0:0:0",
+      "return_source": "07:F87D:0:0:0",
+      "return_target": "04:E750:0:0:0"
+    },
+    {
+      "call_source": "06:E85A:0:0:0",
+      "return_source": "07:F87D:0:0:0",
+      "return_target": "06:E85E:0:0:0"
+    },
+    {
+      "call_source": "06:E863:0:0:0",
+      "return_source": "07:F87D:0:0:0",
+      "return_target": "06:E867:0:0:0"
+    },
+    {
+      "call_source": "06:E8BB:0:0:0",
+      "return_source": "07:F87D:0:0:0",
+      "return_target": "06:E8BF:0:0:0"
+    },
+    {
+      "call_source": "06:E8C4:0:0:0",
+      "return_source": "07:F87D:0:0:0",
+      "return_target": "06:E8C8:0:0:0"
+    },
+    {
+      "call_source": "06:E918:0:0:0",
+      "return_source": "07:F87D:0:0:0",
+      "return_target": "06:E91C:0:0:0"
+    },
+    {
+      "call_source": "07:A000:0:0:0",
+      "return_source": "07:F87D:0:0:0",
+      "return_target": "07:A004:0:0:0"
+    },
+    {
+      "call_source": "07:A008:0:0:0",
+      "return_source": "07:F87D:0:0:0",
+      "return_target": "07:A00C:0:0:0"
+    },
+    {
+      "call_source": "07:A01E:0:0:0",
+      "return_source": "07:F87D:0:0:0",
+      "return_target": "07:A022:0:0:0"
+    },
+    {
+      "call_source": "07:CBB6:0:0:0",
+      "return_source": "07:F87D:0:0:0",
+      "return_target": "07:CBBA:0:0:0"
+    },
+    {
+      "call_source": "07:F26E:0:0:0",
+      "return_source": "07:F87D:0:0:0",
+      "return_target": "07:F272:0:0:0"
+    }
+  ],
+  "root_context": "07:F809:0:0:0",
+  "runtime_decoder_required": false,
+  "runtime_return_edge_count": 15,
+  "runtime_return_edges_sha256": "d7d8f70ea2acaaba8002aedd7fff5aeafc9514fa870c8c54c842817227fb56d8",
+  "schema": "theme-park-v07c-family-understanding-v1",
+  "status": "UNDERSTOOD_SOURCE_PROVED_NOT_YET_ADMITTED",
+  "trace_or_oracle_inputs": []
+}

@@ -1,0 +1,62 @@
+{
+  "authority": [
+    "runtime/include/theme_park_apu.h",
+    "runtime/src/theme_park_apu.c"
+  ],
+  "conservative_unresolved_apuio_intersections": 5457,
+  "epoch_receipt_sha256": "b78fc3d1f21a34613e8c9267adf154541bef5825d11586079f20e567f7720f4b",
+  "events_sha256": "47c60ab5b3ea8f8de1735e605caf6dcf8468aee57a02c4e3128ab66af0189d76",
+  "exact_access_counts": {
+    "READ": 12,
+    "WRITE": 9
+  },
+  "exact_contexts": 18,
+  "exact_register_counts": {
+    "$2140": 8,
+    "$2141": 6,
+    "$2142": 3,
+    "$2143": 4
+  },
+  "exact_register_events": 21,
+  "frontend_used": false,
+  "implemented_register_surface": [
+    "$2140",
+    "$2141",
+    "$2142",
+    "$2143"
+  ],
+  "inputs_sha256": {
+    "contexts": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "contract": "e563d5e6a50417965f43b1496c461ca59354698861cb38d8b651e0a13c99472e",
+    "edges": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "hardware": "5b792a005afac868d2799e90af61fd735aeb2343726c7e60a3e6d89cb9550af3",
+    "rom": "c0a7e27131a7d8c9ef52a5227329e6de5846c045a9da1f3f84845e3be8e4efba"
+  },
+  "oracle_used": false,
+  "runtime_spc700_decoder_used": false,
+  "schema": "theme-park-v12c-apu-source-join-v1",
+  "sdsp_deferred_to": "16C",
+  "source_reached_registers": [
+    "$2140",
+    "$2141",
+    "$2142",
+    "$2143"
+  ],
+  "source_reached_registers_missing_owner": [],
+  "spc700_aot_deferred_to": "13C",
+  "static_entry_pc": "$0300",
+  "status": "APUIO_BOOTSTRAP_TIMERS_AND_ARAM_EPOCH_BOUND_TO_THEME_PARK_SOURCE",
+  "upload_epochs": 1,
+  "upload_routine_anchors": {
+    "0E:8039:0:1:1": "08",
+    "0E:8043:0:0:0": "A91383",
+    "0E:8046:0:0:0": "8500",
+    "0E:8048:0:0:0": "20A382",
+    "0E:82A3:0:0:0": "08",
+    "0E:82AC:0:0:0": "CF402100",
+    "0E:82CE:0:0:0": "8F402100",
+    "0E:82ED:0:0:0": "8F422100",
+    "0E:8300:0:1:0": "8F402100"
+  },
+  "uploaded_bytes": 3387
+}

@@ -1,0 +1,294 @@
+{
+  "context_count": 4,
+  "dbr_proof": "V05C closed DBR=0 theorem; absolute accesses fail closed if DBR differs",
+  "dependencies": {
+    "family_plan_sha256": "2d9b721ef5ef4179e409f03f6acccd7c62847b358e602f150a2e2f9f3bd7b20c",
+    "v05_contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "v05_dynamic_proofs_sha256": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "v05_edges_sha256": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "v05_summary_sha256": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "v06_summary_sha256": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577"
+  },
+  "executable_memory_epoch": "IMMUTABLE_CANONICAL_LOROM; V06C proves zero RAM epochs",
+  "family_id": "TP07F090",
+  "instruction_form_counts": {
+    "ADC:IMM_M": 1,
+    "CLC:IMP": 1,
+    "LDX:IMM_X": 1,
+    "RTL:IMP": 1
+  },
+  "internal_edge_count": 3,
+  "kind": "SHARED_LEAF_PROCEDURE",
+  "mode_set": [
+    "0:0:1"
+  ],
+  "nested_call_count": 0,
+  "nested_calls": [],
+  "parent_calls": [
+    {
+      "call_source": "00:AF36:0:0:1",
+      "proof_id": "V05P00164"
+    },
+    {
+      "call_source": "00:B03B:0:0:1",
+      "proof_id": "V05P00170"
+    },
+    {
+      "call_source": "00:CC15:0:0:1",
+      "proof_id": "V05P00278"
+    },
+    {
+      "call_source": "00:CC48:0:0:1",
+      "proof_id": "V05P00280"
+    },
+    {
+      "call_source": "00:CC63:0:0:1",
+      "proof_id": "V05P00281"
+    },
+    {
+      "call_source": "04:8C1B:0:0:1",
+      "proof_id": "V05P00649"
+    },
+    {
+      "call_source": "04:8D8F:0:0:1",
+      "proof_id": "V05P00657"
+    },
+    {
+      "call_source": "04:8FD0:0:0:1",
+      "proof_id": "V05P00666"
+    },
+    {
+      "call_source": "04:9448:0:0:1",
+      "proof_id": "V05P00682"
+    },
+    {
+      "call_source": "04:989F:0:0:1",
+      "proof_id": "V05P00697"
+    },
+    {
+      "call_source": "04:9C2F:0:0:1",
+      "proof_id": "V05P00710"
+    },
+    {
+      "call_source": "04:B049:0:0:1",
+      "proof_id": "V05P00809"
+    },
+    {
+      "call_source": "04:E5D9:0:0:1",
+      "proof_id": "V05P00981"
+    },
+    {
+      "call_source": "04:E6EF:0:0:1",
+      "proof_id": "V05P00987"
+    },
+    {
+      "call_source": "04:EC14:0:0:1",
+      "proof_id": "V05P01031"
+    },
+    {
+      "call_source": "04:EE8C:0:0:1",
+      "proof_id": "V05P01040"
+    },
+    {
+      "call_source": "06:ACF0:0:0:1",
+      "proof_id": "V05P01320"
+    },
+    {
+      "call_source": "06:CAF6:0:0:1",
+      "proof_id": "V05P01443"
+    },
+    {
+      "call_source": "06:D2B5:0:0:1",
+      "proof_id": "V05P01461"
+    },
+    {
+      "call_source": "06:D475:0:0:1",
+      "proof_id": "V05P01464"
+    },
+    {
+      "call_source": "06:E82E:0:0:1",
+      "proof_id": "V05P01503"
+    },
+    {
+      "call_source": "07:FBFA:0:0:1",
+      "proof_id": "V05P01880"
+    },
+    {
+      "call_source": "07:FC5F:0:0:1",
+      "proof_id": "V05P01882"
+    },
+    {
+      "call_source": "07:FDAF:0:0:1",
+      "proof_id": "V05P01886"
+    },
+    {
+      "call_source": "0C:961B:0:0:1",
+      "proof_id": "V05P01956"
+    },
+    {
+      "call_source": "0C:A958:0:0:1",
+      "proof_id": "V05P01987"
+    },
+    {
+      "call_source": "0C:B43C:0:0:1",
+      "proof_id": "V05P02007"
+    },
+    {
+      "call_source": "0C:BC08:0:0:1",
+      "proof_id": "V05P02039"
+    }
+  ],
+  "products": {
+    "contexts_sha256": "a35c5a56626300f1c9b9b286f7d6a088cba8570bac3b06c8f137aae1f549acbd",
+    "edges_sha256": "90223acc23a38ee495bc9d89028afac35ccd242807dccd130f6f27c637c898a9"
+  },
+  "return_relations": [
+    {
+      "call_source": "00:AF36:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "00:AF3A:0:0:1"
+    },
+    {
+      "call_source": "00:B03B:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "00:B03F:0:0:1"
+    },
+    {
+      "call_source": "00:CC15:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "00:CC19:0:0:1"
+    },
+    {
+      "call_source": "00:CC48:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "00:CC4C:0:0:1"
+    },
+    {
+      "call_source": "00:CC63:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "00:CC67:0:0:1"
+    },
+    {
+      "call_source": "04:8C1B:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "04:8C1F:0:0:1"
+    },
+    {
+      "call_source": "04:8D8F:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "04:8D93:0:0:1"
+    },
+    {
+      "call_source": "04:8FD0:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "04:8FD4:0:0:1"
+    },
+    {
+      "call_source": "04:9448:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "04:944C:0:0:1"
+    },
+    {
+      "call_source": "04:989F:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "04:98A3:0:0:1"
+    },
+    {
+      "call_source": "04:9C2F:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "04:9C33:0:0:1"
+    },
+    {
+      "call_source": "04:B049:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "04:B04D:0:0:1"
+    },
+    {
+      "call_source": "04:E5D9:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "04:E5DD:0:0:1"
+    },
+    {
+      "call_source": "04:E6EF:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "04:E6F3:0:0:1"
+    },
+    {
+      "call_source": "04:EC14:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "04:EC18:0:0:1"
+    },
+    {
+      "call_source": "04:EE8C:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "04:EE90:0:0:1"
+    },
+    {
+      "call_source": "06:ACF0:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "06:ACF4:0:0:1"
+    },
+    {
+      "call_source": "06:CAF6:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "06:CAFA:0:0:1"
+    },
+    {
+      "call_source": "06:D2B5:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "06:D2B9:0:0:1"
+    },
+    {
+      "call_source": "06:D475:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "06:D479:0:0:1"
+    },
+    {
+      "call_source": "06:E82E:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "06:E832:0:0:1"
+    },
+    {
+      "call_source": "07:FBFA:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "07:FBFE:0:0:1"
+    },
+    {
+      "call_source": "07:FC5F:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "07:FC63:0:0:1"
+    },
+    {
+      "call_source": "07:FDAF:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "07:FDB3:0:0:1"
+    },
+    {
+      "call_source": "0C:961B:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "0C:961F:0:0:1"
+    },
+    {
+      "call_source": "0C:A958:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "0C:A95C:0:0:1"
+    },
+    {
+      "call_source": "0C:B43C:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "0C:B440:0:0:1"
+    },
+    {
+      "call_source": "0C:BC08:0:0:1",
+      "return_source": "00:C348:0:0:1",
+      "return_target": "0C:BC0C:0:0:1"
+    }
+  ],
+  "root_context": "00:C342:0:0:1",
+  "runtime_decoder_required": false,
+  "runtime_return_edge_count": 28,
+  "runtime_return_edges_sha256": "8a4713b602530cba912cb54ab857156f21cadacbc533f7d6bf187e7a612204ab",
+  "schema": "theme-park-v07c-family-understanding-v1",
+  "status": "UNDERSTOOD_SOURCE_PROVED_NOT_YET_ADMITTED",
+  "trace_or_oracle_inputs": []
+}

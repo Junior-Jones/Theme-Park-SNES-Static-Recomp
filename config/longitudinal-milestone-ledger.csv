@@ -1,0 +1,20 @@
+Owner,Responsibility,Status,Predecessor,Current_Evidence
+01C,cartridge identity target contract total physical-byte census,CLOSED,NONE,docs/V01C-cartridge-profile.json
+02C,complete W65C816 semantic and offline decode foundation,CLOSED_REPAIRED,01C,docs/V02C-REOPENED-AUDIT.md
+03C,whole-ROM lexical universe and conservative classification,CLOSED,02C,docs/V03C-MILESTONE.md
+04C,exact S-CPU contexts roots and intelligence sidecars,CLOSED_DIRECT_FLOW,03C,docs/V04C-MILESTONE.md
+05C,dynamic flow returns and interrupt re-entry,CLOSED_SOURCE_FLOW,04C,docs/V05C-MILESTONE-REPORT.md
+06C,executable RAM epochs and mutation ownership,CLOSED_ZERO_EXECUTABLE_RAM_EPOCHS,05C,docs/V06C-MILESTONE-REPORT.md
+07C,deterministic static S-CPU generation,COMPLETE_513_FAMILIES_71986_SOURCE_CANDIDATE_CONTEXTS_STATIC_LIBRARIES_NO_EXECUTABLE,06C,docs/V07C-static-compile-receipt.json
+08C,24-bit bus reset memory MMIO persistence,COMPLETE_SOURCE_AND_STATIC_LIBRARY_NO_EXECUTABLE,07C,docs/V08C-MILESTONE.md
+09C,master scheduler interrupts independent clocks,COMPLETE_SOURCE_AND_STATIC_LIBRARY_NO_EXECUTABLE,08C,docs/V09C-MILESTONE.md
+10C,DMA and HDMA,COMPLETE_GENERAL_CONTROLLER_ALL_EXACT_SOURCE_CONFIGURATIONS_STATIC_LIBRARIES_NO_EXECUTABLE,09C,docs/V10C-MILESTONE.md
+11C,PPU state semantics,CLOSED,10C,docs/V11C-verification-summary.json
+12C,S-SMP bootstrap APUIO timers ARAM epochs,CLOSED_SOURCE_RECONSTRUCTED_STATIC_LIBRARIES_NO_EXECUTABLE,11C,docs/V12C-verification-summary.json
+13C,static S-SMP AOT,CLOSED_1392_EXACT_PC_78_REACHED_FORMS_NO_INTERPRETER_STATIC_LIBRARIES,12C,docs/V13C-MILESTONE.md
+14C,raster renderer and completed frames,CLOSED_THEME_PARK_MODES_2_3_RASTER_PUBLICATION_NO_ORACLE_PIXEL_CLAIM,13C,docs/V14C-MILESTONE.md
+15C,input timing and persistence transitions,CLOSED_STANDARD_PAD_AUTOJOY_RESET_ZERO_SRAM_STATIC_LIBRARIES_NO_EXECUTABLE,14C,docs/V15C-MILESTONE.md
+16C,S-DSP audio and core PCM,CLOSED_PROJECT_OWNED_32_PHASE_KNOWN_PCM_STATIC_LIBRARIES_NO_EXECUTABLE,15C,docs/V16C-verification-summary.json
+17C,longitudinal reconciliation and Pass A,IN_PROGRESS_SOURCE_AUTHORITY_RECONCILED_NATURAL_INTEGRATION_BLOCKING,16C,docs/V17C-pass-a-source-reconciliation.json
+18C,cold Pass B certification and recoverable release,PENDING,17C,
+

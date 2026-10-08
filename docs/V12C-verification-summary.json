@@ -1,0 +1,19 @@
+{
+  "audio_output_claimed": false,
+  "conservative_unresolved_apuio_intersections": 5457,
+  "exact_apuio_contexts": 18,
+  "exact_apuio_events": 21,
+  "executables": 0,
+  "frontend_selected": false,
+  "known_aram_bytes": 3626,
+  "objects_per_toolchain": 679,
+  "oracle_used": false,
+  "pixels_claimed": false,
+  "runtime_spc700_decoder_used": false,
+  "schema": "theme-park-v12c-verification-v1",
+  "spc700_execution_claimed": false,
+  "static_entry_pc": "$0300",
+  "status": "PASS_V12C_APUIO_IPL_TIMERS_ARAM_EPOCH_STATIC_LIBRARIES_NO_EXECUTABLE",
+  "upload_epochs": 1,
+  "uploaded_bytes": 3387
+}

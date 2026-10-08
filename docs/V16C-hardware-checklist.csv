@@ -1,0 +1,18 @@
+Hardware_Area,Implemented,Source_Reached,Source_Certified,Owner,Evidence,Open_Boundary
+S_SMP_DSP_ADDRESS_$F2,YES,YES_47_EXACT_WRITES,YES_13C_AOT_JOIN,runtime/src/theme_park_apu.c,"exact static sites retain immediate and live-state address producers",17C_NATURAL_RECONCILIATION
+S_SMP_DSP_DATA_$F3,YES,YES_46_WRITES_1_READ,YES_13C_AOT_JOIN,runtime/src/theme_park_apu.c,"all 128 addresses route to the sole project DSP register owner",UNKNOWN_REGISTER_READ_FAILS_CLOSED
+SDSP_32_PHASE_PIPELINE,YES,YES,YES_EXACT_PHASE_DOMAIN,runtime/src/theme_park_sdsp.c,"phases 0-31; split voice-0 3a/3b/3c; delayed register and echo latches",17C_NATURAL_PHASE_CONTINUITY
+SDSP_EIGHT_VOICES,YES,YES_DYNAMIC_REGISTERS,YES_GENERIC_FIXED_HARDWARE,runtime/src/theme_park_sdsp.c,"directory/SRCN voice volumes pitch and per-voice state",17C_ACTIVE_AUDIO
+BRR_DECODE_FILTERS,YES,YES_UPLOADED_ARAM,YES_FIXED_HARDWARE,runtime/src/theme_park_sdsp.c,"range filters end/loop clamp and retained-history knownness",UNKNOWN_ARAM_PROPAGATES
+GAUSSIAN_INTERPOLATION,YES,YES,YES_512_COEFFICIENT_CENSUS,runtime/src/theme_park_sdsp.c,"CC-BY-4.0 hardware coefficient census and four-point ordering",docs/V16C-GAUSSIAN-PROVENANCE.md
+PITCH_PMON_NOISE,YES,YES_DYNAMIC_REGISTERS,YES_FIXED_HARDWARE,runtime/src/theme_park_sdsp.c,"14-bit pitch PMON dependency 15-bit noise LFSR and counter rates",17C_ACTIVE_AUDIO
+KON_KOFF_ADSR_GAIN,YES,YES_DYNAMIC_REGISTERS,YES_FIXED_HARDWARE,runtime/src/theme_park_sdsp.c,"every-other-sample key latches five-step delay release attack decay sustain and gain modes",17C_ACTIVE_AUDIO
+ENVX_OUTX_ENDX,YES,YES_$7C_READ,YES_KNOWNNESS_GUARDED,runtime/src/theme_park_sdsp.c,"phase-owned internal writes; unknown control-sensitive register reads fail closed",17C_ACTIVE_AUDIO
+ECHO_FIR_FEEDBACK,YES,YES_DYNAMIC_REGISTERS,YES_FIXED_HARDWARE,runtime/src/theme_park_sdsp.c,"ESA/EDL pointer eight history taps feedback write-disable and stereo echo RAM",UNKNOWN_HISTORY_REMAINS_TAGGED
+PCM_KNOWNNESS,YES,YES,YES_CAUSAL_DOMAIN,runtime/src/theme_park_sdsp.c,"BRR/interpolation/PMON/echo propagation; zero volume and mute annihilators",17C_ACTIVE_PCM_EVIDENCE
+CORE_PCM_FIFO,YES,YES,YES_BOUNDED_8192_FRAMES,runtime/src/theme_park_sdsp.c,"signed 16-bit stereo knownness frame tag FNV metric explicit overflow stop",HOST_MUST_DRAIN_POST_18C
+S_SMP_SDSP_CLOCK_JOIN,YES,YES,YES_ONE_PHASE_PER_S_SMP_CYCLE,runtime/src/theme_park_apu.c,"1.024 MHz rational master join and residual scheduler phase; 32 phases per 32 kHz sample",17C_LONG_RUN_CONTINUITY
+COLD_RESET_PCM,YES,YES,YES_1024_KNOWN_MUTED_FRAMES,docs/V16C-core-pcm-reset-vector.json,"32768 phases; deterministic known zero stereo; no guest execution claim",ACTIVE_AUDIO_REMAINS_17C
+HOST_AUDIO_DEVICE,NO,NO,YES_EXCLUDED,POST_18C_FRONTEND,"core exposes PCM drain only; no resampler queue device or wall-clock authority",DO_NOT_ADD_TO_16C
+ORACLE_AUDIO_COMPARISON,NO,NO,YES_FORBIDDEN_BEFORE_CORE_COMPLETION,config/oracle-policy.json,"no oracle target run trace or captured replacement audio",POST_CORE_CONFIRMATION_ONLY
+

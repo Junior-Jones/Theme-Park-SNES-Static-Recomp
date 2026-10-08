@@ -1,0 +1,31 @@
+{
+  "compile_action": "REHASHED_NON_COMPILER_EVIDENCE_REUSED_COMPLETE_STATIC_LIBRARIES",
+  "executables_created": 0,
+  "gcc": {
+    "library": "build/v15c-static/gcc/libtheme_park_v15c.a",
+    "library_sha256": "ce75f1ef30d494c66e90125f9b0aa2600074929e57bd3e002f1dff19dfb42e0e",
+    "objects": 683
+  },
+  "inputs_sha256": {
+    "bus": "d5ed78b57a33e2d5ffd89d708fffce58f6603ed5df2dc8ae93e88741d018db67",
+    "cartridge_profile": "50cdaed729e33858716dbb774249e55131f4780cb5628d3d5a2b4d5fc231b454",
+    "input": "30018f28f95c642a6172694868506c782ff3ab25c36a5ddd6d318bc9da91e47f",
+    "input_header": "2175e2ffc94ebe3c95e5eacfbe5969923eb879e8e0fa327a387cf1ff3352712b",
+    "machine": "5d801f84012fce15d2a8e37980c7705858b96c4f5150e7de04153250514113b4",
+    "machine_header": "f56b2d6937399efb50d7d099f97c50fb70d1a2950baf8c4dd2904e7758b1c127",
+    "scheduler": "782ec90c0e8ec7375e4cc37b39459e5d90ade20222197a195fe1add71f93e738",
+    "scheduler_header": "9b5a0d8ceda08bf992a7103d3dc24a53b55d6aa2a9c08930de014fd53628094e",
+    "source_domain": "ff4b2913aaa44900e5b6ad9a43d6920bd6f7dbfca37ac6c333eb46e31dc11ecc",
+    "target_contract": "9ab508632e9d56e5fb53471654205a1cab2d13e0c8f94ad5a2e9c9d4d7b9801d"
+  },
+  "msvc": {
+    "library": "build/v15c-static/msvc/theme_park_v15c.lib",
+    "library_sha256": "8d7e51ec3a5558803a66deb99d29d0b5cf4737acf572278007990125a8d7ae69",
+    "objects": 683
+  },
+  "schema": "theme-park-v15c-static-compile-v1",
+  "scpu_contexts": 71986,
+  "source_files": 683,
+  "ssmp_contexts": 1392,
+  "status": "PASS_INPUT_TIMING_STATIC_LIBRARIES_NO_EXECUTABLE"
+}

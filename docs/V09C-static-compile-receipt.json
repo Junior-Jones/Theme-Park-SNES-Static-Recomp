@@ -1,0 +1,24 @@
+{
+  "contexts": 71986,
+  "executables_created": 0,
+  "gcc": {
+    "library": "build/v09c-static/gcc/libtheme_park_v09c.a",
+    "library_sha256": "619d96ff3dc2e1a28e645a4d54437a2b20bf5db9a32fe4e3c058cf688f429171",
+    "objects": 676
+  },
+  "inputs_sha256": {
+    "bus": "d5ed78b57a33e2d5ffd89d708fffce58f6603ed5df2dc8ae93e88741d018db67",
+    "machine": "7c783064b355f9f42bfd1d36c99f09616cd163b41d237ec4e95b28aaf2ed4cd0",
+    "production_manifest": "45c6ec931fd2b5428a24b92a75c5644db8456505dbce53b7698e77fbfea0b2b6",
+    "scheduler": "a00e1114f4ab630b32ec2ceeb5c9250277fefa4f61a36964772bfef7865ca4e8",
+    "timing_plan": "ddf082af141e913baca766405f451a387488cba54b0ac53e029a1633766c95f8"
+  },
+  "msvc": {
+    "library": "build/v09c-static/msvc/theme_park_v09c.lib",
+    "library_sha256": "c7acac940c883ccd07d35554b37e5f4fd7c6f5157437c3f815d03bba8f041483",
+    "objects": 676
+  },
+  "schema": "theme-park-v09c-static-compile-v1",
+  "source_files": 676,
+  "status": "PASS_TIMED_STATIC_CORE_LIBRARIES_NO_EXECUTABLE"
+}

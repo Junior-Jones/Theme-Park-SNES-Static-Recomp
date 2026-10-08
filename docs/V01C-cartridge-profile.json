@@ -1,0 +1,201 @@
+{
+  "byte_census": {
+    "path": "docs/V01C-byte-census.csv",
+    "states": {
+      "HEADER": 32,
+      "UNRESOLVED": 1048512,
+      "VECTOR": 32
+    },
+    "total_bytes": 1048576
+  },
+  "candidate_observation_is_proof": false,
+  "cartridge": {
+    "full_24bit_bus_semantics_owner": "08C",
+    "header_declared_enhancement_hardware": "NONE_ROM_TYPE_0x00",
+    "header_declared_sram_bytes": 0,
+    "logical_mapper": "LOROM",
+    "physical_pcb": "UNKNOWN_AT_01C",
+    "region": "Europe",
+    "speed": "FASTROM",
+    "video_standard": "PAL"
+  },
+  "context_key": [
+    "PBR",
+    "PC",
+    "E",
+    "M",
+    "X"
+  ],
+  "header": {
+    "canonical_offset": "0x007FC0",
+    "checksum": "0x4335",
+    "checksum_complement": "0xBCCA",
+    "checksum_pair_valid": true,
+    "computed_checksum": "0x4335",
+    "destination_region_code": "0x02",
+    "map_mode": "0x30",
+    "raw_offset": "0x007FC0",
+    "rom_size_code": 10,
+    "rom_type": "0x00",
+    "sram_size_code": 0,
+    "title": "THEME PARK",
+    "version": 0
+  },
+  "mapping_evidence": {
+    "admitted_canonical_windows": "banks 00-1F and 80-9F at addresses 8000-FFFF",
+    "header_candidates": [
+      {
+        "canonical_header_offset": "0x007FC0",
+        "checksum": "0x4335",
+        "checksum_complement": "0xBCCA",
+        "map_mode": "0x30",
+        "mapping_candidate": "LoROM",
+        "reasons": [
+          "mostly printable title",
+          "checksum/complement pair",
+          "reset vector in upper bank half",
+          "plausible map-mode nibble",
+          "plausible ROM-size code"
+        ],
+        "region_code": "0x02",
+        "reset_vector": "0x8000",
+        "rom_size_code": 10,
+        "rom_type": "0x00",
+        "score": 12,
+        "sram_size_code": 0,
+        "title": "THEME PARK"
+      },
+      {
+        "canonical_header_offset": "0x00FFC0",
+        "checksum": "0xFF00",
+        "checksum_complement": "0x00FF",
+        "map_mode": "0x00",
+        "mapping_candidate": "HiROM",
+        "reasons": [
+          "checksum/complement pair",
+          "plausible map-mode nibble"
+        ],
+        "region_code": "0x00",
+        "reset_vector": "0x00FF",
+        "rom_size_code": 255,
+        "rom_type": "0x00",
+        "score": 6,
+        "sram_size_code": 255,
+        "title": ""
+      }
+    ],
+    "invalid_mapping_policy": "REJECT_NOT_MODULO_WRAP",
+    "reset_vector": "0x8000",
+    "reset_vector_lorom_physical_offset": "0x000000",
+    "selected_candidate": "LoROM",
+    "unproved_mirrors_owner": "08C"
+  },
+  "not_claimed": [
+    "disassembly",
+    "proved code or data outside header/vector",
+    "CPU contexts",
+    "runtime core",
+    "frontend",
+    "gameplay",
+    "release"
+  ],
+  "rom": {
+    "canonical_sha256": "c0a7e27131a7d8c9ef52a5227329e6de5846c045a9da1f3f84845e3be8e4efba",
+    "canonical_size_bytes": 1048576,
+    "copier_header_bytes": 0,
+    "crc32": "CA0E041C",
+    "input_basename": "Theme Park (Europe) (En,Fr,De).sfc",
+    "original_sha256": "c0a7e27131a7d8c9ef52a5227329e6de5846c045a9da1f3f84845e3be8e4efba",
+    "original_size_bytes": 1048576
+  },
+  "runtime_cpu_decoder_allowed": false,
+  "schema": "theme-park-v01c-cartridge-profile-v1",
+  "target_name": "Theme Park (Europe) (En,Fr,De)",
+  "unknown_context_policy": "FAIL_CLOSED",
+  "vectors": [
+    {
+      "canonical_offset": "0x007FE4",
+      "cpu_vector_address": "0x00FFE4",
+      "name": "native_cop",
+      "raw_offset": "0x007FE4",
+      "value": "0x0000"
+    },
+    {
+      "canonical_offset": "0x007FE6",
+      "cpu_vector_address": "0x00FFE6",
+      "name": "native_brk",
+      "raw_offset": "0x007FE6",
+      "value": "0x8000"
+    },
+    {
+      "canonical_offset": "0x007FE8",
+      "cpu_vector_address": "0x00FFE8",
+      "name": "native_abort",
+      "raw_offset": "0x007FE8",
+      "value": "0x00FF"
+    },
+    {
+      "canonical_offset": "0x007FEA",
+      "cpu_vector_address": "0x00FFEA",
+      "name": "native_nmi",
+      "raw_offset": "0x007FEA",
+      "value": "0x8216"
+    },
+    {
+      "canonical_offset": "0x007FEC",
+      "cpu_vector_address": "0x00FFEC",
+      "name": "native_reserved",
+      "raw_offset": "0x007FEC",
+      "value": "0x8000"
+    },
+    {
+      "canonical_offset": "0x007FEE",
+      "cpu_vector_address": "0x00FFEE",
+      "name": "native_irq",
+      "raw_offset": "0x007FEE",
+      "value": "0x86F5"
+    },
+    {
+      "canonical_offset": "0x007FF4",
+      "cpu_vector_address": "0x00FFF4",
+      "name": "emulation_cop",
+      "raw_offset": "0x007FF4",
+      "value": "0x00FF"
+    },
+    {
+      "canonical_offset": "0x007FF6",
+      "cpu_vector_address": "0x00FFF6",
+      "name": "emulation_reserved",
+      "raw_offset": "0x007FF6",
+      "value": "0xFF00"
+    },
+    {
+      "canonical_offset": "0x007FF8",
+      "cpu_vector_address": "0x00FFF8",
+      "name": "emulation_abort",
+      "raw_offset": "0x007FF8",
+      "value": "0x00FF"
+    },
+    {
+      "canonical_offset": "0x007FFA",
+      "cpu_vector_address": "0x00FFFA",
+      "name": "emulation_nmi",
+      "raw_offset": "0x007FFA",
+      "value": "0x86F5"
+    },
+    {
+      "canonical_offset": "0x007FFC",
+      "cpu_vector_address": "0x00FFFC",
+      "name": "emulation_reset",
+      "raw_offset": "0x007FFC",
+      "value": "0x8000"
+    },
+    {
+      "canonical_offset": "0x007FFE",
+      "cpu_vector_address": "0x00FFFE",
+      "name": "emulation_irq_brk",
+      "raw_offset": "0x007FFE",
+      "value": "0x8216"
+    }
+  ]
+}

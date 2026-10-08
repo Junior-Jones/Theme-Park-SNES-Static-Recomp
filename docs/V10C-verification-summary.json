@@ -1,0 +1,16 @@
+{
+  "conservative_intersections_kept_unreached": 5459,
+  "controller_semantics": "GENERAL_EIGHT_CHANNEL_DMA_HDMA",
+  "exact_events": 548,
+  "executables_created": 0,
+  "one_current_dma_owner": true,
+  "open_payload_writer_sets": 0,
+  "open_trigger_values": 0,
+  "oracle_used": false,
+  "receiver_binding": "BUS_PPU_PORT_FAIL_CLOSED_UNTIL_11C_SEMANTIC_OWNER",
+  "schema": "theme-park-v10c-verification-v1",
+  "startup_phase_certificate": "PROVED_INITIALIZED_BEFORE_NMI_ENABLE",
+  "status": "PASS_V10C_GENERAL_DMA_HDMA_AND_ALL_EXACT_SOURCE_CONFIGURATIONS",
+  "target_specific_shortcuts_selected": 0,
+  "trigger_receipts": 124
+}

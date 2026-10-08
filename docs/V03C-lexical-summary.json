@@ -1,0 +1,47 @@
+{
+  "admitted_production_contexts": 0,
+  "artifacts_sha256": {
+    "V03C-byte-classification.csv": "55756edc49aeca3b71b758e9272707ccc9397774af7eef597fd2d1d0328a45ae",
+    "V03C-lexical-validity-ranges.csv": "48076bcd9debc193da7915124147a0221381ee9dc07f71d3bc9923f786d20fd1",
+    "V03C-region-signals.json": "c6d82269a2f8d71c6d4c3128426c78941d3bf1e2a772d7a52dd23cbd7543a514",
+    "V03C-root-candidates.csv": "827290e127a2f08b918a860e9b8a4e57d3e27b80a980f4a77f21bcb89cf79189",
+    "V03C-subsystem-interest.json": "6acb573ded1226e22afd1150f32db5f8d1a1b9a1421cd6961ee5367f270f3b04"
+  },
+  "authority": "LEXICAL_CANDIDATES_ONLY_NO_EXACT_START_OR_PRODUCTION_ADMISSION",
+  "byte_classification_counts": {
+    "HEADER": 32,
+    "LEXICAL_START_CANDIDATE": 1048478,
+    "NO_VALID_START_AT_BANK_TAIL": 34,
+    "VECTOR_AREA": 32
+  },
+  "decoder_semantic_sha256": "914698dc0b12dea54229d3b319c9463d4a0c2d8211977dc655239935e954ddf9",
+  "exact_contexts": 0,
+  "instruction_length_histogram": {
+    "1": 549900,
+    "2": 3043111,
+    "3": 875344,
+    "4": 774525
+  },
+  "invalid_fetch_rows_at_lorom_bank_boundary": 175,
+  "legal_contexts_per_offset": 5,
+  "legal_mode_order": [
+    "000",
+    "001",
+    "010",
+    "011",
+    "111"
+  ],
+  "milestone": "03C",
+  "oracle_promotions": 0,
+  "physical_offsets": 1048576,
+  "proved_vector_context_candidates_for_04c": 15,
+  "rom_sha256": "c0a7e27131a7d8c9ef52a5227329e6de5846c045a9da1f3f84845e3be8e4efba",
+  "root_candidate_rows": 21,
+  "row_digest_serialization": "little-endian <IBBBB = physical_offset,legal_mode_index,opcode,length,fetch_valid",
+  "row_digest_sha256": "e339825d1e7e3bc6aecf6104e9101fef92207ac0e375133e169bde85ff09d50e",
+  "rows": 5242880,
+  "schema": "theme-park-v03c-lexical-summary-v1",
+  "trace_promotions": 0,
+  "valid_rows": 5242705,
+  "validity_range_rows": 64
+}

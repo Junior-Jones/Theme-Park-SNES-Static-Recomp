@@ -1,0 +1,19 @@
+{
+  "schema": "theme-park-power-on-profiles-v1",
+  "default": {
+    "id": 0,
+    "name": "STRICT_UNKNOWN",
+    "wram": "UNKNOWN_BITS_WITH_ZERO_REPRESENTATIVE_NOT_AUTHORITY"
+  },
+  "validation": {
+    "id": 1,
+    "name": "DETERMINISTIC_ZERO_WRAM_V1",
+    "wram": "ALL_131072_BYTES_ZERO_AND_KNOWN",
+    "classification": "PROJECT_SELECTED_REPRODUCIBLE_HARDWARE_PROFILE",
+    "universal_physical_snes_claim": false,
+    "rom_or_cartridge_authority": false,
+    "oracle_or_emulator_derived": false,
+    "reset_policy": "CPU_RESET_PRESERVES_WRAM_AND_KNOWNNESS",
+    "qualification_rule": "PRESERVE_UNPROFILED_RECEIPT_AND_RESTART_NATURAL_LADDER_AT_300_FRAMES"
+  }
+}

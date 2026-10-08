@@ -1,0 +1,31 @@
+{
+  "aram_and_knownness_sha256": "8ae06117f96a048bce651319af67bbf5fdfb654fb743aa35bdf56c19fc7ca17d",
+  "fixed_ipl_known_clear": {
+    "byte_count": 239,
+    "end_inclusive": "$00EF",
+    "start": "$0001"
+  },
+  "known_aram_bytes": 3626,
+  "oracle_used": false,
+  "protocol_byte_acknowledgements": 3387,
+  "records": [
+    {
+      "byte_count": 3387,
+      "destination_end_inclusive": "$103A",
+      "destination_start": "$0300",
+      "epoch": 1,
+      "header_physical": "0x070313",
+      "payload_physical": "0x070317",
+      "payload_sha256": "0cfd0aa2cd7d36c5818ded784dbc2f0a2dda6a445865019087b1d21ed43475cc",
+      "source": "SUPPORTED_THEME_PARK_ROM_UPLOAD_RECORD"
+    }
+  ],
+  "runtime_spc700_decoder_used": false,
+  "schema": "theme-park-v12c-aram-epochs-v1",
+  "static_entry_pc": "$0300",
+  "status": "SOURCE_AUTHORED_COLD_UPLOAD_RECONSTRUCTED",
+  "terminator_physical": "0x071052",
+  "upload_epochs": 1,
+  "upload_table_physical": "0x070313",
+  "uploaded_bytes": 3387
+}

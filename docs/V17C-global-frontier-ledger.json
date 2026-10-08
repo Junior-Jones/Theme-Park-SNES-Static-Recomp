@@ -1,0 +1,264 @@
+{
+  "blocking_obligations": [],
+  "blocking_rows": 0,
+  "cold_exact_contexts": 71986,
+  "cold_lexical_rows": 5242880,
+  "cold_products_sha256": {
+    "V01C-byte-census.csv": "ab913c676ed93c9e6ea8c9fa41a325d5035e9fb98d7092ee6c35e49db30f3d5b",
+    "V01C-cartridge-profile.json": "50cdaed729e33858716dbb774249e55131f4780cb5628d3d5a2b4d5fc231b454",
+    "V03C-byte-classification.csv": "55756edc49aeca3b71b758e9272707ccc9397774af7eef597fd2d1d0328a45ae",
+    "V03C-lexical-summary.json": "118aab3bdaa4945f23216a08c8ae6a0e78c62fec8a79018b46c2a8966815e7d7",
+    "V03C-lexical-validity-ranges.csv": "48076bcd9debc193da7915124147a0221381ee9dc07f71d3bc9923f786d20fd1",
+    "V03C-region-signals.json": "c6d82269a2f8d71c6d4c3128426c78941d3bf1e2a772d7a52dd23cbd7543a514",
+    "V03C-root-candidates.csv": "827290e127a2f08b918a860e9b8a4e57d3e27b80a980f4a77f21bcb89cf79189",
+    "V03C-subsystem-interest.json": "6acb573ded1226e22afd1150f32db5f8d1a1b9a1421cd6961ee5367f270f3b04",
+    "V04C-byte-conflicts.csv": "6e6908d4a0a9bcad514d152b1db6172afb406f0659c862dc9274d205475fcfb9",
+    "V04C-context-intelligence.csv": "b911a9c6945e41bd294622b092beaf1f6220a473ebb6cb4445e97751484d4378",
+    "V04C-context-summary.json": "14e2f37ee4bb31225595f0ac6ac9b879b32c0a0dc11736d4a651c8daf8b65d0d",
+    "V04C-contexts.csv": "44dd488c74eab2da3e55f2688cba8e45f9695ccd8fff1627155d6232e866f434",
+    "V04C-direct-edges.csv": "31b8f05ba41ab8df7ba1c9b1610ee71d896e1433142b4b3e1f454764531c7615",
+    "V04C-frontiers.csv": "1327be7cd021a0db150df0bb215c91096e83d91a5374ca7932f02627cdf26c27",
+    "V05C-byte-conflicts.csv": "0fb9d67f48c12d620f2ff03334e7bad69bc6ad0a7bb32161159d291a15aab600",
+    "V05C-contexts.csv": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "V05C-dynamic-proofs.csv": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "V05C-edges.csv": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "V05C-flow-summary.json": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "V05C-frontiers.csv": "197dac17c73e51a3ec6f73bbdbe1763a6d1522b040e59dcf000ff5060a748dc3",
+    "V05C-interrupt-reentry.csv": "b53984b3c62ca3c07a4f9c9af7e9b471562c3c75457488bf72a81ec8429461f2",
+    "V05C-nmi-phase-writes.csv": "430c877a02addab47bfb692ea28581dd40acdf679ee65f807c01bb569b9daf1a"
+  },
+  "csv_sha256": "a73aa75b49a26739f66d70522a7c6851575f466a273f5a82e39ffb6f4c940ebb",
+  "current_evidence_sha256": {
+    "V02C-SEMANTIC-MANIFEST.json": "cd5339ce3059e94cacecb2f0823e26b0a6ab87f2b45572998b5d5e72e6451a8d",
+    "V06C-executable-memory-summary.json": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577",
+    "V07C-lowering-summary.json": "cd2a301f6152cfb598c30dcc73d5d44e8b67cac76832e2cd7e400faf1767416c",
+    "V08C-bus-map-summary.json": "bc39f450c552d4522513d9739dca740ede10dfcd6e30b0297dbe05435e71e855",
+    "V09C-verification-summary.json": "1a4f5903140d02dc434c241ef703e50042b6b3de182bf4461e0d069c3bf67fa2",
+    "V10C-verification-summary.json": "87a364d9e739b54de2490f036f00d2c9643769e2504921dc029d5b9bac4afe2d",
+    "V11C-verification-summary.json": "e04fd735930125e5f798b124243833c64c792ad5f905600b80b1000dab54b911",
+    "V12C-verification-summary.json": "80bce211c2bbe6f00445d3b0f39847efdf632f524161cdc8b38dfb375bd0a590",
+    "V13C-verification-summary.json": "4febf4372e9612d02edbf1fdaac2e3c8cb3e95acaa4898c8163af8054485f93a",
+    "V14C-verification-summary.json": "bc959beb990833c3e185868b4c779ba3f1a64336a6fdaa6f2066ef1ce60dc4b3",
+    "V15C-verification-summary.json": "ce97a7ec0252cca1b3ad5819a1bdd86d677a17c698efa698e5fa043b29ee4f9f",
+    "V16C-verification-summary.json": "b6ad347b49f00b0efd2528753dd5960b8a78176a11706a578c462850555f95ae"
+  },
+  "current_static_compile_receipt_sha256": "d6c44abc031d63b35812700d87aaddf8d181a67f4edc42f72c2d2d23767d9715",
+  "current_static_symbol_audit_sha256": "bfa58bb528d5c5c38cf7d91daf1bc0107d9aebc21faa37d432f4842a698d4586",
+  "integration_impact_audit_sha256": "218eb9749c54c221cd88a1ebc2f9680c460f76e29ba9ad1f66d04e218adfd189",
+  "natural_ladder_summary_sha256": "18f4da29b457a71cdf480120caeb0245b3ea0b36695fe2b1fc3daf2e761c65a9",
+  "new_source_obligations": 0,
+  "owner_sha256": {
+    "BUS": {
+      "runtime/include/theme_park_bus.h": "a6cbbd72e9ef524b54c4793b1bae7e52d2d8967a81848875b21d6c1020813854",
+      "runtime/src/theme_park_bus.c": "f28755b4200d1399247552e5e5cb100319c25ce12579c119a0ec1a10d8b10076"
+    },
+    "DMA_HDMA": {
+      "runtime/include/theme_park_dma.h": "16bcdd10fb4d5198c097ba86feee681a3cd047c75cc7859a1f0c204a28df5388",
+      "runtime/src/theme_park_dma.c": "a2c916c605ea217f734caa0ed4a79b48fdd45cce0de9bc1e24d4a40fc95becfa"
+    },
+    "INPUT": {
+      "runtime/include/theme_park_input.h": "2175e2ffc94ebe3c95e5eacfbe5969923eb879e8e0fa327a387cf1ff3352712b",
+      "runtime/src/theme_park_input.c": "30018f28f95c642a6172694868506c782ff3ab25c36a5ddd6d318bc9da91e47f"
+    },
+    "MACHINE": {
+      "runtime/include/theme_park_machine.h": "0b0aafe8b9529d193ae54b0613f56eff77b1d094a1e5aba9e980256e87615c4f",
+      "runtime/src/theme_park_machine.c": "5a4776eb3159b49ad450be9f05bd05f0f09fa5e5f2c7606d79e992bc9778d97b"
+    },
+    "PPU_RENDERER": {
+      "runtime/include/theme_park_ppu.h": "b59b86b0aa4f4b5bd0c09f872db5e161f2c478dfc03fd5c0e8f0ea535eadb20d",
+      "runtime/src/theme_park_ppu.c": "b98204bc4489fe11584d6c039af9e70dda630a8a0622b0200e290498025d360b",
+      "runtime/src/theme_park_renderer.c": "71bd47c94dee6bf96ad509191ba3f8709ab5b9ef5791d18bdce54646491e23cc"
+    },
+    "SCHEDULER": {
+      "runtime/include/theme_park_scheduler.h": "9b5a0d8ceda08bf992a7103d3dc24a53b55d6aa2a9c08930de014fd53628094e",
+      "runtime/src/theme_park_scheduler.c": "782ec90c0e8ec7375e4cc37b39459e5d90ade20222197a195fe1add71f93e738"
+    },
+    "SDSP_PCM": {
+      "runtime/include/theme_park_sdsp.h": "a6e6a456b4ae2002760946934598a8f6c3c05b9f1cc6f7bdac97998bda2052ae",
+      "runtime/src/theme_park_sdsp.c": "f2f276c9bfcd58d38cfe3a29f0216666ed46fefa749b8224c80fcf2a5948c269"
+    },
+    "SSMP": {
+      "runtime/generated/theme_park_spc700_aot.c": "4c24db6e0380f9f7f799eeb29b24782d557743e01cc2cba095c11f08e3f123e7",
+      "runtime/include/theme_park_spc700.h": "0a84692814f6fa92f94af522d59da07d74562ff719f9f9170fb7bb497469d138",
+      "runtime/src/theme_park_spc700.c": "5479df8a18bd37e115b94a9c631f08437ffda78d21c062470126c972590962fe"
+    }
+  },
+  "power_on_provenance_sha256": "5d9df2c867128672370c2b6d1da1bc8893efc32371421fc57cfb955f06fc5e87",
+  "production_authority_audit_sha256": "62fe174bb856b472a27e49730f87bcfa66cce0ee5e631ec83696cb3add1124cc",
+  "production_selection_sha256": "bab30508edbac934f03c38d0ca79ecf62da703eb02dfebb016ac70187fc53914",
+  "row_count": 21,
+  "rows": [
+    {
+      "blocking": false,
+      "classification": "CLOSED_SOURCE_PROVED",
+      "detail": "Cold products are byte-identical; logical LoROM/FastROM target is fixed.",
+      "evidence": "cold V01C products",
+      "obligation": "ROM identity and conservative physical-byte census",
+      "owner": "01C"
+    },
+    {
+      "blocking": false,
+      "classification": "CLOSED_SOURCE_PROVED",
+      "detail": "Offline semantics are fixed and no production decoder is selected.",
+      "evidence": "docs/V02C-SEMANTIC-MANIFEST.json",
+      "obligation": "W65C816 semantic owner",
+      "owner": "02C"
+    },
+    {
+      "blocking": false,
+      "classification": "CLOSED_SOURCE_PROVED",
+      "detail": "All physical offsets regenerate identically; lexical candidates remain non-authoritative.",
+      "evidence": "cold V03C products",
+      "obligation": "Whole-ROM lexical and byte-classification universe",
+      "owner": "03C"
+    },
+    {
+      "blocking": false,
+      "classification": "CLOSED_SOURCE_PROVED",
+      "detail": "71,986 exact contexts, zero flow frontiers and zero byte conflicts regenerate identically.",
+      "evidence": "cold V04C/V05C products",
+      "obligation": "Exact contexts, calls, returns and NMI re-entry",
+      "owner": "04C-05C"
+    },
+    {
+      "blocking": false,
+      "classification": "UNREACHABLE_UNDER_CERTIFIED_AUTHORITY",
+      "detail": "Every exact execution target is canonical ROM; no executable RAM epoch exists.",
+      "evidence": "docs/V06C-executable-memory-summary.json",
+      "obligation": "Executable-memory epochs",
+      "owner": "06C"
+    },
+    {
+      "blocking": false,
+      "classification": "CLOSED_SOURCE_PROVED",
+      "detail": "Fresh exact and admitted/generated memberships are equal at 71,986 contexts.",
+      "evidence": "docs/V07C-production-manifest.csv",
+      "obligation": "Static S-CPU generated authority",
+      "owner": "07C"
+    },
+    {
+      "blocking": false,
+      "classification": "CLOSED_RUNTIME_SEMANTICS",
+      "detail": "All 24-bit addresses and source-reached memory effects have one current owner. Strict unknown WRAM remains the default; deterministic zero WRAM is an explicit validation-only profile.",
+      "evidence": "docs/V08C-bus-map-summary.json + config/power-on-profiles.json",
+      "obligation": "Bus, reset, memory, MMIO, persistence and power-on profiles",
+      "owner": "08C"
+    },
+    {
+      "blocking": false,
+      "classification": "CLOSED_RUNTIME_SEMANTICS",
+      "detail": "PAL master-clock event owner and residual domain joins are selected.",
+      "evidence": "docs/V09C-verification-summary.json",
+      "obligation": "Master scheduler and clock domains",
+      "owner": "09C"
+    },
+    {
+      "blocking": false,
+      "classification": "CLOSED_RUNTIME_SEMANTICS",
+      "detail": "General controller owns all exact source configurations.",
+      "evidence": "docs/V10C-verification-summary.json",
+      "obligation": "DMA/HDMA source-to-receiver chains",
+      "owner": "10C"
+    },
+    {
+      "blocking": false,
+      "classification": "CLOSED_RUNTIME_SEMANTICS",
+      "detail": "Exact CPU/DMA/HDMA receivers join the sole PPU owner.",
+      "evidence": "docs/V11C-verification-summary.json",
+      "obligation": "PPU register/storage state",
+      "owner": "11C"
+    },
+    {
+      "blocking": false,
+      "classification": "CLOSED_SOURCE_PROVED",
+      "detail": "Cartridge-authored upload and directional port ownership are closed.",
+      "evidence": "docs/V12C-verification-summary.json",
+      "obligation": "APUIO, IPL, timers and ARAM epoch",
+      "owner": "12C"
+    },
+    {
+      "blocking": false,
+      "classification": "CLOSED_SOURCE_PROVED",
+      "detail": "Exact-PC generated authority has no runtime decoder or fallback.",
+      "evidence": "docs/V13C-verification-summary.json",
+      "obligation": "Static S-SMP AOT",
+      "owner": "13C"
+    },
+    {
+      "blocking": false,
+      "classification": "CLOSED_RUNTIME_SEMANTICS",
+      "detail": "Reached Modes 2/3 have one raster owner and completed frames pass the cold natural ladder.",
+      "evidence": "docs/V14C-verification-summary.json + docs/V17C-natural-ladder-summary.json",
+      "obligation": "Raster renderer and published framebuffer",
+      "owner": "14C"
+    },
+    {
+      "blocking": false,
+      "classification": "CLOSED_RUNTIME_SEMANTICS",
+      "detail": "Standard-pad/manual/autojoy/reset and zero-SRAM contract are closed.",
+      "evidence": "docs/V15C-verification-summary.json",
+      "obligation": "Input and persistence transitions",
+      "owner": "15C"
+    },
+    {
+      "blocking": false,
+      "classification": "CLOSED_RUNTIME_SEMANTICS",
+      "detail": "One project-owned 32-phase DSP produces known active PCM through the cold natural ladder.",
+      "evidence": "docs/V16C-verification-summary.json + docs/V17C-natural-ladder-summary.json",
+      "obligation": "S-DSP and bounded core PCM",
+      "owner": "16C"
+    },
+    {
+      "blocking": false,
+      "classification": "OUTSIDE_DECLARED_TARGET",
+      "detail": "The static-core target is the exact ROM's source-proved logical LoROM/FastROM/no-enhancement contract, not archival PCB part-number identification.",
+      "evidence": "docs/V01C-cartridge-profile.json + docs/V08C-bus-map-summary.json",
+      "obligation": "Physical PCB catalogue identity",
+      "owner": "01C/08C"
+    },
+    {
+      "blocking": false,
+      "classification": "SUPERSEDED_PROVED",
+      "detail": "01C UNRESOLVED bytes are superseded by total conservative 03C classification and the exact 05C execution universe.",
+      "evidence": "cold V03C/V05C products",
+      "obligation": "Historical unresolved ROM bytes",
+      "owner": "01C/03C/05C"
+    },
+    {
+      "blocking": false,
+      "classification": "UNREACHABLE_UNDER_CERTIFIED_AUTHORITY",
+      "detail": "Reset clears decimal mode, the admitted universe contains zero SED contexts, PLP is source-paired and NMI RTI only preserves interrupted status; production still fails closed if this authority changes.",
+      "evidence": "cold V05C products + docs/V07C-production-manifest.csv",
+      "obligation": "Invalid packed-BCD behavior",
+      "owner": "02C/05C"
+    },
+    {
+      "blocking": false,
+      "classification": "RETIRED_NEGATIVE_PROOF",
+      "detail": "No S-CPU/SPC700 decoder, fallback, third-party DSP owner or frontend is selected; current archives match their receipts.",
+      "evidence": "docs/V17C-production-authority-audit.json + docs/V17C-static-symbol-audit.json",
+      "obligation": "One current production graph and negative authority retirement",
+      "owner": "07C-16C"
+    },
+    {
+      "blocking": false,
+      "classification": "HARDWARE_INDETERMINATE",
+      "detail": "Strict unknown-WRAM execution stops at source-identified first consumption. The separate deterministic-zero-WRAM-v1 profile does not become cartridge or universal hardware authority.",
+      "evidence": "docs/V17C-wram-0016-power-on-provenance.json + docs/V17C-natural-300-frames-unprofiled-boundary.json",
+      "obligation": "Strict-default WRAM $0016-$0017 first-use state",
+      "owner": "08C/17C"
+    },
+    {
+      "blocking": false,
+      "classification": "CLOSED_RUNTIME_SEMANTICS",
+      "detail": "Cold 300/600/10000-frame and exact 60/120/180-second master-clock rungs pass; the 300-frame rung repeats byte-identically; no unknown PCM or owner stop occurs.",
+      "evidence": "docs/V17C-natural-ladder-summary.json",
+      "obligation": "Natural master-clock framebuffer and active Theme Park PCM validation",
+      "owner": "17C"
+    }
+  ],
+  "schema": "theme-park-v17c-global-frontier-ledger-v1",
+  "static_compile_receipt_sha256": "d6c44abc031d63b35812700d87aaddf8d181a67f4edc42f72c2d2d23767d9715",
+  "static_symbol_audit_sha256": "bfa58bb528d5c5c38cf7d91daf1bc0107d9aebc21faa37d432f4842a698d4586",
+  "status": "PASS_A_FIXED_POINT_ZERO_BLOCKING_ROWS"
+}

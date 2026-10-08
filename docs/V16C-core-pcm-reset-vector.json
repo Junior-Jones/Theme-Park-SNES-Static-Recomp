@@ -1,0 +1,28 @@
+{
+  "channels": 2,
+  "core_fnv1a64": "b93a0c83ce3b6325",
+  "end_phase": 0,
+  "frames": 1024,
+  "guest_executed": false,
+  "header_sha256": "a6e6a456b4ae2002760946934598a8f6c3c05b9f1cc6f7bdac97998bda2052ae",
+  "known_frames": 1024,
+  "native_rate_hz": 32000,
+  "oracle_used": false,
+  "pcm_bytes": 4096,
+  "pcm_sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+  "proof": [
+    "power-on FLG is $E0, including mute",
+    "phase 27 applies mute before publishing PCM",
+    "mute is a causal knownness annihilator and publishes known zero stereo",
+    "one PCM frame is published per complete 32-phase S-DSP cycle"
+  ],
+  "qualification": "SOURCE_LEVEL_CORE_VECTOR; NATURAL_ACTIVE_AUDIO REMAINS A 17C VALIDATION INPUT",
+  "s_smp_cycles": 32768,
+  "sample_format": "SIGNED_16_BIT_LITTLE_ENDIAN_STEREO",
+  "schema": "theme-park-v16c-core-pcm-reset-vector-v1",
+  "scope": "COLD_POWER_ON_FLG_MUTE_BEFORE_GUEST_DSP_WRITES",
+  "source_sha256": "f2f276c9bfcd58d38cfe3a29f0216666ed46fefa749b8224c80fcf2a5948c269",
+  "start_phase": 0,
+  "status": "ANALYTICALLY_PROVED_CORE_RESET_MUTE_VECTOR_NO_EXECUTABLE",
+  "unknown_frames": 0
+}

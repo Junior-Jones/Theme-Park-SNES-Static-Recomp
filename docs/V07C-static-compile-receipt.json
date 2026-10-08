@@ -1,0 +1,25 @@
+{
+  "contexts": 71986,
+  "executables_created": 0,
+  "families": 513,
+  "gcc": {
+    "library": "build/v07c-static/gcc/libtheme_park_v07c.a",
+    "library_sha256": "5f36cb53dd465d53d3721666425ce10e4760023b70e622f9f355cc585ad8e0d8",
+    "objects": 672
+  },
+  "inputs_sha256": {
+    "compiler_inventory": "599457b979ead3e89d98c015b7be4d27c5f3dfe0ad7a43e96c4d5acc6b248977",
+    "generation_manifest": "bf47f1c52c41aaff065397606522aab06dbeb2929ff69dc4ab319b084673a157",
+    "production_manifest": "45c6ec931fd2b5428a24b92a75c5644db8456505dbce53b7698e77fbfea0b2b6",
+    "selected_families": "09afa36c5f8f5f374450400bdac2df6a85475e8e94151f02539f144975320fa4"
+  },
+  "linked_contexts": 0,
+  "msvc": {
+    "library": "build/v07c-static/msvc/theme_park_v07c.lib",
+    "library_sha256": "a621afc9fddc21b08067e5c4f319d53ec6bb7430974379cfbad2f530ef737fdb",
+    "objects": 672
+  },
+  "schema": "theme-park-v07c-static-compile-v1",
+  "source_files": 672,
+  "status": "PASS_COMPLETE_07C_OBJECTS_AND_STATIC_LIBRARIES_NO_EXECUTABLE"
+}

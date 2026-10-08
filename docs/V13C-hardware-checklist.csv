@@ -1,0 +1,17 @@
+Hardware_Area,Implemented,Source_Reached,Source_Certified,Owner,Evidence,Open_Boundary
+APUIO_DIRECTIONAL_LATCHES,YES,YES,YES_EXACT_SOURCE_JOIN,runtime/src/theme_park_apu.c,"21 exact S-CPU events plus static S-SMP accesses to $F4-$F7",WHOLE_MACHINE_RECONCILIATION_17C
+FIXED_IPL_VISIBLE_STORAGE,YES,ARCHITECTURAL,YES_FIXED_MASK_ROM,runtime/src/theme_park_apu.c,"$FFC0-$FFFF overlay while CONTROL bit 7 is set",NO_GENERIC_IPL_DECODER
+FIXED_IPL_HANDSHAKE,YES,YES,YES_SOURCE_UPLOAD_JOIN,runtime/src/theme_park_apu.c,"AA/BB ready; CC command; byte counters; +3 terminator; entry $0300",CLOSED_12C
+ARAM_STORAGE_KNOWNNESS,YES,YES,YES_SOURCE_RECONSTRUCTED,runtime/src/theme_park_apu.c,"epoch 1 upload plus IPL-owned $0000/$0001 entry pointer",UNKNOWN_ARAM_FAILS_CLOSED
+ARAM_EXECUTABLE_EPOCHS,YES,YES,YES_EPOCH_1_PROTECTED,runtime/generated/theme_park_spc700_aot.c,"2683 instruction bytes plus 106 computed-target table bytes",NEW_EPOCH_REQUIRED_ON_PROTECTED_WRITE
+STATIC_SPC700_AOT,YES,YES,YES_1392_EXACT_PC,runtime/generated/theme_park_spc700_aot.c,docs/V13C-spc700-aot-generation.json,NO_RUNTIME_DECODER_OR_FALLBACK
+SPC700_CONTROL_FLOW,YES,YES,YES_SOURCE_FIXED_POINT,generator/v13_spc700_discovery.py,"1592 edges; 3 finite tables; shadow-checked calls/returns",COLD_PASS_B_18C
+SPC700_SEMANTICS,YES,YES,YES_78_REACHED_FORMS,runtime/src/theme_park_spc700.c,"flags/direct-page/indexing/stack/word arithmetic",UNREACHED_FORMS_NOT_PRODUCTION
+SSMP_INSTRUCTION_TIMING,YES,YES,YES_BASE_PLUS_TAKEN_BRANCH,runtime/src/theme_park_apu.c,"1.024 MHz instruction-boundary scheduling with timer increments",NOT_CLAIMED_MICROCYCLE_UNIVERSAL
+SSMP_TIMERS,YES,NO_DIRECT_PROGRAM_ACCESS,YES_ARCHITECTURAL_12C,runtime/src/theme_park_apu.c,"rates 128/128/16; target zero means 256; four-bit clear-on-read",REOPEN_IF_NEW_SOURCE_REACH
+SSMP_MASTER_CLOCK_JOIN,YES,YES,YES_RATIONAL_DOMAIN,runtime/src/theme_park_machine.c,"1024000 / PAL master rate through TP_DOMAIN_SSMP",WHOLE_MACHINE_RECONCILIATION_17C
+SSMP_TEST_CLOCK_REGISTER,NO,NO,NO_FAIL_CLOSED,UNREACHED,"$00F0 write stops",IMPLEMENT_IF_SOURCE_REACHED
+SDSP_ADDRESS_PORT,YES,YES,YES_STATIC_SMP_ACCESS,runtime/src/theme_park_apu.c,"reached $F2 address writes",SDSP_SEMANTICS_16C
+SDSP_DATA_PORT,NO,YES,NO_FAIL_CLOSED,16C_PENDING,"reached $F3 reads/writes stop",SDSP_OWNER_16C
+AUDIO_PCM,NO,NO,NO,16C_PENDING,NO_AUDIO_OUTPUT_CLAIM,SDSP_AUDIO_16C
+RASTER_RENDERER,NO,NO,NO,14C_PENDING,NO_PIXEL_CLAIM,START_14C_ONLY_AFTER_13C_CLOSE

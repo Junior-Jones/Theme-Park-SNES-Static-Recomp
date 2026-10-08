@@ -1,0 +1,10 @@
+{
+  "admitted_contexts": 61,
+  "combined_admission_sha256": "4fd17bdb1d62f0449426610c6a4caead01aefe8eb6abbe570050933421973b9e",
+  "compilation_performed": false,
+  "family_id": "TP07F267",
+  "generated_contexts": 61,
+  "linked_contexts": 0,
+  "schema": "theme-park-v07c-family-admission-v1",
+  "status": "PASS_SOURCE_ADMISSION_UNCOMPILED"
+}

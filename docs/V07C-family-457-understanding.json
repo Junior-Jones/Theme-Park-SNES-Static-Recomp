@@ -1,0 +1,167 @@
+{
+  "context_count": 513,
+  "dbr_proof": "V05C closed DBR=0 theorem; absolute accesses fail closed if DBR differs",
+  "dependencies": {
+    "family_plan_sha256": "2d9b721ef5ef4179e409f03f6acccd7c62847b358e602f150a2e2f9f3bd7b20c",
+    "v05_contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "v05_dynamic_proofs_sha256": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "v05_edges_sha256": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "v05_summary_sha256": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "v06_summary_sha256": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577"
+  },
+  "executable_memory_epoch": "IMMUTABLE_CANONICAL_LOROM; V06C proves zero RAM epochs",
+  "family_id": "TP07F457",
+  "instruction_form_counts": {
+    "ADC:ABS": 6,
+    "ADC:IMM_M": 1,
+    "AND:IMM_M": 13,
+    "ASL:ACC": 16,
+    "BCC:REL8": 4,
+    "BEQ:REL8": 3,
+    "BNE:REL8": 7,
+    "BPL:REL8": 1,
+    "BRA:REL8": 3,
+    "BRL:REL16": 7,
+    "CLC:IMP": 7,
+    "CMP:ABS": 2,
+    "CMP:DP_IND_LONG_Y": 1,
+    "CMP:IMM_M": 3,
+    "CPX:IMM_X": 1,
+    "CPY:IMM_X": 2,
+    "DEY:IMP": 1,
+    "INC:ABS": 1,
+    "INC:ACC": 3,
+    "JMP:ABS_JUMP": 2,
+    "JSL:ABSL_JUMP": 16,
+    "LDA:ABS": 32,
+    "LDA:ABSL_X": 8,
+    "LDA:DP_IND_LONG_Y": 29,
+    "LDA:IMM_M": 18,
+    "LDX:ABS": 9,
+    "LDX:IMM_X": 5,
+    "LDY:ABS": 3,
+    "LDY:IMM_X": 43,
+    "LSR:ACC": 17,
+    "NOP:IMP": 8,
+    "ORA:ABS": 1,
+    "PHA:IMP": 9,
+    "PHX:IMP": 4,
+    "PLA:IMP": 9,
+    "PLX:IMP": 4,
+    "REP:IMM8": 43,
+    "RTL:IMP": 1,
+    "SBC:ABS": 9,
+    "SBC:DP_IND_LONG_Y": 2,
+    "SEC:IMP": 6,
+    "SEP:IMM8": 31,
+    "STA:ABS": 52,
+    "STA:DP_IND_LONG_Y": 20,
+    "STX:ABS": 12,
+    "STY:ABS": 2,
+    "STZ:ABS": 1,
+    "TAX:IMP": 8,
+    "TAY:IMP": 16,
+    "TYA:IMP": 8,
+    "TYX:IMP": 2,
+    "XBA:IMP": 1
+  },
+  "internal_edge_count": 511,
+  "kind": "LEAF_PROCEDURE_REACHED_FROM_RESET_BOOTSTRAP",
+  "mode_set": [
+    "0:0:0",
+    "0:0:1",
+    "0:1:0",
+    "0:1:1"
+  ],
+  "nested_call_count": 16,
+  "nested_calls": [
+    {
+      "call_source": "04:8FD0:0:0:1",
+      "call_target": "00:C342:0:0:1"
+    },
+    {
+      "call_source": "04:8FE1:0:0:0",
+      "call_target": "00:C29D:0:0:0"
+    },
+    {
+      "call_source": "04:900F:0:0:0",
+      "call_target": "07:FA6B:0:0:0"
+    },
+    {
+      "call_source": "04:902A:0:0:1",
+      "call_target": "07:9FB9:0:0:1"
+    },
+    {
+      "call_source": "04:9038:0:0:0",
+      "call_target": "07:FA6B:0:0:0"
+    },
+    {
+      "call_source": "04:905E:0:0:1",
+      "call_target": "0C:B139:0:0:1"
+    },
+    {
+      "call_source": "04:9181:0:0:0",
+      "call_target": "00:C2E4:0:0:0"
+    },
+    {
+      "call_source": "04:91A2:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "04:9264:0:0:0",
+      "call_target": "04:EE33:0:0:0"
+    },
+    {
+      "call_source": "04:92A1:0:0:0",
+      "call_target": "00:C29D:0:0:0"
+    },
+    {
+      "call_source": "04:92BC:0:0:0",
+      "call_target": "06:D381:0:0:0"
+    },
+    {
+      "call_source": "04:9316:0:0:1",
+      "call_target": "07:8809:0:0:1"
+    },
+    {
+      "call_source": "04:935D:0:0:0",
+      "call_target": "07:FA6B:0:0:0"
+    },
+    {
+      "call_source": "04:9378:0:0:1",
+      "call_target": "07:9FB9:0:0:1"
+    },
+    {
+      "call_source": "04:9386:0:0:0",
+      "call_target": "07:FA6B:0:0:0"
+    },
+    {
+      "call_source": "04:93A8:0:0:1",
+      "call_target": "0C:B139:0:0:1"
+    }
+  ],
+  "parent_calls": [
+    {
+      "call_source": "00:CCBB:0:1:1",
+      "proof_id": "V05P00284"
+    }
+  ],
+  "products": {
+    "contexts_sha256": "b5f7c4258c9fc9a61f35612f8e459fd357f3dffccfea7716da60ddf556195f5a",
+    "edges_sha256": "8cc726ce3351fefbe10d72c911d066a2878de449d7b89d34ba3c2d3c3b57bd42"
+  },
+  "return_relations": [
+    {
+      "call_source": "00:CCBB:0:1:1",
+      "return_source": "04:93E6:0:0:1",
+      "return_target": "00:CCBF:0:0:1"
+    }
+  ],
+  "root_context": "04:8F7E:0:1:1",
+  "runtime_decoder_required": false,
+  "runtime_return_edge_count": 1,
+  "runtime_return_edges_sha256": "6cff675cb746abe7e6f3922f23f46975045641e3588ae2347b0440b3f15a02c1",
+  "schema": "theme-park-v07c-family-understanding-v1",
+  "status": "UNDERSTOOD_SOURCE_PROVED_NOT_YET_ADMITTED",
+  "trace_or_oracle_inputs": []
+}

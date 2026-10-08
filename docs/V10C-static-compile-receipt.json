@@ -1,0 +1,30 @@
+{
+  "compile_action": "REUSED_HASH_MATCHING_STATIC_OBJECTS_AND_LIBRARIES",
+  "contexts": 71986,
+  "executables_created": 0,
+  "gcc": {
+    "library": "build/v10c-static/gcc/libtheme_park_v10c.a",
+    "library_sha256": "b01cb20be2f4d3f8801b909d4d4269351af3b5b727294fc79bc8b7c8664d3d4e",
+    "objects": 677
+  },
+  "inputs_sha256": {
+    "bus": "d5ed78b57a33e2d5ffd89d708fffce58f6603ed5df2dc8ae93e88741d018db67",
+    "dma": "a2c916c605ea217f734caa0ed4a79b48fdd45cce0de9bc1e24d4a40fc95becfa",
+    "machine": "8c3097e97386b33190744f0864e6c943313421a526159723205e720b00466045",
+    "production_manifest": "45c6ec931fd2b5428a24b92a75c5644db8456505dbce53b7698e77fbfea0b2b6",
+    "scheduler": "05df277ec8cf7a13b27c0c87368667688e57e0d896ad414a53671d57c5ad3bcb",
+    "timing_plan": "ddf082af141e913baca766405f451a387488cba54b0ac53e029a1633766c95f8"
+  },
+  "msvc": {
+    "library": "build/v10c-static/msvc/theme_park_v10c.lib",
+    "library_sha256": "c622859b31c9af6a4f2ca449bed8e91fcfffd79415615a5044dc264521b81637",
+    "objects": 677
+  },
+  "qualification_inputs_sha256": {
+    "source_join": "3efc8e0ab05116d8530f0ae585fd7446165d1edb4e1b76c8f8c5437beefaa15d",
+    "startup_phase_certificate": "128e28d6f2a53b884db2d46d717a5cd9331ed4db9d832cff0d59b9d33f5d91c4"
+  },
+  "schema": "theme-park-v10c-static-compile-v1",
+  "source_files": 677,
+  "status": "PASS_DMA_JOINED_STATIC_CORE_LIBRARIES_NO_EXECUTABLE"
+}

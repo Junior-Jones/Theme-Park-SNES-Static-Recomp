@@ -1,0 +1,34 @@
+{
+  "schema": "theme-park-v17c-wram-power-on-provenance-v1",
+  "status": "HARDWARE_INDETERMINATE_UNDER_STRICT_DEFAULT_PROFILED_VALIDATION_SEPARATE",
+  "address": "$7E:0016-$7E:0017",
+  "first_cold_consumer": {
+    "context": "04:8059:0:0:1",
+    "instruction": "AD 16 00 / LDA $0016 (16-bit A)",
+    "caller": "00:8058:0:0:0 / JSL $04:8055",
+    "return_after_rtl": "$00:805C",
+    "source_context_evidence": "docs/V07C-family-008-contexts.csv"
+  },
+  "later_source_writer": {
+    "context": "00:8135:0:0:0",
+    "instruction": "8D 16 00 / STA $0016 (16-bit A)",
+    "immediate_value_source": "00:8132 A9 00 80 / LDA #$8000",
+    "source_context_evidence": "docs/V07C-family-223-contexts.csv"
+  },
+  "strict_cold_prefix": {
+    "receipt": "docs/V17C-natural-300-frames-unprofiled-boundary.json",
+    "steps_before_first_use": 391273,
+    "wram_0016_known_set_step": 0,
+    "classification": "NO_CARTRIDGE_WRITE_OBSERVED_BEFORE_THE_SOURCE_IDENTIFIED_FIRST_CONSUMER",
+    "authority_limit": "Natural execution confirms the source-identified boundary; it does not invent the consumed value."
+  },
+  "default_core_contract": "WRAM representative bytes are zero but knownness is false; first control/address-sensitive unknown consumption fails closed.",
+  "validation_profile": {
+    "name": "DETERMINISTIC_ZERO_WRAM_V1",
+    "contract": "config/power-on-profiles.json",
+    "classification": "PROJECT_SELECTED_REPRODUCIBLE_HARDWARE_PROFILE",
+    "is_cartridge_authority": false,
+    "is_universal_physical_snes_claim": false,
+    "is_emulator_or_oracle_derived": false
+  }
+}

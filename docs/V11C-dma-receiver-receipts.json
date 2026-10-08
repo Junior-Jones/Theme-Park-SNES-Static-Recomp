@@ -1,0 +1,856 @@
+[
+  {
+    "routes": [
+      {
+        "b_bus_register": "$210F",
+        "bbad": 15,
+        "channel_register": "$4301",
+        "producer_context": "0C:8013:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-AFE6ED5B4AECC55BA7C8"
+      }
+    ],
+    "trigger_context": "00:8350:0:1:0",
+    "trigger_receipt": "TP10-3ACAED498D3A54585809"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4331",
+        "producer_context": "00:83D8:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-8164DB58F508AD01328E"
+      }
+    ],
+    "trigger_context": "00:83F0:0:1:0",
+    "trigger_receipt": "TP10-D5DB73EAC5B3BA58F83C"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4331",
+        "producer_context": "00:8405:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-113355093EE211A65F5C"
+      }
+    ],
+    "trigger_context": "00:841D:0:1:0",
+    "trigger_receipt": "TP10-8BB98A719A7C3911E4B9"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4331",
+        "producer_context": "00:843E:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-3F1E15E53B4F903919AD"
+      }
+    ],
+    "trigger_context": "00:8463:0:1:0",
+    "trigger_receipt": "TP10-D42CE4BFC6D8664A280B"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4331",
+        "producer_context": "00:8492:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-35BF5274CE2BD0AF7EA8"
+      }
+    ],
+    "trigger_context": "00:84AA:0:1:0",
+    "trigger_receipt": "TP10-0ED7DDE580C8514C4563"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4331",
+        "producer_context": "00:84D1:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-821CE556C4B7B39EC26E"
+      }
+    ],
+    "trigger_context": "00:84E9:0:1:0",
+    "trigger_receipt": "TP10-38AA5B8F7FDB82E6B9C3"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2104",
+        "bbad": 4,
+        "channel_register": "$4331",
+        "producer_context": "00:8507:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-F7EC054DBCB61EC43755"
+      }
+    ],
+    "trigger_context": "00:851D:0:1:0",
+    "trigger_receipt": "TP10-A3F1ACBDDEE3DE3BC87E"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2104",
+        "bbad": 4,
+        "channel_register": "$4331",
+        "producer_context": "00:8533:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-DB4E6B9F6D6B9AD96D39"
+      }
+    ],
+    "trigger_context": "00:8549:0:1:0",
+    "trigger_receipt": "TP10-8F009F988DAF454F617F"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "04:D98C:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-1F628779DE044EC3B315"
+      }
+    ],
+    "trigger_context": "04:D9A4:0:1:0",
+    "trigger_receipt": "TP10-DC6AA468569476556317"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "04:D9E1:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-AA5E64BC1C3D7BDFA454"
+      }
+    ],
+    "trigger_context": "04:D9F9:0:1:0",
+    "trigger_receipt": "TP10-3315AB0409F0C7A74B21"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "04:DA30:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-AF4E393622955104BC05"
+      }
+    ],
+    "trigger_context": "04:DA48:0:1:0",
+    "trigger_receipt": "TP10-3841E1BC2559D2E68AA5"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "04:DA7F:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-EA151C29BE5D8A802189"
+      }
+    ],
+    "trigger_context": "04:DA97:0:1:0",
+    "trigger_receipt": "TP10-CE8F7D42CCD465080246"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "04:DACE:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-B741493FCE57BD16566C"
+      }
+    ],
+    "trigger_context": "04:DAE6:0:1:0",
+    "trigger_receipt": "TP10-158D60BFE5D732AC16D8"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "04:DB1D:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-55A9202627FF766E7803"
+      }
+    ],
+    "trigger_context": "04:DB35:0:1:0",
+    "trigger_receipt": "TP10-85C5F74C28F8E526EA34"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "04:DB75:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-C184C6269F1C17E33502"
+      }
+    ],
+    "trigger_context": "04:DB8D:0:1:0",
+    "trigger_receipt": "TP10-419B160840EBA1062750"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "04:DBC4:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-0D7ECF858CC6434B0156"
+      }
+    ],
+    "trigger_context": "04:DBDC:0:1:0",
+    "trigger_receipt": "TP10-2609BB339FE4C2DEE977"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "04:DC13:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-89F3BFADD38D70632C16"
+      }
+    ],
+    "trigger_context": "04:DC2B:0:1:0",
+    "trigger_receipt": "TP10-E505710A88B0FE431958"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "04:DC62:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-077195FB99551204BB5A"
+      }
+    ],
+    "trigger_context": "04:DC7A:0:1:0",
+    "trigger_receipt": "TP10-F0D2076BE11379C07A37"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "04:DCBA:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-5E83AC7181F29C8CE347"
+      }
+    ],
+    "trigger_context": "04:DCD2:0:1:0",
+    "trigger_receipt": "TP10-AB9F33F9033E268463EA"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "04:DD09:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-13408760D78302F13F8C"
+      }
+    ],
+    "trigger_context": "04:DD21:0:1:0",
+    "trigger_receipt": "TP10-5213A36FE5F2A5E7A1B6"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "04:DD61:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-5F1A04A9B986CA4E2ECB"
+      }
+    ],
+    "trigger_context": "04:DD79:0:1:0",
+    "trigger_receipt": "TP10-2E06DBCAC8DCEFCD05C9"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "06:BA65:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-D8D3E3C166CC7C8D18B3"
+      }
+    ],
+    "trigger_context": "06:BA7D:0:1:0",
+    "trigger_receipt": "TP10-6799AE90850A5F53D90A"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "06:BAAB:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-FF83260ED4FF2C11C2BE"
+      }
+    ],
+    "trigger_context": "06:BAC3:0:1:0",
+    "trigger_receipt": "TP10-9F2C4D644112C357DED6"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "06:BAF4:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-6C77444BCD51458E7AB8"
+      }
+    ],
+    "trigger_context": "06:BB0C:0:1:0",
+    "trigger_receipt": "TP10-59BF057726DAE8736E44"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "06:BB3D:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-450BC36C961E249CAA17"
+      }
+    ],
+    "trigger_context": "06:BB55:0:1:0",
+    "trigger_receipt": "TP10-1B9E221AB2F873E477E6"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "06:BB86:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-343D276FD278F06A2D8C"
+      }
+    ],
+    "trigger_context": "06:BB9E:0:1:0",
+    "trigger_receipt": "TP10-7E3B2A8F78066CEF668D"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4331",
+        "producer_context": "06:E14E:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-C174D6119393A68FD076"
+      }
+    ],
+    "trigger_context": "06:E166:0:1:0",
+    "trigger_receipt": "TP10-C0D65821637A7F719717"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2122",
+        "bbad": 34,
+        "channel_register": "$4341",
+        "producer_context": "06:FBFF:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-2638BB81400144D9224E"
+      }
+    ],
+    "trigger_context": "06:FC17:0:1:0",
+    "trigger_receipt": "TP10-6455E8F79A7964ADB4F2"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4371",
+        "producer_context": "07:8038:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-3DC205F6F0395559DF88"
+      }
+    ],
+    "trigger_context": "07:8050:0:1:0",
+    "trigger_receipt": "TP10-2671B1E70E750EE09D3E"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "07:80A4:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-079E4424617D6FCEBF91"
+      }
+    ],
+    "trigger_context": "07:80BC:0:1:0",
+    "trigger_receipt": "TP10-0FB232CC2EEB4E651B8A"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "07:80DF:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-700449B326F71854899F"
+      }
+    ],
+    "trigger_context": "07:80F7:0:1:0",
+    "trigger_receipt": "TP10-725CE692A874A2C0F192"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "07:8102:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-E47A64DAF99972ABB8F6"
+      }
+    ],
+    "trigger_context": "07:811A:0:1:0",
+    "trigger_receipt": "TP10-3454DE60EEDD8420FD29"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "07:81F8:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-7834390023F89A807CE6"
+      }
+    ],
+    "trigger_context": "07:8211:0:1:0",
+    "trigger_receipt": "TP10-964198FF92A3EC11A9CC"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2122",
+        "bbad": 34,
+        "channel_register": "$4341",
+        "producer_context": "07:8279:0:0:1",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-758A670757D57D58D7A6"
+      }
+    ],
+    "trigger_context": "07:828C:0:0:1",
+    "trigger_receipt": "TP10-6AA81ACA63E89012DF87"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2122",
+        "bbad": 34,
+        "channel_register": "$4341",
+        "producer_context": "07:8279:0:0:1",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-758A670757D57D58D7A6"
+      }
+    ],
+    "trigger_context": "07:82C4:0:0:1",
+    "trigger_receipt": "TP10-8FD3D6F1DC2D67B21326"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4331",
+        "producer_context": "07:83CA:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-DA3C1B7BC7E8AECD5E8D"
+      }
+    ],
+    "trigger_context": "07:83E2:0:1:0",
+    "trigger_receipt": "TP10-B6307ACDF6EFAA71FFE2"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4331",
+        "producer_context": "07:83FC:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-17E05A8537E44A1EEA89"
+      }
+    ],
+    "trigger_context": "07:8414:0:1:0",
+    "trigger_receipt": "TP10-8110B796A629FA5CDEBA"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4331",
+        "producer_context": "0C:8286:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-5D4F4EA52AC991B67AC0"
+      }
+    ],
+    "trigger_context": "0C:829F:0:1:0",
+    "trigger_receipt": "TP10-91F9A54B9CDDC45C6C95"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4331",
+        "producer_context": "0C:82FF:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-CA7565EDC4FCA32871B1"
+      }
+    ],
+    "trigger_context": "0C:8318:0:1:0",
+    "trigger_receipt": "TP10-50EED815D7BA1D9E7B39"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4371",
+        "producer_context": "0C:8456:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-5ABCB1973AB525CE7463"
+      }
+    ],
+    "trigger_context": "0C:846E:0:1:0",
+    "trigger_receipt": "TP10-63655F5FC6C96F29ACBA"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2180",
+        "bbad": 128,
+        "channel_register": "$4371",
+        "producer_context": "0C:848C:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_bus.c:WRAM_PORT",
+        "writer_event": "TPHW-7C3FFB27299F55E3C907"
+      }
+    ],
+    "trigger_context": "0C:84A4:0:1:0",
+    "trigger_receipt": "TP10-EEA997AF3BAA895ADCCD"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4331",
+        "producer_context": "0C:859C:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-9A15C7B9D9AEE24702F0"
+      }
+    ],
+    "trigger_context": "0C:85B5:0:1:0",
+    "trigger_receipt": "TP10-CFA1EF0EAC69F291497E"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2122",
+        "bbad": 34,
+        "channel_register": "$4331",
+        "producer_context": "0C:85E6:0:0:1",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-872B9A0F6EF496CE8393"
+      }
+    ],
+    "trigger_context": "0C:85FE:0:0:1",
+    "trigger_receipt": "TP10-83A70D2BDDC01A5B1FEA"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "0C:8924:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-34F999F340177B537F9A"
+      }
+    ],
+    "trigger_context": "0C:895E:0:1:0",
+    "trigger_receipt": "TP10-D8F817CA43F5B64BD757"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "0C:8973:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-BFB74E8E08549AA257B8"
+      }
+    ],
+    "trigger_context": "0C:898B:0:1:0",
+    "trigger_receipt": "TP10-B483CF36C0393068ED18"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4331",
+        "producer_context": "0C:89AC:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-ECF5E853DFFD33913520"
+      }
+    ],
+    "trigger_context": "0C:89C4:0:1:0",
+    "trigger_receipt": "TP10-6D351A47E84EBBD52E44"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4331",
+        "producer_context": "0C:89CF:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-1AC6A864AB263663A442"
+      }
+    ],
+    "trigger_context": "0C:89E7:0:1:0",
+    "trigger_receipt": "TP10-CF00BD4FB2E09D58E047"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4331",
+        "producer_context": "0C:89F2:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-B99636F8274CE7611386"
+      }
+    ],
+    "trigger_context": "0C:8A0A:0:1:0",
+    "trigger_receipt": "TP10-70D17170C1885A193067"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4331",
+        "producer_context": "0C:8A51:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-DB76323037872E040B98"
+      }
+    ],
+    "trigger_context": "0C:8A66:0:1:0",
+    "trigger_receipt": "TP10-2C9A25BF22D0BD0B6DE8"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "0C:8AF0:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-7631C6BFB82BC51B4DA7"
+      }
+    ],
+    "trigger_context": "0C:8B08:0:1:0",
+    "trigger_receipt": "TP10-7C73B55F15FBAB493AFA"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4331",
+        "producer_context": "0C:8C1A:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-3582084DBF9C6A3FE5B4"
+      }
+    ],
+    "trigger_context": "0C:8C32:0:1:0",
+    "trigger_receipt": "TP10-1B2A58B1281C1FBB923B"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "0C:8CBF:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-8A8F7703A1CEBA9BEA2F"
+      }
+    ],
+    "trigger_context": "0C:8CD7:0:1:0",
+    "trigger_receipt": "TP10-3686A8D1D54725EE1F8F"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "0C:8CE2:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-B0BA1775D8ABCC31B9A7"
+      }
+    ],
+    "trigger_context": "0C:8CFA:0:1:0",
+    "trigger_receipt": "TP10-4D773C9729789CB8F851"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2122",
+        "bbad": 34,
+        "channel_register": "$4341",
+        "producer_context": "0C:8D12:0:0:1",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-F8AA89BCFE57951219ED"
+      }
+    ],
+    "trigger_context": "0C:8D2A:0:0:1",
+    "trigger_receipt": "TP10-EF1F6081DE0237999798"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "0C:A707:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-E8B70292494DF9F46694"
+      }
+    ],
+    "trigger_context": "0C:A720:0:1:0",
+    "trigger_receipt": "TP10-FA49C7C6278D0383DC2B"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4371",
+        "producer_context": "0C:E19E:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-70A6D14B35561D7270A8"
+      }
+    ],
+    "trigger_context": "0C:E1B6:0:1:0",
+    "trigger_receipt": "TP10-C2B2A30EC2F191823176"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2180",
+        "bbad": 128,
+        "channel_register": "$4371",
+        "producer_context": "0C:E1D9:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_bus.c:WRAM_PORT",
+        "writer_event": "TPHW-7F572A5A6471C7E8698E"
+      }
+    ],
+    "trigger_context": "0C:E1F1:0:1:0",
+    "trigger_receipt": "TP10-5901016BBCB48623B5E9"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "0C:E22B:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-F4769DE371C8A26CF1A8"
+      }
+    ],
+    "trigger_context": "0C:E244:0:1:0",
+    "trigger_receipt": "TP10-23469E31C44FA8B2149C"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "0C:E28D:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-A256003405EF6A438F64"
+      }
+    ],
+    "trigger_context": "0C:E2A5:0:1:0",
+    "trigger_receipt": "TP10-EF0AC6D534955391BA4C"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "0C:E3F6:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-DBA20F6EA3EDAA89E29C"
+      }
+    ],
+    "trigger_context": "0C:E40E:0:1:0",
+    "trigger_receipt": "TP10-01B18744B7AA07257431"
+  },
+  {
+    "routes": [
+      {
+        "b_bus_register": "$2118",
+        "bbad": 24,
+        "channel_register": "$4341",
+        "producer_context": "0C:E446:0:1:0",
+        "receiver_owner": "runtime/src/theme_park_ppu.c",
+        "writer_event": "TPHW-DF551669EA4CAB020E45"
+      }
+    ],
+    "trigger_context": "0C:E45F:0:1:0",
+    "trigger_receipt": "TP10-D05553ECA552944EEE32"
+  }
+]

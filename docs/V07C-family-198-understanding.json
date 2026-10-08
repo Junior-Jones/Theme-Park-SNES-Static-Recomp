@@ -1,0 +1,55 @@
+{
+  "context_count": 15,
+  "dbr_proof": "V05C closed DBR=0 theorem; absolute accesses fail closed if DBR differs",
+  "dependencies": {
+    "family_plan_sha256": "2d9b721ef5ef4179e409f03f6acccd7c62847b358e602f150a2e2f9f3bd7b20c",
+    "v05_contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "v05_dynamic_proofs_sha256": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "v05_edges_sha256": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "v05_summary_sha256": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "v06_summary_sha256": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577"
+  },
+  "executable_memory_epoch": "IMMUTABLE_CANONICAL_LOROM; V06C proves zero RAM epochs",
+  "family_id": "TP07F198",
+  "instruction_form_counts": {
+    "LDA:DP_IND_LONG_Y": 2,
+    "LDA:IMM_M": 1,
+    "LDY:IMM_X": 5,
+    "REP:IMM8": 2,
+    "RTL:IMP": 1,
+    "SEP:IMM8": 1,
+    "STA:DP_IND_LONG_Y": 3
+  },
+  "internal_edge_count": 14,
+  "kind": "LEAF_PROCEDURE_REACHED_FROM_RESET_BOOTSTRAP",
+  "mode_set": [
+    "0:0:0",
+    "0:1:0"
+  ],
+  "nested_call_count": 0,
+  "nested_calls": [],
+  "parent_calls": [
+    {
+      "call_source": "0C:C9E9:0:0:0",
+      "proof_id": "V05P02079"
+    }
+  ],
+  "products": {
+    "contexts_sha256": "627b649f4d6b09ea50ea3c46b763a523efc028462e7ca07d8860c66434e5578f",
+    "edges_sha256": "b7bef661f877fd090a711aaefb041722924ce73089ddcb8f8b88bf0b1e5b42ac"
+  },
+  "return_relations": [
+    {
+      "call_source": "0C:C9E9:0:0:0",
+      "return_source": "0C:D661:0:0:0",
+      "return_target": "0C:C9ED:0:0:0"
+    }
+  ],
+  "root_context": "0C:D640:0:0:0",
+  "runtime_decoder_required": false,
+  "runtime_return_edge_count": 1,
+  "runtime_return_edges_sha256": "20ecbb9dbe24400d61f79b47f1aeda0d626ced4036cc9195f0ccb35176ae6842",
+  "schema": "theme-park-v07c-family-understanding-v1",
+  "status": "UNDERSTOOD_SOURCE_PROVED_NOT_YET_ADMITTED",
+  "trace_or_oracle_inputs": []
+}

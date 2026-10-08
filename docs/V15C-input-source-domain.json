@@ -1,0 +1,96 @@
+{
+  "additional_devices": [],
+  "authority": "SOURCE_EFFECTS_AND_EXACT_CONTEXT_PREDECESSORS_ONLY_NO_ORACLE_NO_RUNTIME_TRACE",
+  "autojoy_enable_proved": true,
+  "autojoy_result_surface": "$4218-$421F",
+  "controller_devices": [
+    "standard_pad_port_1",
+    "standard_pad_port_2"
+  ],
+  "deterministic_vectors": [
+    {
+      "expected_serial_words": [
+        "$A550",
+        "$5AA0"
+      ],
+      "name": "manual_two_pad",
+      "pad1": "$A550",
+      "pad2": "$5AA0",
+      "reads": 16
+    },
+    {
+      "expected_auto_results": [
+        "$F0F0",
+        "$0F00",
+        "$0000",
+        "$0000"
+      ],
+      "name": "autojoy_two_pad",
+      "pad1": "$F0F0",
+      "pad2": "$0F00",
+      "phases": "0..34"
+    },
+    {
+      "expected_auto_results": [
+        "$0000",
+        "$0000",
+        "$0000",
+        "$0000"
+      ],
+      "expected_live_after_reset": "$8120",
+      "expected_shift_after_reset": "$8120",
+      "name": "reset_transition",
+      "pad1": "$8120"
+    }
+  ],
+  "inputs_sha256": {
+    "cartridge_profile": "50cdaed729e33858716dbb774249e55131f4780cb5628d3d5a2b4d5fc231b454",
+    "contexts": "45c6ec931fd2b5428a24b92a75c5644db8456505dbce53b7698e77fbfea0b2b6",
+    "memory_effects": "446498225100c1d8c682de880257fa856def9b0fd0aa5c475596c0659d4fb45b",
+    "target_contract": "cec22baaef5c5f5138486d522873bf2c522e4630d7fe0a70aa0bdb0eb8d97881"
+  },
+  "manual_serial_surface": "GENERAL_STANDARD_PAD_$4016_$4017_REQUIRED_BY_15C",
+  "nmitimen_proved_values": [
+    "$00",
+    "$01",
+    "$81"
+  ],
+  "nmitimen_write_count": 22,
+  "persistence": {
+    "rtc": false,
+    "special_persistent_device": false,
+    "sram_bytes": 0,
+    "transition": "NO_TARGET_PERSISTENT_BYTES; SCPU_RESET_PRESERVES_EXTERNAL_LIVE_PAD_REPORTS_AND_CLEARS_GUEST_LATCH_SHIFT_AUTOJOY_STATE"
+  },
+  "report_layout": "B,Y,Select,Start,Up,Down,Left,Right,A,X,L,R at bits 15..4; signature bits 3..0 zero",
+  "schema": "theme-park-v15c-input-source-domain-v1",
+  "source_reached_input_effects": [
+    {
+      "08C_Result": "ROUTED_FAIL_CLOSED_UNTIL_OWNER",
+      "Access": "READ",
+      "Bus_Region": "CPU_IO",
+      "Context": "00:83B7:0:1:0",
+      "Current_Owner": "15C_INPUT",
+      "Effective_Address": "00:4218",
+      "Physical_Offset": "",
+      "Stable_Id": "TPHW-D088DDBCDFF77725049C",
+      "Writable": "NO"
+    },
+    {
+      "08C_Result": "ROUTED_FAIL_CLOSED_UNTIL_OWNER",
+      "Access": "READ",
+      "Bus_Region": "CPU_IO",
+      "Context": "00:83B7:0:1:0",
+      "Current_Owner": "15C_INPUT",
+      "Effective_Address": "00:4219",
+      "Physical_Offset": "",
+      "Stable_Id": "TPHW-BEE96AAE71DF6CC1B221",
+      "Writable": "NO"
+    }
+  ],
+  "status": "CLOSED_SOURCE_DOMAIN",
+  "target_consumed_results": [
+    "$4218 JOY1 low",
+    "$4219 JOY1 high"
+  ]
+}

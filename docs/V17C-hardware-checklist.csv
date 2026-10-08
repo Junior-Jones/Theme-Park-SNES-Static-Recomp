@@ -1,0 +1,28 @@
+Hardware_Area,Implemented,Source_Reached,Source_Certified,Owner,Evidence,17C_Status
+CARTRIDGE_LOGICAL_BOARD,YES,YES,YES_LOROM_FASTROM_NO_ENHANCEMENT,runtime/src/theme_park_bus.c,"cold-identical 01C identity plus exhaustive 08C bus map",CLOSED_SOURCE_PROVED
+PHYSICAL_PCB_CATALOGUE,NO,NOT_GUEST_CONSUMED,YES_SCOPE_BOUNDARY,OUTSIDE_DECLARED_TARGET,"exact-ROM static-core contract does not promise archival PCB part identity",OUTSIDE_DECLARED_TARGET
+ROM_BYTE_CLASSIFICATION,YES,YES,YES_TOTAL_CONSERVATIVE,03C_05C,"5,242,880 cold-identical lexical rows plus 71,986 exact contexts",SUPERSEDED_PROVED
+SCPU_EXACT_CONTEXTS,YES,YES,YES_71986_COLD_IDENTICAL,static-core/generated/scpu,"fresh exact set equals admitted and generated set",CLOSED_SOURCE_PROVED
+SCPU_DECIMAL_MODE,YES,NO_SED_REACHED,YES_NO_SED_INVARIANT,static-core/generated/scpu,"reset clears D; zero admitted SED; source-paired PLP; NMI RTI preservation",UNREACHABLE_INVALID_BCD_FAIL_CLOSED
+EXECUTABLE_RAM,NO,NO,YES_ZERO_EPOCHS,06C,"all exact execution targets remain canonical LoROM",UNREACHABLE_UNDER_CERTIFIED_AUTHORITY
+BUS_MMIO_OPEN_BUS,YES,YES,YES_ALL_24BIT_ADDRESSES,runtime/src/theme_park_bus.c,"one current bus owner; cycle-progressed multiply/divide repaired after reached $4216 mismatch",REQUALIFIED_2026_10_04_ARITHMETIC_TIMING
+MASTER_CLOCK_PAL,YES,YES,YES_FOCUSED_BOOT_AND_300_FRAME,runtime/src/theme_park_scheduler.c,"PAL 21281370 Hz; 312-line raster; natural 50.006979 FPS presentation; independent 1025280 Hz S-SMP with two-clock processor startup hold",REQUALIFIED_PAL_TIMING
+NMI_IRQ_WAI_STP,YES,YES_NMI,YES_SOURCE_AND_SCHEDULER,runtime/src/theme_park_scheduler.c,"IRQ masked source invariant; NMI finite re-entry; WAI/STP owner retained",CLOSED_RUNTIME_SEMANTICS
+DMA_HDMA,YES,YES,YES_ALL_EXACT_CONFIGURATIONS,runtime/src/theme_park_dma.c,"trigger/configuration/payload/receiver chains",CLOSED_RUNTIME_SEMANTICS
+PPU_STORAGE_REGISTERS,YES,YES,YES_EXACT_CPU_DMA_RECEIVERS,runtime/src/theme_park_ppu.c,"VRAM CGRAM OAM latches knownness and source domain",CLOSED_RUNTIME_SEMANTICS
+RASTER_RENDERER_MODES_2_3,PARTIAL,YES,YES_VISIBLE_TITLE_MODE3,runtime/src/theme_park_renderer.c,"corrected 300-frame PAL probe displays Theme Park/Bullfrog title; gameplay routes remain open",VISIBLE_CHECKPOINT_GAMEPLAY_OPEN
+MACHINE_FRAME_BOUNDARY,YES,YES_STATIC_GRAPH,NO_CURRENT_VISIBLE_FRAME,runtime/src/theme_park_machine.c,"frame publication advances but connected output is black",REOPENED_NATURAL_OUTPUT
+OBJ_MOSAIC_OFFSET_PER_TILE,PARTIAL,YES,SOURCE_DOMAIN_AND_VISIBLE_TITLE,runtime/src/theme_park_renderer.c,"semantic owner exists; title renders; later natural routes still require coverage",REOPENED_LATER_ROUTE_COVERAGE
+WINDOW_SUBSCREEN_COLOR_MATH,RESET_DISABLED,NO_REACHED_ENABLE_WRITER,YES_SOURCE_EXCLUDED,runtime/src/theme_park_renderer.c,"exact writer census; reopen if exact universe changes",CLOSED_SOURCE_PROVED
+STANDARD_PAD_AUTOJOY,YES,YES,YES_SOURCE_AND_TIMING,runtime/src/theme_park_input.c,"live/latch/shift/result state and scheduler phases",NATURAL_INPUT_ROUTE_PENDING
+SRAM_RTC_SPECIAL_PERSISTENCE,ABSENT,NO,YES_ZERO_DEVICE_SURFACE,08C_15C,"header says zero SRAM and no reached special device",CLOSED_SOURCE_PROVED
+APUIO_IPL_TIMERS_ARAM,YES,YES,REQUALIFY_EVENT_PHASES,runtime/src/theme_park_apu.c,"3387-byte upload; corrected two-clock startup hold; exact immutable IPL bus-event staging",REOPENED_TIMING_CORRECTION
+SSMP_STATIC_AOT,PARTIAL,YES,YES_1392_EXACT_PCS_RUNTIME_TIMING_OPEN,runtime/generated/theme_park_spc700_aot.c,"protected exact PCs remain; generated uploaded-code bus-event plans require reconciliation",REOPENED_EVENT_TIMING
+SDSP_32_PHASE_EIGHT_VOICE,PARTIAL,YES,YES_ACTIVE_PCM_CHECKPOINT,runtime/src/theme_park_sdsp.c,"32,040 Hz profile; frame-300 input route produces 10246 nonzero samples peak 27875",REQUALIFIED_ACTIVE_OUTPUT_ROUTE_OPEN
+PCM_KNOWNNESS_FIFO,YES,YES_BOUNDARY,YES_384888_KNOWN_FRAMES,runtime/src/theme_park_sdsp.c,"600-frame input run transports active known PCM without unknown samples",CLOSED_ACTIVE_TRANSPORT
+MACHINE_PCM_BOUNDARY,YES,YES_STATIC_GRAPH,YES_ACTIVE_PCM_FRONTEND_DRAIN,runtime/src/theme_park_machine.c,"public machine and app FIFOs deliver active native PCM",CLOSED_ACTIVE_TRANSPORT
+COLD_RESET_MUTED_PCM,YES,YES_RESET_ONLY,YES_1024_KNOWN_FRAMES,docs/V16C-core-pcm-reset-vector.json,"source-derived reset vector does not claim guest execution",CLOSED_NARROW_PROOF
+ACTIVE_FRAME_PCM_MASTER_CLOCK_RUN,PARTIAL_VISIBLE_TITLE_ACTIVE_PCM,YES,HISTORICAL_RECEIPTS_SUPERSEDED,17C_INTEGRATION,"300-frame title is legitimately silent; one-frame Start at frame 300 yields active PCM in 600-frame PAL run; gameplay route remains open",REOPENED_GAMEPLAY
+WRAM_POWER_ON_PROFILE,YES,YES_FIRST_USE_BOUNDARY,YES_EXPLICIT_PROFILE,runtime/src/theme_park_bus.c,"strict unknown default preserved; deterministic-zero-wram-v1 validation profile separately hash-governed",HARDWARE_INDETERMINATE_DEFAULT_PROFILED_VALIDATION_PASSED
+HOST_VIDEO_AUDIO_INPUT_PACING,YES,YES_TEST_CONNECTION,VISIBLE_TITLE_ACTIVE_NATIVE_PCM,STARTER_V11_JUNGLE_FRONTEND,"PAL pacing and title framebuffer established; active PCM crosses public frontend FIFO; physical DirectSound/user gameplay acceptance remain open",POST_CORE_TEST_IN_PROGRESS
+ORACLE_COMPARISON,YES_DIAGNOSTIC,YES_BOUNDED,NO_PRODUCTION_AUTHORITY,POST_CORE_DIAGNOSTIC,"used only to localize reset/APUIO timing after implementation; promoted no PCs or semantics",DIAGNOSTIC_ONLY

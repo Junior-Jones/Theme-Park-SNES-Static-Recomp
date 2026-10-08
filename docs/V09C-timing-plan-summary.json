@@ -1,0 +1,26 @@
+{
+  "authority": "THEME_PARK_V07C_CONTEXTS_PLUS_OFFLINE_W65C816_TIMING_METADATA",
+  "contexts": 71986,
+  "milestone": "09C",
+  "oracle_used": false,
+  "rule_counts": {
+    "BRANCH_ALWAYS_POST": 794,
+    "BRANCH_PAGE_POST": 4158,
+    "BRANCH_TAKEN_POST": 4158,
+    "DIRECT_LOW_PRE": 4350,
+    "EXTRA_IMPLIED_PRE": 2184,
+    "IMPLIED_PRE": 9282,
+    "INDEX_DYNAMIC_PRE_DATA": 75,
+    "INDEX_FIXED_PRE_DATA": 542,
+    "JSL_DEFERRED_BANK_FETCH": 2286,
+    "RELLONG_PRE": 1798,
+    "RETURN_POST": 53,
+    "RMW_INTERMEDIATE": 634,
+    "STACK_PULL_PRE2": 2322,
+    "STACK_PUSH_PRE": 1993,
+    "STATUS_PRE": 9648
+  },
+  "runtime_decoder": false,
+  "schema": 1,
+  "unique_keys": 71986
+}

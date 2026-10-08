@@ -1,0 +1,18 @@
+{
+  "schema": "theme-park-v15c-verification-summary-v1",
+  "status": "PASS_V15C_THEME_PARK_INPUT_AUTOJOY_RESET_ZERO_SRAM_STATIC_LIBRARIES_NO_EXECUTABLE",
+  "source_reached_input_effects": 2,
+  "source_reached_input_registers": ["$4218", "$4219"],
+  "nmitimen_write_count": 22,
+  "nmitimen_proved_values": ["$00", "$01", "$81"],
+  "standard_pad_ports": 2,
+  "additional_devices": [],
+  "sram_bytes": 0,
+  "deterministic_transition_vectors": 3,
+  "oracle_runs": 0,
+  "target_executable_runs": 0,
+  "executables_created": 0,
+  "compile_receipt": "docs/V15C-static-compile-receipt.json",
+  "verifier": "tools/verify_v15_input.py",
+  "next_owner": "16C_SDSP_AUDIO_AND_CORE_PCM"
+}

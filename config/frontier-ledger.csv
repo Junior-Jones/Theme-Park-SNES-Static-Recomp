@@ -1,0 +1,16 @@
+Frontier_ID,Owner,Class,Status,Authority_Needed,Failure_Rule
+TP-FR-0001,01C,PHYSICAL_PCB,OUTSIDE_DECLARED_TARGET,docs/V01C-cartridge-profile.json plus docs/V08C-bus-map-summary.json,Physical catalogue part identity is outside the exact-ROM logical LoROM/FastROM/no-enhancement static-core target
+TP-FR-0002,03C,ROM_BYTE_OWNERSHIP,SUPERSEDED_PROVED,17C cold-identical V03C classification plus V05C exact universe,01C unresolved bytes are superseded by total conservative classification without promoting lexical candidates to code
+TP-FR-0003,08C,BUS_MAPPING,CLOSED_SOURCE_PROVED,docs/V08C-bus-map-summary.json,all 16777216 addresses classified; unknown devices fail closed
+TP-FR-0004,09C,REGION_TIMING,CLOSED_STATIC_PROFILE,docs/V09C-verification-summary.json,PAL master clock and rational domain phases selected; frontend or fixed presentation rate remains forbidden
+TP-FR-0005,12C,AUDIO_UPLOAD,CLOSED_SOURCE_PROVED,docs/V12C-aram-epoch-receipt.json,"3387 cartridge-authored bytes reconstructed at $0300-$103A; entry $0300; no oracle/captured ARAM"
+TP-FR-0006,07C,SCPU_HARDWARE_ADDRESS_CLASS,CLOSED_SOURCE_RECONCILED,"complete exact/conservative/unresolved effective-address sidecar across the final admitted S-CPU universe",All six final hardware-sidecar obligations reconciled across 71986 contexts; unresolved classes remain deferred and non-authoritative
+TP-FR-0007,02C,INVALID_PACKED_BCD,UNREACHABLE_UNDER_CERTIFIED_AUTHORITY,docs/V17C-pass-a-source-reconciliation.json,Reset clears decimal mode; zero admitted SED contexts; source-paired PLP and NMI RTI preserve the no-SED invariant; fail closed if authority changes
+TP-FR-0008,11C,DMA_DESTINATION_SEMANTICS,CLOSED_SOURCE_PROVED,docs/V11C-dma-receiver-receipts.json,"59 proved PPU routes bind $2104/$210F/$2118/$2122 to the sole PPU owner; two $2180 routes remain correctly owned by WRAM port"
+TP-FR-0009,13C,STATIC_SSMP,CLOSED_SOURCE_PROVED,docs/V13C-spc700-aot-generation.json,"1392 exact PCs; 78 reached forms; 2789 protected instruction/control-flow bytes; unknowns fail closed"
+TP-FR-0010,16C,SDSP_DATA_AND_PCM,CLOSED_SOURCE_PROVED,docs/V16C-verification-summary.json,"94 exact $F2/$F3 sites join one project 32-phase owner; unknown audio data stays tagged and control-sensitive reads fail closed; active natural PCM remains 17C validation"
+TP-FR-0011,14C,RASTER_RENDERER,CLOSED_SOURCE_PROVED,docs/V14C-renderer-source-domain.json,"Modes 2/3 BG1/BG2 offset-per-tile mosaic OBJ main-screen and immutable VBlank publication; unknown selected pixel inputs fail closed"
+TP-FR-0012,15C,INPUT_PERSISTENCE,CLOSED_SOURCE_PROVED,docs/V15C-input-source-domain.json,"JOY1 auto results plus general standard-pad serial surface; phased scheduler ownership; reset transition; zero SRAM and no extra device"
+TP-FR-0013,17C,NATURAL_CORE_INTEGRATION,CLOSED_RUNTIME_SEMANTICS,docs/V17C-natural-ladder-summary.json,"Cold 300/600/10000-frame and 60/120/180-second core rungs pass with known PCM and completed frames; 300 repeats byte-identically"
+TP-FR-0014,08C/17C,WRAM_0016_POWER_ON,HARDWARE_INDETERMINATE,docs/V17C-wram-0016-power-on-provenance.json,"Strict default stops at source-identified first use; deterministic-zero-wram-v1 is an explicit validation profile and not cartridge/universal hardware authority"
+

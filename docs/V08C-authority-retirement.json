@@ -1,0 +1,9 @@
+{
+  "schema": "theme-park-v08c-authority-retirement-v1",
+  "status": "PASS_SINGLE_CURRENT_BUS_AUTHORITY",
+  "current_bus_header": "runtime/include/theme_park_bus.h",
+  "current_bus_source": "runtime/src/theme_park_bus.c",
+  "retired_provisional_bus_sources": [],
+  "legacy_or_comparison_bus_sources_production_selectable": false,
+  "runtime_decode_fallback_present": false
+}

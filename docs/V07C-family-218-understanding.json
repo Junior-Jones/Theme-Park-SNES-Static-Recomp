@@ -1,0 +1,63 @@
+{
+  "context_count": 25,
+  "dbr_proof": "V05C closed DBR=0 theorem; absolute accesses fail closed if DBR differs",
+  "dependencies": {
+    "family_plan_sha256": "2d9b721ef5ef4179e409f03f6acccd7c62847b358e602f150a2e2f9f3bd7b20c",
+    "v05_contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "v05_dynamic_proofs_sha256": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "v05_edges_sha256": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "v05_summary_sha256": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "v06_summary_sha256": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577"
+  },
+  "executable_memory_epoch": "IMMUTABLE_CANONICAL_LOROM; V06C proves zero RAM epochs",
+  "family_id": "TP07F218",
+  "instruction_form_counts": {
+    "BEQ:REL8": 2,
+    "BRA:REL8": 1,
+    "CMP:IMM_M": 1,
+    "CPX:IMM_X": 1,
+    "LDA:ABS": 1,
+    "LDA:IMM_M": 1,
+    "LDX:ABS": 1,
+    "LDX:IMM_X": 1,
+    "NOP:IMP": 8,
+    "REP:IMM8": 3,
+    "RTL:IMP": 1,
+    "SEP:IMM8": 1,
+    "STA:ABS": 1,
+    "STX:ABS": 1,
+    "TAX:IMP": 1
+  },
+  "internal_edge_count": 26,
+  "kind": "LEAF_PROCEDURE_REACHED_FROM_RESET_BOOTSTRAP",
+  "mode_set": [
+    "0:0:0",
+    "0:0:1"
+  ],
+  "nested_call_count": 0,
+  "nested_calls": [],
+  "parent_calls": [
+    {
+      "call_source": "06:D2F8:0:0:1",
+      "proof_id": "V05P01462"
+    }
+  ],
+  "products": {
+    "contexts_sha256": "a79c2b714131dcfcdc30eedc45bbda54e209a1b0244bd01db38dfe4290bcba8f",
+    "edges_sha256": "2966c6fa78098b868dcbd17670517dce0f73d75cd6c61f40caf37e86c42deef9"
+  },
+  "return_relations": [
+    {
+      "call_source": "06:D2F8:0:0:1",
+      "return_source": "00:C311:0:0:0",
+      "return_target": "06:D2FC:0:0:0"
+    }
+  ],
+  "root_context": "00:C2E4:0:0:1",
+  "runtime_decoder_required": false,
+  "runtime_return_edge_count": 19,
+  "runtime_return_edges_sha256": "8d3d735e6a4a3d22c5f6501cd68eeff9da90c1c4f35b0748f1dd38e94d85a1c3",
+  "schema": "theme-park-v07c-family-understanding-v1",
+  "status": "UNDERSTOOD_SOURCE_PROVED_NOT_YET_ADMITTED",
+  "trace_or_oracle_inputs": []
+}

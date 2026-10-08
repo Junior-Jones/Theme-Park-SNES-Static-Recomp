@@ -1,0 +1,150 @@
+{
+  "context_count": 143,
+  "dbr_proof": "V05C closed DBR=0 theorem; absolute accesses fail closed if DBR differs",
+  "dependencies": {
+    "family_plan_sha256": "2d9b721ef5ef4179e409f03f6acccd7c62847b358e602f150a2e2f9f3bd7b20c",
+    "v05_contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "v05_dynamic_proofs_sha256": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "v05_edges_sha256": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "v05_summary_sha256": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "v06_summary_sha256": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577"
+  },
+  "executable_memory_epoch": "IMMUTABLE_CANONICAL_LOROM; V06C proves zero RAM epochs",
+  "family_id": "TP07F323",
+  "instruction_form_counts": {
+    "BCC:REL8": 2,
+    "BCS:REL8": 3,
+    "BEQ:REL8": 2,
+    "BMI:REL8": 2,
+    "BPL:REL8": 1,
+    "BRA:REL8": 1,
+    "CMP:ABS": 4,
+    "INC:ABS": 3,
+    "INC:ACC": 2,
+    "INY:IMP": 16,
+    "JMP:ABS_JUMP": 2,
+    "JSL:ABSL_JUMP": 4,
+    "LDA:ABS": 22,
+    "LDA:DP_IND_LONG_Y": 6,
+    "LDA:IMM_M": 4,
+    "LDX:ABS": 2,
+    "LDY:ABS": 3,
+    "PHA:IMP": 5,
+    "PHX:IMP": 1,
+    "PLA:IMP": 5,
+    "PLX:IMP": 1,
+    "REP:IMM8": 10,
+    "RTL:IMP": 1,
+    "SEP:IMM8": 5,
+    "STA:ABS": 18,
+    "STA:DP_IND_LONG_Y": 6,
+    "STX:ABS": 2,
+    "STZ:ABS": 1,
+    "TAY:IMP": 5,
+    "TYA:IMP": 4
+  },
+  "internal_edge_count": 147,
+  "kind": "SHARED_LEAF_PROCEDURE",
+  "mode_set": [
+    "0:0:0",
+    "0:0:1",
+    "0:1:0"
+  ],
+  "nested_call_count": 4,
+  "nested_calls": [
+    {
+      "call_source": "0C:D6A6:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "0C:D6CC:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "0C:D712:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "0C:D737:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    }
+  ],
+  "parent_calls": [
+    {
+      "call_source": "0C:CD75:0:0:1",
+      "proof_id": "V05P02093"
+    },
+    {
+      "call_source": "0C:CD8F:0:0:1",
+      "proof_id": "V05P02094"
+    },
+    {
+      "call_source": "0C:CDA9:0:0:1",
+      "proof_id": "V05P02095"
+    },
+    {
+      "call_source": "0C:CDC3:0:0:1",
+      "proof_id": "V05P02096"
+    },
+    {
+      "call_source": "0C:CDDD:0:0:1",
+      "proof_id": "V05P02097"
+    },
+    {
+      "call_source": "0C:CDF7:0:0:1",
+      "proof_id": "V05P02098"
+    },
+    {
+      "call_source": "0C:D15B:0:0:1",
+      "proof_id": "V05P02124"
+    }
+  ],
+  "products": {
+    "contexts_sha256": "5c0dc4d1a096aeabb2a098fbefc2b4d4d37bcebfabd24a63574e61a5f9494a71",
+    "edges_sha256": "d19799ca30eb05b6f41eb39c2bc800b7315d01c21111928cd25425dbc2fb9eb2"
+  },
+  "return_relations": [
+    {
+      "call_source": "0C:CD75:0:0:1",
+      "return_source": "0C:D79C:0:0:1",
+      "return_target": "0C:CD79:0:0:1"
+    },
+    {
+      "call_source": "0C:CD8F:0:0:1",
+      "return_source": "0C:D79C:0:0:1",
+      "return_target": "0C:CD93:0:0:1"
+    },
+    {
+      "call_source": "0C:CDA9:0:0:1",
+      "return_source": "0C:D79C:0:0:1",
+      "return_target": "0C:CDAD:0:0:1"
+    },
+    {
+      "call_source": "0C:CDC3:0:0:1",
+      "return_source": "0C:D79C:0:0:1",
+      "return_target": "0C:CDC7:0:0:1"
+    },
+    {
+      "call_source": "0C:CDDD:0:0:1",
+      "return_source": "0C:D79C:0:0:1",
+      "return_target": "0C:CDE1:0:0:1"
+    },
+    {
+      "call_source": "0C:CDF7:0:0:1",
+      "return_source": "0C:D79C:0:0:1",
+      "return_target": "0C:CDFB:0:0:1"
+    },
+    {
+      "call_source": "0C:D15B:0:0:1",
+      "return_source": "0C:D79C:0:0:1",
+      "return_target": "0C:D15F:0:0:1"
+    }
+  ],
+  "root_context": "0C:D662:0:0:1",
+  "runtime_decoder_required": false,
+  "runtime_return_edge_count": 7,
+  "runtime_return_edges_sha256": "fa220932c17bc02bc5723e7b7b31fb0a4111d378b6aa16b868242e4d76167012",
+  "schema": "theme-park-v07c-family-understanding-v1",
+  "status": "UNDERSTOOD_SOURCE_PROVED_NOT_YET_ADMITTED",
+  "trace_or_oracle_inputs": []
+}

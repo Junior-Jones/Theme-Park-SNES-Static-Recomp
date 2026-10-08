@@ -1,0 +1,56 @@
+{
+  "schema": "theme-park-frontend-user-test-connection-v1",
+  "status": "CONNECTED_PLAYABLE_ROUTE_GRAPHICS_AND_INGAME_AUDIO_CONFIRMED",
+  "created_on": "2026-10-04",
+  "updated_on": "2026-10-04",
+  "compaction_applied": false,
+  "frontend_reference": {
+    "source": "Starter Snes v11.zip/templates/Frontend/Jungle-Strike-1.0.0-Reference",
+    "archive_sha256": "8de51711ebc3c6a421dec661c02a7d76a26108774c59e2b5e37831a054e04fff",
+    "role": "frontend_structure_only"
+  },
+  "selected_core": {
+    "target": "theme_park_static_core",
+    "source_files": 684,
+    "scpu_contexts": 71986,
+    "ssmp_contexts": 1392,
+    "foreign_core_selected": false,
+    "library": "build/frontend-user-test/static-core/Release/theme_park_static_core.lib",
+    "library_sha256": "b126df7f2f9313ef586f15858aa2d252a49eb50afc666d669c98c989efa52d36"
+  },
+  "runtime_contract": {
+    "rom_size_bytes": 1048576,
+    "rom_sha256": "c0a7e27131a7d8c9ef52a5227329e6de5846c045a9da1f3f84845e3be8e4efba",
+    "region": "PAL",
+    "presentation_fps": "322445/6448",
+    "audio_hz": 32000,
+    "frame": "256x224 BGRA converted from known SNES BGR555 pixels",
+    "input": "standard pad port 0",
+    "power_on_profile": "DETERMINISTIC_ZERO_WRAM_V1",
+    "unknown_pixel_policy": "FAIL_CLOSED",
+    "unknown_pcm_policy": "FAIL_CLOSED"
+  },
+  "verification": {
+    "connector_test": "PASS: Theme Park frontend connector produced video, 1743 audio frames, input-ready PAL frames, and cold reset",
+    "connector_test_exe_sha256": "ab61edc3c5f855f10a8f7b25fb5a4d2d3c7a62d93f0f68c6bbe3270b24466da8",
+    "resampler_test": "PASS: deterministic 32000-to-48000 Hermite route produced 4801 frames",
+    "resampler_test_exe_sha256": "f841efd8081cd5f72b059f2befba20d435cd00622bbaaae8235bedc4ada70913"
+  },
+  "user_test": {
+    "executable": "build/frontend-user-test/release/Theme-Park-Launcher.exe",
+    "executable_sha256": "bbefb942d0f90eb129e3fb9f99c187824a65d0adea7e5041d8438af403b2c06d",
+    "rom_copied_to_release_rom_folder": false,
+    "visible_process_window": "Theme Park Launcher",
+    "release_claimed": false,
+    "playable_output_established": true,
+    "headless_probe": "build/frontend-user-test/headless-evidence/gameplay-route-discovery-08/frame.bmp",
+    "audio_probe": "build/frontend-user-test/headless-evidence/gameplay-route-discovery-08/audio.wav",
+    "diagnostic_probe": "build/frontend-user-test/headless-evidence/gameplay-route-discovery-08/diag.txt",
+    "headless_result": "2200 PAL frames: gameplay reached; 1410025 stereo PCM frames; 526777 nonzero samples; peak 27875; all machine owners OK",
+    "graphics_result": "CONFIRMED: active Mode 2 frame visually agrees with online SNES gameplay imagery at the park entrance; no graphics fault is recorded",
+    "graphics_reference": "https://gamesdb.launchbox-app.com/games/details/6013-theme-park",
+    "headed_result": "User confirmed the scripted first-park route, graphics and in-game audio work in the visible launcher",
+    "saved_rom_path_present": false,
+    "release_rom_directory_empty": true
+  }
+}

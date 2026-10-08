@@ -1,0 +1,67 @@
+{
+  "census_sha256": "ab913c676ed93c9e6ea8c9fa41a325d5035e9fb98d7092ee6c35e49db30f3d5b",
+  "census_state_bytes": {
+    "HEADER": 32,
+    "UNRESOLVED": 1048512,
+    "VECTOR": 32
+  },
+  "census_total_bytes": 1048576,
+  "claims": {
+    "cpu_contexts": 0,
+    "executables_created": 0,
+    "frontend_files": 0,
+    "generated_native_bodies": 0,
+    "identity_reproducible": true,
+    "oracle_uses": 0,
+    "total_physical_byte_census": true,
+    "unknowns_explicit": true
+  },
+  "forbidden_binary_or_rom_files": [],
+  "header_candidates": [
+    {
+      "canonical_header_offset": "0x007FC0",
+      "checksum": "0x4335",
+      "checksum_complement": "0xBCCA",
+      "map_mode": "0x30",
+      "mapping_candidate": "LoROM",
+      "reasons": [
+        "mostly printable title",
+        "checksum/complement pair",
+        "reset vector in upper bank half",
+        "plausible map-mode nibble",
+        "plausible ROM-size code"
+      ],
+      "region_code": "0x02",
+      "reset_vector": "0x8000",
+      "rom_size_code": 10,
+      "rom_type": "0x00",
+      "score": 12,
+      "sram_size_code": 0,
+      "title": "THEME PARK"
+    },
+    {
+      "canonical_header_offset": "0x00FFC0",
+      "checksum": "0xFF00",
+      "checksum_complement": "0x00FF",
+      "map_mode": "0x00",
+      "mapping_candidate": "HiROM",
+      "reasons": [
+        "checksum/complement pair",
+        "plausible map-mode nibble"
+      ],
+      "region_code": "0x00",
+      "reset_vector": "0x00FF",
+      "rom_size_code": 255,
+      "rom_type": "0x00",
+      "score": 6,
+      "sram_size_code": 255,
+      "title": ""
+    }
+  ],
+  "premature_implementation_files": [],
+  "profile_sha256": "50cdaed729e33858716dbb774249e55131f4780cb5628d3d5a2b4d5fc231b454",
+  "rom_sha256": "c0a7e27131a7d8c9ef52a5227329e6de5846c045a9da1f3f84845e3be8e4efba",
+  "schema": "theme-park-v01c-verification-v1",
+  "status": "PASS",
+  "vector_count": 12
+}

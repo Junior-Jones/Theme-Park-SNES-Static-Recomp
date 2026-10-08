@@ -1,0 +1,60 @@
+{
+  "frontend_selected": false,
+  "historical_v16_receipt_rewritten": false,
+  "natural_execution_claimed": true,
+  "natural_validation_runner_authorized": true,
+  "permitted_changed_inputs": {
+    "bus": {
+      "path": "runtime/src/theme_park_bus.c",
+      "reason": "ADDITIVE_MACHINE_FRAME_AND_EXPLICIT_POWER_ON_PROFILE_API",
+      "v16_sha256": "d5ed78b57a33e2d5ffd89d708fffce58f6603ed5df2dc8ae93e88741d018db67",
+      "v17_sha256": "f28755b4200d1399247552e5e5cb100319c25ce12579c119a0ec1a10d8b10076"
+    },
+    "bus_header": {
+      "path": "runtime/include/theme_park_bus.h",
+      "reason": "ADDITIVE_MACHINE_FRAME_AND_EXPLICIT_POWER_ON_PROFILE_API",
+      "v16_sha256": "98e4afa459fca0538352b8273eeff6d47e5bdcc31374ce3f364392726ede3352",
+      "v17_sha256": "a6cbbd72e9ef524b54c4793b1bae7e52d2d8967a81848875b21d6c1020813854"
+    },
+    "machine": {
+      "path": "runtime/src/theme_park_machine.c",
+      "reason": "ADDITIVE_MACHINE_FRAME_AND_EXPLICIT_POWER_ON_PROFILE_API",
+      "v16_sha256": "d358e6eb659f693252e17cd08ae5dfd668088c018b16358182e54370bbb6464f",
+      "v17_sha256": "5a4776eb3159b49ad450be9f05bd05f0f09fa5e5f2c7606d79e992bc9778d97b"
+    },
+    "machine_header": {
+      "path": "runtime/include/theme_park_machine.h",
+      "reason": "ADDITIVE_MACHINE_FRAME_AND_EXPLICIT_POWER_ON_PROFILE_API",
+      "v16_sha256": "0ca7e9da3e3c6fd0dc1ebf3635e22aac31efb9be3248bcd4d78255486a24c3c3",
+      "v17_sha256": "0b0aafe8b9529d193ae54b0613f56eff77b1d094a1e5aba9e980256e87615c4f"
+    },
+    "power_on_profiles": {
+      "path": "config/power-on-profiles.json",
+      "reason": "VERSIONED_PROJECT_SELECTED_POWER_ON_PROFILE",
+      "v16_sha256": null,
+      "v17_sha256": "772570e81201665bd48bfb3d6cfda674eaa9c5d3b6e649e95dc1ddf4f4ddd28c"
+    },
+    "target_contract": {
+      "path": "config/target-contract.json",
+      "reason": "V17C_CURRENT_CLAIM_AND_SELECTION_STATE",
+      "v16_sha256": "7b8779f3e78da4cac9dafacf4393233a9be0da010d8e7d625fbbc5a8b2200eb8",
+      "v17_sha256": "8813bd9e3dab93295cea93948fe1bf917f5acf470a0054d15d70818685735024"
+    }
+  },
+  "schema": "theme-park-v17c-integration-impact-audit-v1",
+  "status": "PASS_ONLY_PERMITTED_16C_TO_17C_INTEGRATION_DELTA",
+  "unchanged_16c_sensitive_inputs": {
+    "apu": "dc838f1e89eb480db5a5f5cc7026b8fe1d5cd09e8f7e695472008c730d19e33f",
+    "apu_header": "4f27efafec553eb97f87861d6d764b9aa15c87798b08dfeadbd0cb7c73fa949d",
+    "scheduler": "782ec90c0e8ec7375e4cc37b39459e5d90ade20222197a195fe1add71f93e738",
+    "sdsp": "f2f276c9bfcd58d38cfe3a29f0216666ed46fefa749b8224c80fcf2a5948c269",
+    "sdsp_header": "a6e6a456b4ae2002760946934598a8f6c3c05b9f1cc6f7bdac97998bda2052ae",
+    "source_domain": "75b2872ebf90d9bcf01e8c5bf54dae94aacbf324e16baf46cb65f55942185a90",
+    "spc700_aot": "4c24db6e0380f9f7f799eeb29b24782d557743e01cc2cba095c11f08e3f123e7",
+    "timing_profile": "512f44737850be3d1ecdf5f598978b9082ad761cc2d3317e32fe2647bb5ea2e1"
+  },
+  "v17_gcc_library_sha256": "a3176e032224dd24c37fcd1a1ee28a009f97f943bbd58e8cdf6dd5cc956c1e48",
+  "v17_msvc_library_sha256": "953bee2174d9434be8e5eea3c65eeb440c56504aeca0dd071043875b1172a8e9",
+  "v17_static_compile_receipt_sha256": "d6c44abc031d63b35812700d87aaddf8d181a67f4edc42f72c2d2d23767d9715",
+  "v17_static_symbol_audit_sha256": "bfa58bb528d5c5c38cf7d91daf1bc0107d9aebc21faa37d432f4842a698d4586"
+}

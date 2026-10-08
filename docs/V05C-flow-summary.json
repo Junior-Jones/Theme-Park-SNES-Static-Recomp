@@ -1,0 +1,104 @@
+{
+  "admitted_production_contexts": 0,
+  "artifacts_sha256": {
+    "V05C-byte-conflicts.csv": "0fb9d67f48c12d620f2ff03334e7bad69bc6ad0a7bb32161159d291a15aab600",
+    "V05C-contexts.csv": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "V05C-dynamic-proofs.csv": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "V05C-edges.csv": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "V05C-frontiers.csv": "197dac17c73e51a3ec6f73bbdbe1763a6d1522b040e59dcf000ff5060a748dc3",
+    "V05C-interrupt-reentry.csv": "b53984b3c62ca3c07a4f9c9af7e9b471562c3c75457488bf72a81ec8429461f2",
+    "V05C-nmi-phase-writes.csv": "430c877a02addab47bfb692ea28581dd40acdf679ee65f807c01bb569b9daf1a"
+  },
+  "byte_conflict_rows": 0,
+  "candidate_contexts": 71986,
+  "dbr_zero_theorem": {
+    "actual_plb_contexts": [
+      "00:8022:0:1:1",
+      "00:821B:0:0:0",
+      "00:83A1:0:0:0"
+    ],
+    "block_move_contexts": [],
+    "expected_plb_contexts": [
+      "00:8022:0:1:1",
+      "00:821B:0:0:0",
+      "00:83A1:0:0:0"
+    ],
+    "proved": true
+  },
+  "dependency_v04_context_sha256": "44dd488c74eab2da3e55f2688cba8e45f9695ccd8fff1627155d6232e866f434",
+  "dynamic_proofs": 4915,
+  "edges": 78156,
+  "edges_by_kind": {
+    "BRANCH_ALWAYS": 2592,
+    "BRANCH_NOT_TAKEN": 4134,
+    "BRANCH_TAKEN": 4156,
+    "DIRECT_CALL": 2412,
+    "DIRECT_JUMP": 198,
+    "FALLTHROUGH": 52536,
+    "FALLTHROUGH_PLP_PROVED": 21,
+    "FALLTHROUGH_STATUS": 9648,
+    "FALLTHROUGH_XCE_PROVED": 1,
+    "RETURN_PROVED": 2458
+  },
+  "exact_contexts": 71986,
+  "frontiers": 0,
+  "frontiers_by_kind": {},
+  "interrupt_disable_invariant": {
+    "contexts_not_proved_i_one": [],
+    "expected": "I=1 for every currently reached reset/NMI context",
+    "proved": true
+  },
+  "interrupt_root_policy": "SOURCE_ONLY_NATIVE_NMI_ALL_MX; RTI resumes only to the finite source-proved NMI-enabled foreground set; IRQ remains masked by reset I=1 plus SEI and no CLI/REP-I-clear; PLP restores only source-paired PHP status; ABORT unavailable; BRK/COP absent from reset-reached graph",
+  "interrupt_roots": [
+    {
+      "context": "00:8216:0:0:0",
+      "vector": "native_nmi"
+    },
+    {
+      "context": "00:8216:0:0:1",
+      "vector": "native_nmi"
+    },
+    {
+      "context": "00:8216:0:1:0",
+      "vector": "native_nmi"
+    },
+    {
+      "context": "00:8216:0:1:1",
+      "vector": "native_nmi"
+    }
+  ],
+  "native_lowered_contexts": 0,
+  "nmi_phase": {
+    "disable_writes": 12,
+    "enable_writes": 10,
+    "reentry_gate": true,
+    "resume_candidates": 70076,
+    "rti_contexts": [
+      "00:83A3:0:0:0"
+    ],
+    "source_proved_writes": 22,
+    "status": "CLOSED_SOURCE_PROVED_NOT_PRODUCTION_ADMITTED",
+    "unresolved_writes": []
+  },
+  "oracle_promotions": 0,
+  "resolved_frontiers": {
+    "ASYNC_RTI_REENTRY_SET_OPEN": 1
+  },
+  "return_relation_rows": 2503,
+  "root_count": 5,
+  "schema": "theme-park-v05c-flow-summary-v1",
+  "status": "FLOW_CLOSED_NOT_PRODUCTION_ADMITTED",
+  "trace_promotions": 0,
+  "unique_cpu_addresses": 71177,
+  "vector_dispositions": {
+    "emulation_abort": "REJECTED_SNES_HAS_NO_EXPOSED_CARTRIDGE_ABORT_SOURCE",
+    "emulation_cop": "REJECTED_NO_RESET_REACHED_COP",
+    "emulation_irq_brk": "REJECTED_RESET_ENTERS_NATIVE_AND_IRQ_REMAINS_MASKED",
+    "emulation_nmi": "REJECTED_RESET_ENTERS_NATIVE_BEFORE_INTERRUPT_ENABLE",
+    "native_abort": "REJECTED_SNES_HAS_NO_EXPOSED_CARTRIDGE_ABORT_SOURCE",
+    "native_brk": "REJECTED_NO_RESET_REACHED_BRK",
+    "native_cop": "REJECTED_NO_RESET_REACHED_COP",
+    "native_irq": "REJECTED_MASKED_I_INVARIANT_NO_CLI_OR_REP_I_CLEAR",
+    "native_nmi": "CANDIDATE_EXECUTABLE_ASYNCHRONOUS_ROOT"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "cold_300_repeat": {
+    "byte_identical_to_first": true,
+    "receipt": "V17C-natural-300-frames-zero-wram-v1-repeat.json",
+    "receipt_sha256": "84f2358648810cf98601ff6ffc1940ef317bd5595eab6a35c5acc83a956343e8"
+  },
+  "frontend_used": false,
+  "gcc_static_library_sha256": "a3176e032224dd24c37fcd1a1ee28a009f97f943bbd58e8cdf6dd5cc956c1e48",
+  "oracle_used": false,
+  "power_on_profile_contract_sha256": "772570e81201665bd48bfb3d6cfda674eaa9c5d3b6e649e95dc1ddf4f4ddd28c",
+  "profiled_rungs": {
+    "V17C-natural-10000-frames-zero-wram-v1.json": {
+      "captured_pcm_fnv1a64": "218691a139012d55",
+      "captured_pcm_frames": 6398928,
+      "frame_fnv1a64": "ecb45736c1a8e325",
+      "master_clock_delta": 4255561164,
+      "published_frames": 10000,
+      "sha256": "935ad03ad5441b60b985e090445c8b2d3ac7c96ef3f73c59d4147628b9c3e6d8"
+    },
+    "V17C-natural-120-seconds-zero-wram-v1.json": {
+      "captured_pcm_fnv1a64": "b159b0f4db2075c5",
+      "captured_pcm_frames": 3840000,
+      "frame_fnv1a64": "d6ca425da2368f25",
+      "master_clock_delta": 2553764428,
+      "published_frames": 6001,
+      "sha256": "503b729bcb433184362c077b5a8259369b6d4292279dd42d20e9f98c04ceab23"
+    },
+    "V17C-natural-180-seconds-zero-wram-v1.json": {
+      "captured_pcm_fnv1a64": "b9aa1734ad2a51c5",
+      "captured_pcm_frames": 5760000,
+      "frame_fnv1a64": "f662bc9469122f25",
+      "master_clock_delta": 3830646604,
+      "published_frames": 9001,
+      "sha256": "e8a6fb8b0b2ab92a96758b5af66979c36c42e2b39753fda769cfe42241f3054c"
+    },
+    "V17C-natural-300-frames-zero-wram-v1.json": {
+      "captured_pcm_fnv1a64": "2f91b6002926db97",
+      "captured_pcm_frames": 191794,
+      "frame_fnv1a64": "5c740dfe9bd1b325",
+      "master_clock_delta": 127551568,
+      "published_frames": 300,
+      "sha256": "84f2358648810cf98601ff6ffc1940ef317bd5595eab6a35c5acc83a956343e8"
+    },
+    "V17C-natural-60-seconds-zero-wram-v1.json": {
+      "captured_pcm_fnv1a64": "d64f6809935699c5",
+      "captured_pcm_frames": 1920000,
+      "frame_fnv1a64": "8549e19eb4fdc325",
+      "master_clock_delta": 1276882212,
+      "published_frames": 3000,
+      "sha256": "13c7bc4b3088762d8ebf3412f6210845bfbd5ff28840dc30c2794491dc0e3674"
+    },
+    "V17C-natural-600-frames-zero-wram-v1.json": {
+      "captured_pcm_fnv1a64": "1b72db2a3217ac7d",
+      "captured_pcm_frames": 383768,
+      "frame_fnv1a64": "a197d0e987814325",
+      "master_clock_delta": 255221962,
+      "published_frames": 600,
+      "sha256": "bb38f8a9a3a640c6f58e68fd88fef957ab229beaa221cdf9b625a7eacf399cdb"
+    }
+  },
+  "rom_sha256": "c0a7e27131a7d8c9ef52a5227329e6de5846c045a9da1f3f84845e3be8e4efba",
+  "runner": "build/v17c-natural/theme_park_v17c_natural_runner.exe",
+  "runner_sha256": "2dfdae172c55c8bcff14d53f5d29519ee3bf79239cab1d5b019bce4e6dd8e0f5",
+  "runtime_decoder_or_fallback_used": false,
+  "schema": "theme-park-v17c-natural-ladder-v1",
+  "status": "SUPERSEDED_HISTORICAL_NOT_CURRENT_ACCEPTANCE",
+  "superseded_reason": "2026-10-04 correction reopened S-SMP reset startup, IPL event ordering, 32040 Hz audio profile, renderer output and active PCM; retained as provenance only",
+  "strict_unprofiled_boundary": {
+    "classification": "HARDWARE_INDETERMINATE_UNDER_STRICT_DEFAULT",
+    "first_consumer": "04:8059:0:0:1 LDA $0016",
+    "receipt": "V17C-natural-300-frames-unprofiled-boundary.json",
+    "receipt_sha256": "8a572347dac333d93524b7be40ef191361a120a7404e01813fbe2b3fe43717bd"
+  }
+}

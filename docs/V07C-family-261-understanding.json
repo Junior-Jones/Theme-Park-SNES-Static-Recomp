@@ -1,0 +1,81 @@
+{
+  "context_count": 55,
+  "dbr_proof": "V05C closed DBR=0 theorem; absolute accesses fail closed if DBR differs",
+  "dependencies": {
+    "family_plan_sha256": "2d9b721ef5ef4179e409f03f6acccd7c62847b358e602f150a2e2f9f3bd7b20c",
+    "v05_contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "v05_dynamic_proofs_sha256": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "v05_edges_sha256": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "v05_summary_sha256": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "v06_summary_sha256": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577"
+  },
+  "executable_memory_epoch": "IMMUTABLE_CANONICAL_LOROM; V06C proves zero RAM epochs",
+  "family_id": "TP07F261",
+  "instruction_form_counts": {
+    "ADC:ABS": 2,
+    "BCC:REL8": 6,
+    "BEQ:REL8": 2,
+    "BRA:REL8": 2,
+    "CLC:IMP": 2,
+    "CMP:ABS": 3,
+    "CMP:IMM_M": 4,
+    "LDA:ABS": 9,
+    "LDA:IMM_M": 4,
+    "REP:IMM8": 1,
+    "RTL:IMP": 1,
+    "SBC:ABS": 6,
+    "SEC:IMP": 4,
+    "SEP:IMM8": 1,
+    "STA:ABS": 8
+  },
+  "internal_edge_count": 62,
+  "kind": "SHARED_LEAF_PROCEDURE",
+  "mode_set": [
+    "0:0:0",
+    "0:1:1"
+  ],
+  "nested_call_count": 0,
+  "nested_calls": [],
+  "parent_calls": [
+    {
+      "call_source": "04:CBEF:0:1:1",
+      "proof_id": "V05P00890"
+    },
+    {
+      "call_source": "04:DE85:0:1:1",
+      "proof_id": "V05P00928"
+    },
+    {
+      "call_source": "04:E105:0:1:1",
+      "proof_id": "V05P00936"
+    }
+  ],
+  "products": {
+    "contexts_sha256": "9d3ed4f9090498db40e0a48146d5bac5119e1ea6a62f5420534351dbac191416",
+    "edges_sha256": "9993bd84a7cbc481b96430072392f684b570904cfef9e5792b42a47b3e16feb9"
+  },
+  "return_relations": [
+    {
+      "call_source": "04:CBEF:0:1:1",
+      "return_source": "06:FC9F:0:0:0",
+      "return_target": "04:CBF3:0:0:0"
+    },
+    {
+      "call_source": "04:DE85:0:1:1",
+      "return_source": "06:FC9F:0:0:0",
+      "return_target": "04:DE89:0:0:0"
+    },
+    {
+      "call_source": "04:E105:0:1:1",
+      "return_source": "06:FC9F:0:0:0",
+      "return_target": "04:E109:0:0:0"
+    }
+  ],
+  "root_context": "06:FC1D:0:1:1",
+  "runtime_decoder_required": false,
+  "runtime_return_edge_count": 3,
+  "runtime_return_edges_sha256": "c11386627e4b8aadc7a270bd1b91fbd4a940bc90bd8a2b1fb2b6852fc3832fff",
+  "schema": "theme-park-v07c-family-understanding-v1",
+  "status": "UNDERSTOOD_SOURCE_PROVED_NOT_YET_ADMITTED",
+  "trace_or_oracle_inputs": []
+}

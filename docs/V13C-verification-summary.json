@@ -1,0 +1,18 @@
+{
+  "schema": "theme-park-v13c-verification-summary-v1",
+  "status": "PASS_V13C_STATIC_SSMP_EXACT_PC_EXECUTABLE_ARAM_NO_INTERPRETER_NO_EXECUTABLE",
+  "instruction_contexts": 1392,
+  "instruction_bytes": 2683,
+  "protected_control_flow_bytes": 2789,
+  "used_opcode_forms": 78,
+  "unresolved_frontiers": 0,
+  "oracle_promotions": 0,
+  "trace_promotions": 0,
+  "runtime_decoder": false,
+  "runtime_fallback": false,
+  "executables_created": 0,
+  "compile_receipt": "docs/V13C-static-compile-receipt.json",
+  "verifier": "tools/verify_v13_spc700.py",
+  "open_next_owner": "14C_RASTER_RENDERER",
+  "deferred_audio_owner": "16C_SDSP_AND_CORE_PCM"
+}

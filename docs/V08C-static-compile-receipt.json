@@ -1,0 +1,23 @@
+{
+  "contexts": 71986,
+  "executables_created": 0,
+  "gcc": {
+    "library": "build/v08c-static/gcc/libtheme_park_v08c.a",
+    "library_sha256": "372d00ee01c1eab9784b159ead6ab3fadab1aad9f0e048161c95e8609d9188c6",
+    "objects": 673
+  },
+  "inputs_sha256": {
+    "bus_header": "c980ed66d4116b06e0bbb724edea5a2ca594ea52ac3a5a1f68ac6ccca5fc31d5",
+    "bus_source": "9a34b45f7319027fd7f5c8cbce1c90549b9d41155f0c5ee33267bbcc91a70b3d",
+    "compiler_inventory": "599457b979ead3e89d98c015b7be4d27c5f3dfe0ad7a43e96c4d5acc6b248977",
+    "v07_receipt": "5985235df083b1b9af994339ec640ffee80e17bc6e7081da3f91c5bd2513ca49"
+  },
+  "msvc": {
+    "library": "build/v08c-static/msvc/theme_park_v08c.lib",
+    "library_sha256": "444456678085c6a2c983485a1788713a9b2dc45f4575545be0502508829892b8",
+    "objects": 673
+  },
+  "schema": "theme-park-v08c-static-compile-v1",
+  "source_files": 673,
+  "status": "PASS_COMPLETE_07C_PLUS_08C_BUS_STATIC_LIBRARIES_NO_EXECUTABLE"
+}

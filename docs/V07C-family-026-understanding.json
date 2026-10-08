@@ -1,0 +1,141 @@
+{
+  "context_count": 39,
+  "dbr_proof": "V05C closed DBR=0 theorem; absolute accesses fail closed if DBR differs",
+  "dependencies": {
+    "family_plan_sha256": "2d9b721ef5ef4179e409f03f6acccd7c62847b358e602f150a2e2f9f3bd7b20c",
+    "v05_contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "v05_dynamic_proofs_sha256": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "v05_edges_sha256": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "v05_summary_sha256": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "v06_summary_sha256": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577"
+  },
+  "executable_memory_epoch": "IMMUTABLE_CANONICAL_LOROM; V06C proves zero RAM epochs",
+  "family_id": "TP07F026",
+  "instruction_form_counts": {
+    "BNE:REL8": 3,
+    "BRA:REL8": 3,
+    "CPX:IMM_X": 2,
+    "LDA:IMM_M": 6,
+    "LDX:ABS": 1,
+    "LDX:IMM_X": 4,
+    "LDY:IMM_X": 5,
+    "REP:IMM8": 1,
+    "RTL:IMP": 1,
+    "SEP:IMM8": 1,
+    "STA:ABS": 4,
+    "STX:ABS": 2,
+    "STY:ABS": 6
+  },
+  "internal_edge_count": 41,
+  "kind": "SHARED_LEAF_PROCEDURE",
+  "mode_set": [
+    "0:0:1"
+  ],
+  "nested_call_count": 0,
+  "nested_calls": [],
+  "parent_calls": [
+    {
+      "call_source": "01:DB02:0:0:1",
+      "proof_id": "V05P00449"
+    },
+    {
+      "call_source": "01:DE8D:0:0:1",
+      "proof_id": "V05P00474"
+    },
+    {
+      "call_source": "06:8849:0:0:1",
+      "proof_id": "V05P01130"
+    },
+    {
+      "call_source": "0C:8B2D:0:0:1",
+      "proof_id": "V05P01930"
+    },
+    {
+      "call_source": "0C:CA2B:0:0:1",
+      "proof_id": "V05P02082"
+    },
+    {
+      "call_source": "0C:CFAC:0:0:1",
+      "proof_id": "V05P02112"
+    },
+    {
+      "call_source": "0C:DCC2:0:0:1",
+      "proof_id": "V05P02180"
+    },
+    {
+      "call_source": "0C:EA5A:0:0:1",
+      "proof_id": "V05P02256"
+    },
+    {
+      "call_source": "0C:EF24:0:0:1",
+      "proof_id": "V05P02307"
+    },
+    {
+      "call_source": "0E:F508:0:0:1",
+      "proof_id": "V05P02403"
+    }
+  ],
+  "products": {
+    "contexts_sha256": "12cf867ad777d071aa19ed306a4417f90f161726c41a535e14458a121c6ece08",
+    "edges_sha256": "26a3926b3de71940a111f28a30be41f2ce003a76c1ac4ce6341f9fffeb11c659"
+  },
+  "return_relations": [
+    {
+      "call_source": "01:DB02:0:0:1",
+      "return_source": "07:82C7:0:0:1",
+      "return_target": "01:DB06:0:0:1"
+    },
+    {
+      "call_source": "01:DE8D:0:0:1",
+      "return_source": "07:82C7:0:0:1",
+      "return_target": "01:DE91:0:0:1"
+    },
+    {
+      "call_source": "06:8849:0:0:1",
+      "return_source": "07:82C7:0:0:1",
+      "return_target": "06:884D:0:0:1"
+    },
+    {
+      "call_source": "0C:8B2D:0:0:1",
+      "return_source": "07:82C7:0:0:1",
+      "return_target": "0C:8B31:0:0:1"
+    },
+    {
+      "call_source": "0C:CA2B:0:0:1",
+      "return_source": "07:82C7:0:0:1",
+      "return_target": "0C:CA2F:0:0:1"
+    },
+    {
+      "call_source": "0C:CFAC:0:0:1",
+      "return_source": "07:82C7:0:0:1",
+      "return_target": "0C:CFB0:0:0:1"
+    },
+    {
+      "call_source": "0C:DCC2:0:0:1",
+      "return_source": "07:82C7:0:0:1",
+      "return_target": "0C:DCC6:0:0:1"
+    },
+    {
+      "call_source": "0C:EA5A:0:0:1",
+      "return_source": "07:82C7:0:0:1",
+      "return_target": "0C:EA5E:0:0:1"
+    },
+    {
+      "call_source": "0C:EF24:0:0:1",
+      "return_source": "07:82C7:0:0:1",
+      "return_target": "0C:EF28:0:0:1"
+    },
+    {
+      "call_source": "0E:F508:0:0:1",
+      "return_source": "07:82C7:0:0:1",
+      "return_target": "0E:F50C:0:0:1"
+    }
+  ],
+  "root_context": "07:8268:0:0:1",
+  "runtime_decoder_required": false,
+  "runtime_return_edge_count": 13,
+  "runtime_return_edges_sha256": "bb269372a1e58d381e3f0d505e31a562be81ac759da050c8291a5048bde9f8f7",
+  "schema": "theme-park-v07c-family-understanding-v1",
+  "status": "UNDERSTOOD_SOURCE_PROVED_NOT_YET_ADMITTED",
+  "trace_or_oracle_inputs": []
+}

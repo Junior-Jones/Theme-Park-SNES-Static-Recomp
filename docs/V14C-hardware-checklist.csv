@@ -1,0 +1,18 @@
+Hardware_Area,Implemented,Source_Reached,Source_Certified,Owner,Evidence,Open_Boundary
+RASTER_PIXEL_OWNER,YES,YES,YES_SCHEDULER_EDGE,runtime/src/theme_park_renderer.c,"visible pixels sampled from raster-time PPU state",INSTRUCTION_AND_RASTER_EVENT_ACCURATE_NOT_UNIVERSAL_DOT_CERTIFICATE
+WORK_AND_PUBLISHED_FRAMES,YES,YES,YES_ATOMIC_VBLANK_COPY,runtime/src/theme_park_renderer.c,"256x224 target domain; separate work and immutable published BGR555/knownness",FRONTEND_CONSUMER_POST_18C
+FORCED_BLANK_BRIGHTNESS,YES,YES,YES_CAUSAL_SELECTOR,runtime/src/theme_park_renderer.c,"black selected before OAM/VRAM/CGRAM reads",CLOSED
+BG_MODE_2,YES,YES,YES_SOURCE_DOMAIN,runtime/src/theme_park_renderer.c,"BG1/BG2 4bpp plus BG3 offset-per-tile words",COLD_PASS_B_18C
+BG_MODE_3,YES,YES,YES_SOURCE_DOMAIN,runtime/src/theme_park_renderer.c,"BG1 8bpp and BG2 4bpp",COLD_PASS_B_18C
+BG_TILEMAP_CHARACTER,YES,YES,YES_SOURCE_DOMAIN,runtime/src/theme_park_renderer.c,"8x8/16x16 geometry map wrapping flips palette and priority",UNKNOWN_SELECTED_BYTE_FAILS_CLOSED
+MOSAIC,YES,YES,YES_DYNAMIC_GENERIC,runtime/src/theme_park_renderer.c,"$2106 size and layer mask",RASTER_PHASE_RECHECK_17C
+OBJ,YES,YES,YES_OBSEL_03,runtime/src/theme_park_renderer.c,"size selector 0; 8x8/16x16; name select flip palette priority",OAM_PRIORITY_ROTATION_AND_LIMITS_IMPLEMENTED
+OBJ_LIMITS,YES,YES,YES_ARCHITECTURAL,runtime/src/theme_park_renderer.c,"32 sprites and 34 slivers; STAT77 flags",COLD_PASS_B_18C
+MAIN_SCREEN,YES,YES,YES_MASKS_01_03_13,runtime/src/theme_park_renderer.c,"BG1/BG2/OBJ causal selection",CLOSED_SOURCE_DOMAIN
+SUBSCREEN,RESET_ZERO,NO_WRITER,YES_SOURCE_EXCLUDED,runtime/src/theme_park_renderer.c,"no exact $212D writer",REOPEN_ON_NEW_EXACT_WRITER
+WINDOWS,RESET_ZERO,NO_WRITER,YES_SOURCE_EXCLUDED,runtime/src/theme_park_renderer.c,"no exact $2123-$212B/$212E-$212F writer",REOPEN_ON_NEW_EXACT_WRITER
+COLOR_MATH,DISABLED_RESET,NO_$2131_WRITER,YES_SOURCE_EXCLUDED,runtime/src/theme_park_renderer.c,"$2130=$30 and fixed color $E0 are stored but math enable remains zero",REOPEN_ON_NEW_EXACT_$2131_WRITER
+MODE7_DISPLAY,NO,NO,YES_SOURCE_EXCLUDED,14C_SOURCE_DOMAIN,"BGMODE only 2/3; $211B/$211C are multiply use",REOPEN_ON_NEW_BGMODE_DOMAIN
+OVERSCAN_INTERLACE_HIRES_EXTBG,NO,NO,YES_SETINI_ZERO,14C_SOURCE_DOMAIN,"$2133=$00",REOPEN_ON_NEW_SETINI_DOMAIN
+SCREENSHOT_CAPTURE,NO,NO,NO,POST_18C_FRONTEND,"published frame API is observational source",DO_NOT_ADD_TO_CORE_14C
+SDSP_AUDIO,NO,YES_BOUNDARY,NO_FAIL_CLOSED,16C_PENDING,"$F3 still stops",DO_NOT_CONFLATE_RENDERER_WITH_AUDIO

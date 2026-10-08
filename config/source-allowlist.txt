@@ -1,0 +1,10 @@
+README.md
+AGENTS.md
+analysis/
+config/
+docs/
+tools/
+scripts/
+tests/
+work_packages/
+

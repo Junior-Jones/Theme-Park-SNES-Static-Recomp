@@ -1,0 +1,154 @@
+{
+  "context_count": 143,
+  "dbr_proof": "V05C closed DBR=0 theorem; absolute accesses fail closed if DBR differs",
+  "dependencies": {
+    "family_plan_sha256": "2d9b721ef5ef4179e409f03f6acccd7c62847b358e602f150a2e2f9f3bd7b20c",
+    "v05_contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "v05_dynamic_proofs_sha256": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "v05_edges_sha256": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "v05_summary_sha256": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "v06_summary_sha256": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577"
+  },
+  "executable_memory_epoch": "IMMUTABLE_CANONICAL_LOROM; V06C proves zero RAM epochs",
+  "family_id": "TP07F132",
+  "instruction_form_counts": {
+    "ADC:ABS": 2,
+    "ADC:IMM_M": 2,
+    "AND:IMM_M": 4,
+    "ASL:ACC": 1,
+    "BCS:REL8": 4,
+    "BMI:REL8": 1,
+    "BNE:REL8": 1,
+    "BPL:REL8": 2,
+    "BRA:REL8": 2,
+    "BRL:REL16": 2,
+    "CLC:IMP": 4,
+    "CMP:IMM_M": 4,
+    "JMP:ABS_JUMP": 1,
+    "JSL:ABSL_JUMP": 4,
+    "LDA:ABS": 12,
+    "LDA:DP_IND_LONG_Y": 6,
+    "LDA:IMM_M": 2,
+    "LDX:ABS": 3,
+    "LDX:IMM_X": 2,
+    "LDY:IMM_X": 6,
+    "LSR:ACC": 4,
+    "ORA:ABS": 1,
+    "ORA:IMM_M": 2,
+    "PHA:IMP": 6,
+    "PHX:IMP": 3,
+    "PLA:IMP": 6,
+    "PLX:IMP": 3,
+    "REP:IMM8": 11,
+    "ROR:ACC": 3,
+    "RTL:IMP": 1,
+    "SEP:IMM8": 7,
+    "STA:ABS": 19,
+    "STX:ABS": 6,
+    "TAY:IMP": 4,
+    "TYA:IMP": 2
+  },
+  "internal_edge_count": 146,
+  "kind": "SHARED_LEAF_PROCEDURE",
+  "mode_set": [
+    "0:0:0",
+    "0:0:1"
+  ],
+  "nested_call_count": 4,
+  "nested_calls": [
+    {
+      "call_source": "05:836C:0:0:0",
+      "call_target": "00:C324:0:0:0"
+    },
+    {
+      "call_source": "05:8381:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "05:8409:0:0:1",
+      "call_target": "05:845F:0:0:1"
+    },
+    {
+      "call_source": "05:841C:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    }
+  ],
+  "parent_calls": [
+    {
+      "call_source": "00:A0F2:0:0:0",
+      "proof_id": "V05P00087"
+    },
+    {
+      "call_source": "07:8EFB:0:0:0",
+      "proof_id": "V05P01667"
+    },
+    {
+      "call_source": "07:8F93:0:0:0",
+      "proof_id": "V05P01670"
+    },
+    {
+      "call_source": "0C:9232:0:0:0",
+      "proof_id": "V05P01948"
+    },
+    {
+      "call_source": "0C:9738:0:0:0",
+      "proof_id": "V05P01958"
+    },
+    {
+      "call_source": "0C:98F9:0:0:0",
+      "proof_id": "V05P01963"
+    },
+    {
+      "call_source": "0C:9C95:0:0:0",
+      "proof_id": "V05P01973"
+    }
+  ],
+  "products": {
+    "contexts_sha256": "23269e27f9e9fbcc8efb15aadae3f33d8b135d03eafd50fd0c113205b9d097a6",
+    "edges_sha256": "9ab1318e3fe7f4ecb455c21aa7af381741d0935b741fe1b53bc8a0f1d04b9b20"
+  },
+  "return_relations": [
+    {
+      "call_source": "00:A0F2:0:0:0",
+      "return_source": "05:845E:0:0:1",
+      "return_target": "00:A0F6:0:0:1"
+    },
+    {
+      "call_source": "07:8EFB:0:0:0",
+      "return_source": "05:845E:0:0:1",
+      "return_target": "07:8EFF:0:0:1"
+    },
+    {
+      "call_source": "07:8F93:0:0:0",
+      "return_source": "05:845E:0:0:1",
+      "return_target": "07:8F97:0:0:1"
+    },
+    {
+      "call_source": "0C:9232:0:0:0",
+      "return_source": "05:845E:0:0:1",
+      "return_target": "0C:9236:0:0:1"
+    },
+    {
+      "call_source": "0C:9738:0:0:0",
+      "return_source": "05:845E:0:0:1",
+      "return_target": "0C:973C:0:0:1"
+    },
+    {
+      "call_source": "0C:98F9:0:0:0",
+      "return_source": "05:845E:0:0:1",
+      "return_target": "0C:98FD:0:0:1"
+    },
+    {
+      "call_source": "0C:9C95:0:0:0",
+      "return_source": "05:845E:0:0:1",
+      "return_target": "0C:9C99:0:0:1"
+    }
+  ],
+  "root_context": "05:8324:0:0:0",
+  "runtime_decoder_required": false,
+  "runtime_return_edge_count": 7,
+  "runtime_return_edges_sha256": "919ef1fa951afb19bb24cbfd8f2f4054495bbea99961965c15b000b59e52f053",
+  "schema": "theme-park-v07c-family-understanding-v1",
+  "status": "UNDERSTOOD_SOURCE_PROVED_NOT_YET_ADMITTED",
+  "trace_or_oracle_inputs": []
+}

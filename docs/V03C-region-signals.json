@@ -1,0 +1,17 @@
+{
+  "ascii_digest_sha256": "9ab4862fb64ba2b055e17b480f8d699c4883f11d6445d6f3f31e80e9137ba2d6",
+  "authority": "HEURISTIC_REGION_SIGNALS_ONLY_NO_CODE_OR_DATA_PROMOTION",
+  "classification_limit": "Pointer/script/text/audio/tile/compressed signals remain candidates until source-owned consumers prove them.",
+  "entropy_floor_bucket_window_counts": {
+    "0": 36,
+    "1": 244,
+    "2": 378,
+    "3": 1001,
+    "4": 1138,
+    "5": 1085,
+    "6": 214
+  },
+  "padding_digest_sha256": "4a682256c5879b3b829dbcb494d7b29be3597a55a59f8fc6c1559e66aae457a6",
+  "padding_runs_00_or_ff_at_least_16": 1928,
+  "printable_ascii_runs_at_least_4": 6065
+}

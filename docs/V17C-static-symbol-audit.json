@@ -1,0 +1,52 @@
+{
+  "forbidden_archive_members": [],
+  "forbidden_symbols": [],
+  "forbidden_terms": [
+    "rock",
+    "topgear",
+    "simcity",
+    "civilization",
+    "jungle",
+    "gundam",
+    "snes9x",
+    "mesen",
+    "bsnes",
+    "bapu",
+    "spc_dsp",
+    "snes_spc"
+  ],
+  "gcc_archive_members": 684,
+  "gcc_defined_symbol_listing_sha256": "82d0fb6c50cbe7428df89565f1e80c75fda9425969c68ebe7f3847ed1ba80abb",
+  "gcc_member_listing_sha256": "3fcd4643ffa9a01e3aeacff21daa0dd625c5e9fd907b251a79523a8be641ec22",
+  "missing_required_symbols": [],
+  "msvc_archive_members": 684,
+  "msvc_member_listing_sha256": "89d600ebb2882960f15ef5eec0ad693ddf84771173e2826118085f1ee3431d7b",
+  "required_symbols": [
+    "tp_v07_dispatch",
+    "tp_machine_power_on",
+    "tp_machine_power_on_profile",
+    "tp_machine_step",
+    "tp_bus_power_on_profile",
+    "tp_machine_run_to_next_frame",
+    "tp_machine_read_published_frame",
+    "tp_machine_read_diagnostics",
+    "tp_machine_pcm_available",
+    "tp_machine_pcm_read",
+    "tp_ppu_read_published_frame",
+    "tp_sdsp_step_phase",
+    "tp_sdsp_write_register",
+    "tp_sdsp_read_register",
+    "tp_sdsp_pcm_read",
+    "tp_spc700_aot_begin",
+    "tp_spc700_aot_complete"
+  ],
+  "schema": "theme-park-v17c-static-symbol-audit-v1",
+  "singular_current_owner_objects": {
+    "machine": 1,
+    "renderer": 1,
+    "scpu_dispatch": 1,
+    "sdsp": 1,
+    "spc700_aot": 1
+  },
+  "status": "PASS_ONE_INTEGRATED_FRAME_PCM_MACHINE_NO_FOREIGN_OR_FALLBACK_OWNER"
+}

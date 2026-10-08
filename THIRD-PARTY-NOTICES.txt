@@ -1,0 +1,19 @@
+Theme Park (SNES) Static Recompilation 1.0.0
+Third-party notices
+
+SDL 3.4.10
+----------
+SDL3 is statically linked for gamepad support. Its zlib license is included
+as SDL-LICENSE.txt. The launcher uses SDL3's built-in controller mappings.
+No separate controller-mapping database is distributed.
+
+Original game
+-------------
+Theme Park, the original ROM and game assets are not distributed by this
+project. Supply your own legally obtained supported ROM.
+
+Development references
+----------------------
+Other SNES static recompilations and emulator reference material were used
+for workflow and comparison. No external emulator is shipped, invoked or
+used as a runtime fallback by this release.

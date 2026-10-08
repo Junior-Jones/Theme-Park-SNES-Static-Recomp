@@ -1,0 +1,97 @@
+{
+  "authority": "Theme Park reset-root source ordering plus the 09C NMITIMEN scheduler gate; no runtime trace or emulator oracle",
+  "checks": {
+    "all_payload_register_writers_unique": true,
+    "call_return_edges_exact": true,
+    "context_bytes_exact": true,
+    "nmi_enable_value_exact": true,
+    "nmi_root_reaches_trigger": true,
+    "scheduler_nmi_gate_bound": true
+  },
+  "context_bytes": {
+    "00:80DC:0:0:0": "226F8A0C",
+    "00:8210:0:1:1": "A981",
+    "00:8212:0:1:1": "8D0042",
+    "00:8216:0:1:0": "C230",
+    "00:8350:0:1:0": "8D0C42",
+    "0C:801E:0:1:0": "6B",
+    "0C:8748:0:1:0": "6B",
+    "0C:8B0B:0:1:0": "2200800C",
+    "0C:8B0F:0:1:0": "2243860C",
+    "0C:8B13:0:1:0": "22098200"
+  },
+  "contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+  "edges_sha256": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+  "machine_sha256": "8c3097e97386b33190744f0864e6c943313421a526159723205e720b00466045",
+  "nmi_enable_context": "00:8212:0:1:1",
+  "nmi_enable_value": 129,
+  "oracle_used": false,
+  "ordered_call_return_edges": [
+    {
+      "kind": "DIRECT_CALL",
+      "source": "00:80DC:0:0:0",
+      "target": "0C:8A6F:0:0:0"
+    },
+    {
+      "kind": "DIRECT_CALL",
+      "source": "0C:8B0B:0:1:0",
+      "target": "0C:8000:0:1:0"
+    },
+    {
+      "kind": "RETURN_PROVED",
+      "source": "0C:801E:0:1:0",
+      "target": "0C:8B0F:0:1:0"
+    },
+    {
+      "kind": "DIRECT_CALL",
+      "source": "0C:8B0F:0:1:0",
+      "target": "0C:8643:0:1:0"
+    },
+    {
+      "kind": "RETURN_PROVED",
+      "source": "0C:8748:0:1:0",
+      "target": "0C:8B13:0:1:0"
+    },
+    {
+      "kind": "DIRECT_CALL",
+      "source": "0C:8B13:0:1:0",
+      "target": "00:8209:0:1:0"
+    },
+    {
+      "kind": "FALLTHROUGH",
+      "source": "00:8210:0:1:1",
+      "target": "00:8212:0:1:1"
+    }
+  ],
+  "required_registers": [
+    "$4300",
+    "$4301",
+    "$4302",
+    "$4303",
+    "$4304"
+  ],
+  "reset_nmitimen_state": 0,
+  "scheduler_sha256": "05df277ec8cf7a13b27c0c87368667688e57e0d896ad414a53671d57c5ad3bcb",
+  "schema": "theme-park-v10c-hdma-ch0-startup-phase-v1",
+  "status": "PROVED_INITIALIZED_BEFORE_NMI_ENABLE",
+  "trigger_context": "00:8350:0:1:0",
+  "trigger_register": "$420C",
+  "trigger_value": 1,
+  "unique_writer_events": {
+    "$4300": [
+      "TPHW-CFD5B63C9E56E5C62696"
+    ],
+    "$4301": [
+      "TPHW-AFE6ED5B4AECC55BA7C8"
+    ],
+    "$4302": [
+      "TPHW-F745015ACA715C4893BC"
+    ],
+    "$4303": [
+      "TPHW-A4EB7499736C3E7BBCC5"
+    ],
+    "$4304": [
+      "TPHW-4C7C133D1E2DD6661F1B"
+    ]
+  }
+}

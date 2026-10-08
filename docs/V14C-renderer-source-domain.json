@@ -1,0 +1,92 @@
+{
+  "authority": "SOURCE_EVENTS_AND_IMMEDIATE_PRODUCERS_ONLY_NO_ORACLE_NO_TRACE_PROMOTION",
+  "bg_layers": [
+    1,
+    2
+  ],
+  "color_math_enable": "RESET_ZERO_NO_$2131_WRITER",
+  "conservative_unresolved_ppu_intersections": 5461,
+  "direct_color": false,
+  "display_modes": [
+    2,
+    3
+  ],
+  "dynamic_but_generically_implemented": {
+    "$2100": "forced blank plus brightness 0..15",
+    "$2106": "mosaic size/layer mask",
+    "$210D-$2112": "BG1/BG2/BG3 scroll",
+    "$2116-$2119": "VRAM upload addressing/data",
+    "$2121-$2122": "CGRAM upload addressing/data"
+  },
+  "exact_ppu_events": 702,
+  "exact_ppu_writes": 431,
+  "extbg": false,
+  "hires": false,
+  "inputs_sha256": {
+    "contexts": "45c6ec931fd2b5428a24b92a75c5644db8456505dbce53b7698e77fbfea0b2b6",
+    "events": "6f3648ec25bc9f232653ca6fe8105d26529840d0b497acae35de85da7b4aab08"
+  },
+  "interlace": false,
+  "main_screen_masks": [
+    "$01",
+    "$03",
+    "$13"
+  ],
+  "mode2_depth": {
+    "BG1": 4,
+    "BG2": 4
+  },
+  "mode2_offset_per_tile": true,
+  "mode3_depth": {
+    "BG1": 8,
+    "BG2": 4
+  },
+  "mode7_display": false,
+  "mode7_register_use": "$211B/$211C hardware multiply only",
+  "obj_large": "16x16",
+  "obj_size_selector": 0,
+  "obj_small": "8x8",
+  "overscan": false,
+  "proved_constant_domains": {
+    "$2101": [
+      "$03"
+    ],
+    "$2105": [
+      "$02",
+      "$03"
+    ],
+    "$2107": [
+      "$54",
+      "$78"
+    ],
+    "$2108": [
+      "$59"
+    ],
+    "$2109": [
+      "$54"
+    ],
+    "$210B": [
+      "$00",
+      "$02"
+    ],
+    "$212C": [
+      "$01",
+      "$03",
+      "$13"
+    ],
+    "$2130": [
+      "$30"
+    ],
+    "$2132": [
+      "$E0"
+    ],
+    "$2133": [
+      "$00"
+    ]
+  },
+  "schema": "theme-park-v14c-renderer-source-domain-v1",
+  "status": "CLOSED_SOURCE_DOMAIN",
+  "subscreen_mask": "RESET_ZERO_NO_WRITER",
+  "unreached_optional_writer_registers": [],
+  "window_registers": "RESET_ZERO_NO_WRITER"
+}

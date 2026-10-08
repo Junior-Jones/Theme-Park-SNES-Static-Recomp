@@ -1,0 +1,57 @@
+{
+  "context_count": 20,
+  "dbr_proof": "V05C closed DBR=0 theorem; absolute accesses fail closed if DBR differs",
+  "dependencies": {
+    "family_plan_sha256": "2d9b721ef5ef4179e409f03f6acccd7c62847b358e602f150a2e2f9f3bd7b20c",
+    "v05_contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "v05_dynamic_proofs_sha256": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "v05_edges_sha256": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "v05_summary_sha256": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "v06_summary_sha256": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577"
+  },
+  "executable_memory_epoch": "IMMUTABLE_CANONICAL_LOROM; V06C proves zero RAM epochs",
+  "family_id": "TP07F209",
+  "instruction_form_counts": {
+    "LDA:IMM_M": 2,
+    "LDX:IMM_X": 2,
+    "LDY:IMM_X": 4,
+    "REP:IMM8": 1,
+    "RTL:IMP": 1,
+    "SEP:IMM8": 1,
+    "STA:ABS": 2,
+    "STX:ABS": 2,
+    "STY:ABS": 5
+  },
+  "internal_edge_count": 19,
+  "kind": "LEAF_PROCEDURE_REACHED_FROM_RESET_BOOTSTRAP",
+  "mode_set": [
+    "0:0:1",
+    "0:1:1"
+  ],
+  "nested_call_count": 0,
+  "nested_calls": [],
+  "parent_calls": [
+    {
+      "call_source": "00:8296:0:1:1",
+      "proof_id": "V05P00032"
+    }
+  ],
+  "products": {
+    "contexts_sha256": "7a543cec0d36fc2c411b6b76d6f05d4d45cee7b05e2f185a23269c8bf055dd39",
+    "edges_sha256": "42915084fe318de18163181a9db453ed61e94ec88b27ea94d305b322ed83ea1b"
+  },
+  "return_relations": [
+    {
+      "call_source": "00:8296:0:1:1",
+      "return_source": "0C:8606:0:0:1",
+      "return_target": "00:829A:0:0:1"
+    }
+  ],
+  "root_context": "0C:85D5:0:1:1",
+  "runtime_decoder_required": false,
+  "runtime_return_edge_count": 1,
+  "runtime_return_edges_sha256": "bd88378403648f675536ad3b67ec888444c1f1e04e5a8124d2f957a9ab479bf3",
+  "schema": "theme-park-v07c-family-understanding-v1",
+  "status": "UNDERSTOOD_SOURCE_PROVED_NOT_YET_ADMITTED",
+  "trace_or_oracle_inputs": []
+}

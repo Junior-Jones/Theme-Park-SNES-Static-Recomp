@@ -1,0 +1,43 @@
+{
+  "compile_action": "REHASHED_EXISTING_OBJECTS_AND_STATIC_LIBRARIES",
+  "diagnostics_boundary": "tp_machine_read_diagnostics",
+  "frame_read_boundary": "tp_machine_read_published_frame",
+  "frame_run_boundary": "tp_machine_run_to_next_frame",
+  "gcc": {
+    "library": "build/v17c-static/gcc/libtheme_park_v17c.a",
+    "library_sha256": "a3176e032224dd24c37fcd1a1ee28a009f97f943bbd58e8cdf6dd5cc956c1e48",
+    "objects": 684
+  },
+  "inputs_sha256": {
+    "apu": "dc838f1e89eb480db5a5f5cc7026b8fe1d5cd09e8f7e695472008c730d19e33f",
+    "bus": "f28755b4200d1399247552e5e5cb100319c25ce12579c119a0ec1a10d8b10076",
+    "bus_header": "a6cbbd72e9ef524b54c4793b1bae7e52d2d8967a81848875b21d6c1020813854",
+    "dma": "a2c916c605ea217f734caa0ed4a79b48fdd45cce0de9bc1e24d4a40fc95becfa",
+    "input": "30018f28f95c642a6172694868506c782ff3ab25c36a5ddd6d318bc9da91e47f",
+    "machine": "5a4776eb3159b49ad450be9f05bd05f0f09fa5e5f2c7606d79e992bc9778d97b",
+    "machine_header": "0b0aafe8b9529d193ae54b0613f56eff77b1d094a1e5aba9e980256e87615c4f",
+    "power_on_profiles": "772570e81201665bd48bfb3d6cfda674eaa9c5d3b6e649e95dc1ddf4f4ddd28c",
+    "ppu": "b98204bc4489fe11584d6c039af9e70dda630a8a0622b0200e290498025d360b",
+    "production_authority_audit": "62fe174bb856b472a27e49730f87bcfa66cce0ee5e631ec83696cb3add1124cc",
+    "renderer": "71bd47c94dee6bf96ad509191ba3f8709ab5b9ef5791d18bdce54646491e23cc",
+    "scheduler": "782ec90c0e8ec7375e4cc37b39459e5d90ade20222197a195fe1add71f93e738",
+    "sdsp": "f2f276c9bfcd58d38cfe3a29f0216666ed46fefa749b8224c80fcf2a5948c269",
+    "spc700_aot": "4c24db6e0380f9f7f799eeb29b24782d557743e01cc2cba095c11f08e3f123e7",
+    "target_contract": "8813bd9e3dab93295cea93948fe1bf917f5acf470a0054d15d70818685735024",
+    "timing_profile": "512f44737850be3d1ecdf5f598978b9082ad761cc2d3317e32fe2647bb5ea2e1"
+  },
+  "msvc": {
+    "library": "build/v17c-static/msvc/theme_park_v17c.lib",
+    "library_sha256": "953bee2174d9434be8e5eea3c65eeb440c56504aeca0dd071043875b1172a8e9",
+    "objects": 684
+  },
+  "natural_validation_executables_present": [
+    "build/v17c-natural/theme_park_v17c_natural_runner.exe"
+  ],
+  "pcm_boundary": "tp_machine_pcm_read",
+  "schema": "theme-park-v17c-static-compile-v1",
+  "scpu_contexts": 71986,
+  "source_files": 684,
+  "ssmp_contexts": 1392,
+  "status": "PASS_17C_INTEGRATED_FRAME_PCM_STATIC_LIBRARIES"
+}

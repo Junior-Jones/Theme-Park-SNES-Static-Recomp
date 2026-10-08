@@ -1,0 +1,10 @@
+Hardware_Area,Implemented,Source_Reached,Source_Certified,Owner,Evidence,Open_Boundary
+PPU_REGISTER_STATE,YES,YES,YES_SOURCE_JOIN,runtime/src/theme_park_ppu.c,docs/V11C-ppu-source-join-summary.json,PIXEL_CONSUMPTION_14C
+VRAM_PORT_AND_STORAGE,YES,YES,YES_SOURCE_AND_DMA_RECEIVERS,runtime/src/theme_park_ppu.c,"$2115-$2119; 51 proved DMA routes to $2118",PIXEL_CONSUMPTION_14C
+CGRAM_PORT_AND_STORAGE,YES,YES,YES_DMA_RECEIVERS,runtime/src/theme_park_ppu.c,"5 proved DMA routes to $2122",PIXEL_CONSUMPTION_14C
+OAM_PORT_AND_STORAGE,YES,YES,YES_DMA_RECEIVERS,runtime/src/theme_park_ppu.c,"2 proved DMA routes to $2104",SPRITE_EVALUATION_14C
+BG_SCROLL_HDMA_STATE,YES,YES,YES_DMA_RECEIVER,runtime/src/theme_park_ppu.c,"1 proved DMA route to $210F; exact direct scroll writes",RASTER_CONSUMPTION_14C
+MODE7_MATRIX_MULTIPLY,YES,YES,YES_EXACT_READ_WRITE_JOIN,runtime/src/theme_park_ppu.c,"270 exact reads $2134-$2136; exact $211B/$211C writes",MODE7_PIXEL_PATH_14C
+DISPLAY_TIMING_STATE,YES,YES,YES_SCHEDULER_BOUND,runtime/src/theme_park_ppu.c,"$2100/$2133 plus PAL scheduler",RASTER_CONSUMPTION_14C
+PPU_CONSERVATIVE_INTERSECTIONS,NO,NO,NO,UNRESOLVED,"5461 class intersections retained",ADDRESS_PROOF_REQUIRED_BEFORE_PROMOTION
+PPU_PIXELS,NO,NO,NO,14C_PENDING,NO_PIXEL_CLAIM,RENDERER_NOT_11C

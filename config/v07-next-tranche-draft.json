@@ -1,0 +1,394 @@
+{
+  "schema": "theme-park-v07c-next-tranche-draft-v1",
+  "status": "UNDERSTOOD_DEPENDENCY_CLOSED_NOT_ADMITTED",
+  "requires_verified_baseline_through": "TP07F486",
+  "compile_policy": "FORBIDDEN_UNTIL_ALL_07C_FAMILIES_ARE_LOWERED_AND_RECONCILED",
+  "oracle_or_trace_inputs": [],
+  "family_union_context_count": 11461,
+  "new_unique_context_count_against_f486": 11461,
+  "projected_total_context_count": 71986,
+  "projected_remaining_context_count": 0,
+  "closure_classification": {
+    "pre_vector_family_count": 22,
+    "pre_vector_unique_context_count": 11199,
+    "final_vector_unique_context_count": 262,
+    "final_vector_roots": {
+      "EMULATION_RESET_VECTOR": ["00:8000:1:1:1"],
+      "NATIVE_NMI_VECTOR": [
+        "00:8216:0:0:0",
+        "00:8216:0:0:1",
+        "00:8216:0:1:0",
+        "00:8216:0:1:1"
+      ]
+    },
+    "instruction_forms": "ALL_ALREADY_LOWERED",
+    "dependency_state": "ALL_CALL_TARGETS_PRESENT_IN_F486_OR_THIS_DRAFT",
+    "union_result": "EXACTLY_ALL_71986_V05_SOURCE_CANDIDATE_CONTEXTS"
+  },
+  "hardware_reconciliation": {
+    "new_exact_hardware_semantics": "NONE_AUTHORIZED_BY_THE_THREE_NEW_FORMS",
+    "new_forms_reuse": "ESTABLISHED_CPU_BUS_READ_WRITE_AND_INSTRUCTION_CYCLE_OWNERS",
+    "open_side_obligations": [
+      "TP07-SIDE-0001",
+      "TP07-SIDE-0002",
+      "TP07-SIDE-0003",
+      "TP07-SIDE-0004",
+      "TP07-SIDE-0005",
+      "TP07-SIDE-0006"
+    ],
+    "reason": "CURRENT_SIDECAR_CAN_MISS_HARDWARE_RANGES_INTERSECTED_BY_UNRESOLVED_INDEXED_OR_NON_LITERAL_ADDRESS_FAMILIES_AND_UNDERREPORTS_DIRECT_MEMORY_CLASSES",
+    "required_before_final_07c_closure": "REGENERATE_COMPLETE_71986_CONTEXT_HARDWARE_SIDECAR_WITH_CONSERVATIVE_INDEXED_ADDRESS_CLASS_INTERSECTIONS",
+    "compiled_into_runtime": false
+  },
+  "new_instruction_forms": {
+    "INC:ABS_X": 1,
+    "ORA:ABSL": 4,
+    "SBC:ABSL_X": 2
+  },
+  "new_form_reconciliation": {
+    "source": "V05C exact contexts joined to the frozen V02C offline decoder and timing owner",
+    "status": "ALL_SEVEN_SITES_DECODE_AND_TIMING_RECONCILED_DORMANT_LOWERING_OWNERS_IMPLEMENTED_NOT_ADMITTED_OR_GENERATED",
+    "lowering_owner_scope": "THREE_NEW_FORM_BRANCHES_ONLY; NO_EXISTING_FORM_BRANCH_WAS_GENERALIZED_OR_CHANGED",
+    "INC:ABS_X": {"site_count": 1, "instruction_bytes": 3, "cycles": 7},
+    "SBC:ABSL_X": {"site_count": 2, "instruction_bytes": 4, "cycles": 6},
+    "ORA:ABSL": {"site_count": 4, "instruction_bytes": 4, "cycles": 6},
+    "runtime_or_oracle_inputs": []
+  },
+  "new_form_semantic_contracts": {
+    "INC:ABS_X": {
+      "state_domain": "E=0 M=1 X=0",
+      "address": "DBR_ZERO_PROOF; (operand16 + X16) & 0xFFFFFF",
+      "memory_order": "read8 old value; write8 incremented value; no emulation dummy-old write",
+      "flags": "N/Z from 8-bit result only",
+      "cycles": 7
+    },
+    "ORA:ABSL": {
+      "state_domain": "E=0 M=0 X=0",
+      "address": "explicit 24-bit operand; no DBR dependency",
+      "memory_order": "read16 low then high through the normal bus owner",
+      "result": "A16 = A16 | operand16",
+      "flags": "N/Z from 16-bit result only",
+      "cycles": 6
+    },
+    "SBC:ABSL_X": {
+      "state_domain": "E=0 M=0 X=0",
+      "address": "(operand24 + X16) & 0xFFFFFF; no DBR dependency",
+      "memory_order": "read16 low then high through the normal bus owner",
+      "result": "existing proved SBC16 helper owns binary/decimal N/V/Z/C and invalid-BCD fail-closed behavior",
+      "cycles": 6
+    }
+  },
+  "families": [
+    {
+      "family_id": "TP07F487",
+      "root_context": "04:9F7A:0:0:1",
+      "expected_context_count": 626,
+      "expected_nested_call_count": 19,
+      "expected_call_sites_sha256": "3d9ade3e896e0af791411936b688faa49fc13ab381d8f39b43dc4b28ba1ba26f",
+      "expected_parent_call_count": 1,
+      "expected_parent_calls_sha256": "dba8fb64c58b173f3fe3aeeb388debe302c2cd1ac0f30d15ef5f1bb9a705afb8",
+      "expected_return_count": 1,
+      "expected_returns_sha256": "bd9f8eb7e297c758e256e0039f8153faf0240065b952c22ebf46170c71d9de4e"
+    },
+    {
+      "family_id": "TP07F488",
+      "root_context": "04:B4FA:0:0:0",
+      "expected_context_count": 1042,
+      "expected_nested_call_count": 15,
+      "expected_call_sites_sha256": "c592d08943f482d36069595796ce9e474ec444a8beb4bbe0b2d57cfbdea65c63",
+      "expected_parent_call_count": 2,
+      "expected_parent_calls_sha256": "c1973e8f5eac0d9b82feb10f035aea9d5e8b19d2339869eff07716e918c2d888",
+      "expected_return_count": 2,
+      "expected_returns_sha256": "95f88beb33e72456bc79a8255638852ccd52dfb52e48e01ed528ce4aef095e72"
+    },
+    {
+      "family_id": "TP07F489",
+      "root_context": "04:B4FA:0:1:0",
+      "expected_context_count": 1042,
+      "expected_nested_call_count": 15,
+      "expected_call_sites_sha256": "c592d08943f482d36069595796ce9e474ec444a8beb4bbe0b2d57cfbdea65c63",
+      "expected_parent_call_count": 7,
+      "expected_parent_calls_sha256": "9adf8e6fcb53ac24c7949dfda9b02449a3bd46cf879a5c51ee8b4e2003c7cfcf",
+      "expected_return_count": 7,
+      "expected_returns_sha256": "d94d3ecc4444b1ec9d64402c33ee01c0f42a0c36287bd9ca0654f0aa35b39ab4"
+    },
+    {
+      "family_id": "TP07F490",
+      "root_context": "04:8288:0:0:0",
+      "expected_context_count": 1183,
+      "expected_nested_call_count": 34,
+      "expected_call_sites_sha256": "da92d337a57b58b20756718e7e6e3b45c2885c0c0e5bf4dd1caaae952cf4a0ed",
+      "expected_parent_call_count": 1,
+      "expected_parent_calls_sha256": "073d050cedbe239553146c85e0cf6ae159a3af4fd2219bb58db39caa71f994c2",
+      "expected_return_count": 1,
+      "expected_returns_sha256": "66c6d25a098a5bf6fbca7bffff0f2de50cd6252c83f59442dffb119ccbf77cd2"
+    },
+    {
+      "family_id": "TP07F491",
+      "root_context": "0C:C7F6:0:0:0",
+      "expected_context_count": 1527,
+      "expected_nested_call_count": 78,
+      "expected_call_sites_sha256": "87b7461b10c9e438f8be4e55857a6e9b45408779d162d1f411b6af74b3d7d89f",
+      "expected_parent_call_count": 1,
+      "expected_parent_calls_sha256": "f47a2db66e86d95460ea1ff56920819e4b5cbf7ad3d08a4f931b6a3515a4bd70",
+      "expected_return_count": 1,
+      "expected_returns_sha256": "fb7dc3b4aa866bced98afbcccdcb72c89daaebfa9dd198fc513f777aa99a6bad"
+    },
+    {
+      "family_id": "TP07F492",
+      "root_context": "06:8518:0:0:0",
+      "expected_context_count": 162,
+      "expected_nested_call_count": 11,
+      "expected_call_sites_sha256": "897cdf5c77e51e8ca72065d96f1fafd954589c49b3f09b770ef954eb22dc2508",
+      "expected_parent_call_count": 12,
+      "expected_parent_calls_sha256": "f051500e39adeadb73009f09c77696bc8440c9a26bd752003cfb210e1d842025",
+      "expected_return_count": 12,
+      "expected_returns_sha256": "5faf1d7cc8d3b0f66464d850118d5f41a70812d51b259ac5fb133d5c6fd952a2"
+    },
+    {
+      "family_id": "TP07F493",
+      "root_context": "00:C064:0:0:0",
+      "expected_context_count": 200,
+      "expected_nested_call_count": 20,
+      "expected_call_sites_sha256": "47ad1a4b2243146834404005f197ba3c7698678b59246b0fd4298f528c39132b",
+      "expected_parent_call_count": 1,
+      "expected_parent_calls_sha256": "110472de7e258ae707a65172e1ac4f86650afd734babfd8bd9266086ec8d1b5e",
+      "expected_return_count": 1,
+      "expected_returns_sha256": "b31d920183e46f273cafd62297a6003e47893bc37ba3f4aa8fe2b10725a18ab6"
+    },
+    {
+      "family_id": "TP07F494",
+      "root_context": "00:C064:0:0:1",
+      "expected_context_count": 200,
+      "expected_nested_call_count": 20,
+      "expected_call_sites_sha256": "47ad1a4b2243146834404005f197ba3c7698678b59246b0fd4298f528c39132b",
+      "expected_parent_call_count": 1,
+      "expected_parent_calls_sha256": "e05b67fcd2edcb302e524686c0b437daf1efeedaed9125b8bb383e745cd4a945",
+      "expected_return_count": 1,
+      "expected_returns_sha256": "5e588521e834f207d5f7f1dba6ce5798b43ee433ee9c5229cc28b501227d2319"
+    },
+    {
+      "family_id": "TP07F495",
+      "root_context": "00:C064:0:1:1",
+      "expected_context_count": 200,
+      "expected_nested_call_count": 20,
+      "expected_call_sites_sha256": "47ad1a4b2243146834404005f197ba3c7698678b59246b0fd4298f528c39132b",
+      "expected_parent_call_count": 1,
+      "expected_parent_calls_sha256": "82ca13d20e8149ee643ec8af349b50205cded02c48378ba32f0f845b0ee8477e",
+      "expected_return_count": 1,
+      "expected_returns_sha256": "7c834ac92486f9b9660c6fac92ab1a9b534b64ce457f982b3f71cb9258936256"
+    },
+    {
+      "family_id": "TP07F496",
+      "root_context": "04:C5C3:0:1:1",
+      "expected_context_count": 676,
+      "expected_nested_call_count": 16,
+      "expected_call_sites_sha256": "cfe77db091442f26f6f8a002f35c8b51fc60b3f499eb4827dcfbf16763c63390",
+      "expected_parent_call_count": 1,
+      "expected_parent_calls_sha256": "f7afba66b6a8264b72ad685df27de5b4099480a25acda5d55fdd187f3aa3046f",
+      "expected_return_count": 1,
+      "expected_returns_sha256": "4fb54b89ca2c74cafe47d14d862e05b552164252e40dfd1cda7e456b5ddca56c"
+    },
+    {
+      "family_id": "TP07F497",
+      "root_context": "06:AC04:0:1:0",
+      "expected_context_count": 1355,
+      "expected_nested_call_count": 97,
+      "expected_call_sites_sha256": "4e5e86acd809241a91959b29cffe8c3b566ba2e1740c685772478535f1031ff4",
+      "expected_parent_call_count": 1,
+      "expected_parent_calls_sha256": "36df0061593bf71daa482dd38586c30661bf89405aa69f7b05a0bf2178079221",
+      "expected_return_count": 1,
+      "expected_returns_sha256": "197d910c926ac62c71b47d56818f0ce8e49bd4f93ac124f7be3eb4a8835e9424"
+    },
+    {
+      "family_id": "TP07F498",
+      "root_context": "04:CBD3:0:1:0",
+      "expected_context_count": 134,
+      "expected_nested_call_count": 6,
+      "expected_call_sites_sha256": "5749cd3351190cfb41541a5096e3ca4431d318fd12f341eef668eb285f91328b",
+      "expected_parent_call_count": 1,
+      "expected_parent_calls_sha256": "5a86d4d0e67937c9a682089a9e5ea5ce833e31429b3fad2fe5e8c16905d578ea",
+      "expected_return_count": 1,
+      "expected_returns_sha256": "790d57a7d5c341b2c52943e2fa848cba86288b782223651445077123ad0e3d1a"
+    },
+    {
+      "family_id": "TP07F499",
+      "root_context": "04:E373:0:0:0",
+      "expected_context_count": 843,
+      "expected_nested_call_count": 76,
+      "expected_call_sites_sha256": "abedd96783f423d0484a0908149a59b75f19415844e5caa385125431efc1493a",
+      "expected_parent_call_count": 2,
+      "expected_parent_calls_sha256": "6104a36de473b558c8c73497d0e0220b87f01eb59d42d1a448a15405fc94ac44",
+      "expected_return_count": 2,
+      "expected_returns_sha256": "9e9887690e3e95007ac64ecb2c349bb0950f5b5de4033fb4d2cc8951ca23b058"
+    },
+    {
+      "family_id": "TP07F500",
+      "root_context": "04:E373:0:1:0",
+      "expected_context_count": 843,
+      "expected_nested_call_count": 76,
+      "expected_call_sites_sha256": "abedd96783f423d0484a0908149a59b75f19415844e5caa385125431efc1493a",
+      "expected_parent_call_count": 1,
+      "expected_parent_calls_sha256": "bb6c8e488227f0cc41a3cd502db91494e86958b1aa159e9028cae9deb296a05a",
+      "expected_return_count": 1,
+      "expected_returns_sha256": "1cd286efaa4bfdd4575a0f716f14ce46db263798884d7704c2747f49318446ec"
+    },
+    {
+      "family_id": "TP07F501",
+      "root_context": "04:E373:0:1:1",
+      "expected_context_count": 843,
+      "expected_nested_call_count": 76,
+      "expected_call_sites_sha256": "abedd96783f423d0484a0908149a59b75f19415844e5caa385125431efc1493a",
+      "expected_parent_call_count": 3,
+      "expected_parent_calls_sha256": "c4ef922d3f3a332774635a015a430fe828ae4b6d9b9ecd1d7437cea7ce2df706",
+      "expected_return_count": 3,
+      "expected_returns_sha256": "93a48d4df87903a730d77ef238dbfab97f2d64c7d494b0eacec1ee22e84c827e"
+    },
+    {
+      "family_id": "TP07F502",
+      "root_context": "06:A5B9:0:1:1",
+      "expected_context_count": 6,
+      "expected_nested_call_count": 1,
+      "expected_call_sites_sha256": "55832a01eeb9975fccd1ca1a593eb5aed81f135c60df7c3db2dbcaaa1f2e21d0",
+      "expected_parent_call_count": 3,
+      "expected_parent_calls_sha256": "313b6109f458f21844a0e240ff829307d690c23baf0df4098a0b81161baa55bd",
+      "expected_return_count": 3,
+      "expected_returns_sha256": "3dd4704a476dc283fb6a6243594b7673c6d817bf35b63726b6786dc2859f3d50"
+    },
+    {
+      "family_id": "TP07F503",
+      "root_context": "07:95B5:0:1:1",
+      "expected_context_count": 194,
+      "expected_nested_call_count": 19,
+      "expected_call_sites_sha256": "d51d5a90e4e6dc707fd79c17b810e3aa58d35269c6ec509a0e8feba25a7304dd",
+      "expected_parent_call_count": 1,
+      "expected_parent_calls_sha256": "1d910bbdfa35a0c6165b1c9ca3e4c90181b7d9d256fe9c63bbce6f1992204189",
+      "expected_return_count": 1,
+      "expected_returns_sha256": "74a92324b2c3e56d9caaac98f4ad6246b81d92b7ab3a9439fd3635828286f076"
+    },
+    {
+      "family_id": "TP07F504",
+      "root_context": "04:DE0E:0:1:1",
+      "expected_context_count": 570,
+      "expected_nested_call_count": 27,
+      "expected_call_sites_sha256": "d8b939ef43753673e07d3d126df4ae21e207066b0f028252fa273463f09e1108",
+      "expected_parent_call_count": 1,
+      "expected_parent_calls_sha256": "ec3791c425362b3d962e0be87eee40d71c425f7b017f357d8cece754774b31db",
+      "expected_return_count": 2,
+      "expected_returns_sha256": "8a6c574108dfc8712b8fc06010cd82605732ebbc1db9197394aea170af155254"
+    },
+    {
+      "family_id": "TP07F505",
+      "root_context": "04:B2FE:0:0:0",
+      "expected_context_count": 207,
+      "expected_nested_call_count": 18,
+      "expected_call_sites_sha256": "a596d671491f45c25c4a6e34703c729dce175e76f059439458d8dcc0b2b8f2a7",
+      "expected_parent_call_count": 1,
+      "expected_parent_calls_sha256": "8da3046e740ecda4a219391046c8f165384e36ef2fd430eb71c030f32df0270e",
+      "expected_return_count": 1,
+      "expected_returns_sha256": "c69a1f955ddc7b34fdb8904137a273a71c6860122de22d599cd671c87066a216"
+    },
+    {
+      "family_id": "TP07F506",
+      "root_context": "06:993C:0:0:0",
+      "expected_context_count": 1031,
+      "expected_nested_call_count": 99,
+      "expected_call_sites_sha256": "39db830c244f8267a7b22cf33d49773c746c6f9c530d6e2d1fc00ea8f91e72f1",
+      "expected_parent_call_count": 1,
+      "expected_parent_calls_sha256": "8efd8b9b70a98d7ce373e22d195e78730acad15a91e10002b967c10840f74f24",
+      "expected_return_count": 1,
+      "expected_returns_sha256": "bc505b88888a60428f7e0e691f879f072c9efd6507aacb5b07f69dca3c472ea1"
+    },
+    {
+      "family_id": "TP07F507",
+      "root_context": "04:A868:0:0:0",
+      "expected_context_count": 1058,
+      "expected_nested_call_count": 94,
+      "expected_call_sites_sha256": "b1114e6086d3f48eb4ee78c674a9ccdeff775f3b21b83f80bb642bd622d6df47",
+      "expected_parent_call_count": 1,
+      "expected_parent_calls_sha256": "55c176cebd04ea602c750e8e51e3b1cfe1abbe6e0ddd1c7e43a0db1180070a33",
+      "expected_return_count": 1,
+      "expected_returns_sha256": "91a0a424bb64a1414c29cad380f9c6b142671e76bb50b1041edef93dc8033d66"
+    },
+    {
+      "family_id": "TP07F508",
+      "root_context": "00:A8C2:0:1:0",
+      "expected_context_count": 380,
+      "expected_nested_call_count": 46,
+      "expected_call_sites_sha256": "65c8c93647462c784f4c4494af42720e58d095a101c9078b8fa7c9c0f62ece7d",
+      "expected_parent_call_count": 1,
+      "expected_parent_calls_sha256": "882b36418d817ee61407994a7bedb21ddf41b82b4499af0f0061c198e4b7e3a3",
+      "expected_return_count": 1,
+      "expected_returns_sha256": "8db7f820093e7cdef8604318c8a4d6cb1cebe7ea7bf50c57e98d90d4c19805dd"
+    },
+    {
+      "family_id": "TP07F509",
+      "entry_kind": "EMULATION_RESET_VECTOR",
+      "root_context": "00:8000:1:1:1",
+      "expected_context_count": 87,
+      "expected_nested_call_count": 13,
+      "expected_call_sites_sha256": "903f24c764e596d295e9f2b545fddcc18ccc6cf6ed1076a1b7608933b4e29646",
+      "expected_parent_call_count": 0,
+      "expected_parent_calls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "expected_return_count": 0,
+      "expected_returns_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "family_id": "TP07F510",
+      "entry_kind": "NATIVE_NMI_VECTOR",
+      "root_context": "00:8216:0:0:0",
+      "expected_context_count": 172,
+      "expected_nested_call_count": 18,
+      "expected_call_sites_sha256": "7caeeb49572eb5beb9517ca9f4821119d6c49faaeaca25cedefb935d5afbab68",
+      "expected_parent_call_count": 0,
+      "expected_parent_calls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "expected_return_count": 0,
+      "expected_returns_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "family_id": "TP07F511",
+      "entry_kind": "NATIVE_NMI_VECTOR",
+      "root_context": "00:8216:0:0:1",
+      "expected_context_count": 172,
+      "expected_nested_call_count": 18,
+      "expected_call_sites_sha256": "7caeeb49572eb5beb9517ca9f4821119d6c49faaeaca25cedefb935d5afbab68",
+      "expected_parent_call_count": 0,
+      "expected_parent_calls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "expected_return_count": 0,
+      "expected_returns_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "family_id": "TP07F512",
+      "entry_kind": "NATIVE_NMI_VECTOR",
+      "root_context": "00:8216:0:1:0",
+      "expected_context_count": 172,
+      "expected_nested_call_count": 18,
+      "expected_call_sites_sha256": "7caeeb49572eb5beb9517ca9f4821119d6c49faaeaca25cedefb935d5afbab68",
+      "expected_parent_call_count": 0,
+      "expected_parent_calls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "expected_return_count": 0,
+      "expected_returns_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "family_id": "TP07F513",
+      "entry_kind": "NATIVE_NMI_VECTOR",
+      "root_context": "00:8216:0:1:1",
+      "expected_context_count": 172,
+      "expected_nested_call_count": 18,
+      "expected_call_sites_sha256": "7caeeb49572eb5beb9517ca9f4821119d6c49faaeaca25cedefb935d5afbab68",
+      "expected_parent_call_count": 0,
+      "expected_parent_calls_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "expected_return_count": 0,
+      "expected_returns_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  ],
+  "new_form_contexts": [
+    {"Context":"04:A3ED:0:1:0","Bytes":"FE710E","Mnemonic":"INC","Mode":"ABS_X"},
+    {"Context":"04:BE61:0:0:0","Bytes":"FF6E1F00","Mnemonic":"SBC","Mode":"ABSL_X"},
+    {"Context":"04:BE98:0:0:0","Bytes":"FF6E1F00","Mnemonic":"SBC","Mode":"ABSL_X"},
+    {"Context":"04:83F1:0:0:0","Bytes":"0FC0707E","Mnemonic":"ORA","Mode":"ABSL"},
+    {"Context":"04:83F5:0:0:0","Bytes":"0FC4707E","Mnemonic":"ORA","Mode":"ABSL"},
+    {"Context":"04:8404:0:0:0","Bytes":"0F5E707E","Mnemonic":"ORA","Mode":"ABSL"},
+    {"Context":"04:8408:0:0:0","Bytes":"0F9E707E","Mnemonic":"ORA","Mode":"ABSL"}
+  ]
+}

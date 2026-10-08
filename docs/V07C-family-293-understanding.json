@@ -1,0 +1,71 @@
+{
+  "context_count": 26,
+  "dbr_proof": "V05C closed DBR=0 theorem; absolute accesses fail closed if DBR differs",
+  "dependencies": {
+    "family_plan_sha256": "2d9b721ef5ef4179e409f03f6acccd7c62847b358e602f150a2e2f9f3bd7b20c",
+    "v05_contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "v05_dynamic_proofs_sha256": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "v05_edges_sha256": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "v05_summary_sha256": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "v06_summary_sha256": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577"
+  },
+  "executable_memory_epoch": "IMMUTABLE_CANONICAL_LOROM; V06C proves zero RAM epochs",
+  "family_id": "TP07F293",
+  "instruction_form_counts": {
+    "BRA:REL8": 1,
+    "JSL:ABSL_JUMP": 2,
+    "LDA:ABS": 1,
+    "LDA:DP_IND_LONG_Y": 1,
+    "LDA:IMM_M": 3,
+    "LDX:ABS": 2,
+    "LDY:IMM_X": 1,
+    "REP:IMM8": 4,
+    "RTL:IMP": 1,
+    "SEP:IMM8": 2,
+    "STA:ABS": 5,
+    "STX:ABS": 2,
+    "STZ:ABS": 1
+  },
+  "internal_edge_count": 23,
+  "kind": "LEAF_PROCEDURE_REACHED_FROM_RESET_BOOTSTRAP",
+  "mode_set": [
+    "0:0:0",
+    "0:0:1",
+    "0:1:1"
+  ],
+  "nested_call_count": 2,
+  "nested_calls": [
+    {
+      "call_source": "06:BC43:0:0:1",
+      "call_target": "01:DDAF:0:0:1"
+    },
+    {
+      "call_source": "06:BC4F:0:0:0",
+      "call_target": "06:A34A:0:0:0"
+    }
+  ],
+  "parent_calls": [
+    {
+      "call_source": "06:B6DC:0:1:1",
+      "proof_id": "V05P01395"
+    }
+  ],
+  "products": {
+    "contexts_sha256": "a2a0b5347de7a5db2cd38f24e0bd412e468cd489b0006f59108d5be8913151e8",
+    "edges_sha256": "c35ea8900a2e64389cd6335b2f4f968ea131f377b4b566090206fa3c267bd7d4"
+  },
+  "return_relations": [
+    {
+      "call_source": "06:B6DC:0:1:1",
+      "return_source": "06:BC53:0:0:0",
+      "return_target": "06:B6E0:0:0:0"
+    }
+  ],
+  "root_context": "06:BBF9:0:1:1",
+  "runtime_decoder_required": false,
+  "runtime_return_edge_count": 2,
+  "runtime_return_edges_sha256": "5fc4584ebb586c6133a9c3ff6411194e0fc035a86e1bdd0734fefd413065602c",
+  "schema": "theme-park-v07c-family-understanding-v1",
+  "status": "UNDERSTOOD_SOURCE_PROVED_NOT_YET_ADMITTED",
+  "trace_or_oracle_inputs": []
+}

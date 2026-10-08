@@ -1,0 +1,324 @@
+{
+  "context_count": 20,
+  "dbr_proof": "V05C closed DBR=0 theorem; absolute accesses fail closed if DBR differs",
+  "dependencies": {
+    "family_plan_sha256": "2d9b721ef5ef4179e409f03f6acccd7c62847b358e602f150a2e2f9f3bd7b20c",
+    "v05_contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "v05_dynamic_proofs_sha256": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "v05_edges_sha256": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "v05_summary_sha256": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "v06_summary_sha256": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577"
+  },
+  "executable_memory_epoch": "IMMUTABLE_CANONICAL_LOROM; V06C proves zero RAM epochs",
+  "family_id": "TP07F208",
+  "instruction_form_counts": {
+    "ADC:ABS": 1,
+    "BCC:REL8": 1,
+    "BEQ:REL8": 1,
+    "BNE:REL8": 1,
+    "BPL:REL8": 1,
+    "CLC:IMP": 1,
+    "CPX:IMM_X": 2,
+    "DEX:IMP": 1,
+    "INC:ABS": 1,
+    "LDA:ABS": 2,
+    "REP:IMM8": 1,
+    "RTL:IMP": 1,
+    "STA:ABS": 2,
+    "STX:ABS": 1,
+    "STZ:ABS": 2,
+    "TAX:IMP": 1
+  },
+  "internal_edge_count": 23,
+  "kind": "SHARED_LEAF_PROCEDURE",
+  "mode_set": [
+    "0:0:0"
+  ],
+  "nested_call_count": 0,
+  "nested_calls": [],
+  "parent_calls": [
+    {
+      "call_source": "00:CBBD:0:0:0",
+      "proof_id": "V05P00274"
+    },
+    {
+      "call_source": "00:CBE6:0:0:0",
+      "proof_id": "V05P00276"
+    },
+    {
+      "call_source": "00:CDBE:0:0:0",
+      "proof_id": "V05P00298"
+    },
+    {
+      "call_source": "00:CDE7:0:0:0",
+      "proof_id": "V05P00300"
+    },
+    {
+      "call_source": "00:EFA3:0:0:0",
+      "proof_id": "V05P00374"
+    },
+    {
+      "call_source": "00:EFCC:0:0:0",
+      "proof_id": "V05P00376"
+    },
+    {
+      "call_source": "00:F027:0:0:0",
+      "proof_id": "V05P00378"
+    },
+    {
+      "call_source": "00:F04E:0:0:0",
+      "proof_id": "V05P00380"
+    },
+    {
+      "call_source": "04:8AC2:0:0:0",
+      "proof_id": "V05P00644"
+    },
+    {
+      "call_source": "04:8D6C:0:0:0",
+      "proof_id": "V05P00656"
+    },
+    {
+      "call_source": "04:900F:0:0:0",
+      "proof_id": "V05P00668"
+    },
+    {
+      "call_source": "04:9038:0:0:0",
+      "proof_id": "V05P00670"
+    },
+    {
+      "call_source": "04:935D:0:0:0",
+      "proof_id": "V05P00678"
+    },
+    {
+      "call_source": "04:9386:0:0:0",
+      "proof_id": "V05P00680"
+    },
+    {
+      "call_source": "04:9487:0:0:0",
+      "proof_id": "V05P00684"
+    },
+    {
+      "call_source": "04:94B0:0:0:0",
+      "proof_id": "V05P00686"
+    },
+    {
+      "call_source": "04:97DF:0:0:0",
+      "proof_id": "V05P00694"
+    },
+    {
+      "call_source": "04:9808:0:0:0",
+      "proof_id": "V05P00696"
+    },
+    {
+      "call_source": "04:9A33:0:0:0",
+      "proof_id": "V05P00703"
+    },
+    {
+      "call_source": "04:9A5C:0:0:0",
+      "proof_id": "V05P00705"
+    },
+    {
+      "call_source": "04:9AD0:0:0:0",
+      "proof_id": "V05P00706"
+    },
+    {
+      "call_source": "04:9AF9:0:0:0",
+      "proof_id": "V05P00708"
+    },
+    {
+      "call_source": "04:A266:0:0:0",
+      "proof_id": "V05P00731"
+    },
+    {
+      "call_source": "04:B168:0:0:0",
+      "proof_id": "V05P00821"
+    },
+    {
+      "call_source": "04:F8E8:0:0:0",
+      "proof_id": "V05P01083"
+    },
+    {
+      "call_source": "06:9CE2:0:0:0",
+      "proof_id": "V05P01229"
+    },
+    {
+      "call_source": "06:D148:0:0:0",
+      "proof_id": "V05P01452"
+    },
+    {
+      "call_source": "06:D171:0:0:0",
+      "proof_id": "V05P01454"
+    },
+    {
+      "call_source": "07:F693:0:0:0",
+      "proof_id": "V05P01875"
+    },
+    {
+      "call_source": "0D:817E:0:0:0",
+      "proof_id": "V05P02355"
+    }
+  ],
+  "products": {
+    "contexts_sha256": "fb04c1acd1c69595a70f0abd3e4514a37de7d47f8e5d7453e00c503173e0994d",
+    "edges_sha256": "aeca398c2a5f44e6d7d3502acf1bbb7ac4690f113e1495b39c8b34f610410b0a"
+  },
+  "return_relations": [
+    {
+      "call_source": "00:CBBD:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "00:CBC1:0:0:0"
+    },
+    {
+      "call_source": "00:CBE6:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "00:CBEA:0:0:0"
+    },
+    {
+      "call_source": "00:CDBE:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "00:CDC2:0:0:0"
+    },
+    {
+      "call_source": "00:CDE7:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "00:CDEB:0:0:0"
+    },
+    {
+      "call_source": "00:EFA3:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "00:EFA7:0:0:0"
+    },
+    {
+      "call_source": "00:EFCC:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "00:EFD0:0:0:0"
+    },
+    {
+      "call_source": "00:F027:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "00:F02B:0:0:0"
+    },
+    {
+      "call_source": "00:F04E:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "00:F052:0:0:0"
+    },
+    {
+      "call_source": "04:8AC2:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:8AC6:0:0:0"
+    },
+    {
+      "call_source": "04:8D6C:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:8D70:0:0:0"
+    },
+    {
+      "call_source": "04:900F:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:9013:0:0:0"
+    },
+    {
+      "call_source": "04:9038:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:903C:0:0:0"
+    },
+    {
+      "call_source": "04:935D:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:9361:0:0:0"
+    },
+    {
+      "call_source": "04:9386:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:938A:0:0:0"
+    },
+    {
+      "call_source": "04:9487:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:948B:0:0:0"
+    },
+    {
+      "call_source": "04:94B0:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:94B4:0:0:0"
+    },
+    {
+      "call_source": "04:97DF:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:97E3:0:0:0"
+    },
+    {
+      "call_source": "04:9808:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:980C:0:0:0"
+    },
+    {
+      "call_source": "04:9A33:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:9A37:0:0:0"
+    },
+    {
+      "call_source": "04:9A5C:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:9A60:0:0:0"
+    },
+    {
+      "call_source": "04:9AD0:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:9AD4:0:0:0"
+    },
+    {
+      "call_source": "04:9AF9:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:9AFD:0:0:0"
+    },
+    {
+      "call_source": "04:A266:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:A26A:0:0:0"
+    },
+    {
+      "call_source": "04:B168:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:B16C:0:0:0"
+    },
+    {
+      "call_source": "04:F8E8:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "04:F8EC:0:0:0"
+    },
+    {
+      "call_source": "06:9CE2:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "06:9CE6:0:0:0"
+    },
+    {
+      "call_source": "06:D148:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "06:D14C:0:0:0"
+    },
+    {
+      "call_source": "06:D171:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "06:D175:0:0:0"
+    },
+    {
+      "call_source": "07:F693:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "07:F697:0:0:0"
+    },
+    {
+      "call_source": "0D:817E:0:0:0",
+      "return_source": "07:FA99:0:0:0",
+      "return_target": "0D:8182:0:0:0"
+    }
+  ],
+  "root_context": "07:FA6B:0:0:0",
+  "runtime_decoder_required": false,
+  "runtime_return_edge_count": 30,
+  "runtime_return_edges_sha256": "cd7112aab56be5b4230533e6334131a9c3744373f7189dcd13ac794dceeaeb09",
+  "schema": "theme-park-v07c-family-understanding-v1",
+  "status": "UNDERSTOOD_SOURCE_PROVED_NOT_YET_ADMITTED",
+  "trace_or_oracle_inputs": []
+}

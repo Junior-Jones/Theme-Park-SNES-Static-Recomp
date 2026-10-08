@@ -1,0 +1,15 @@
+{
+  "conservative_unresolved_ppu_intersections": 5461,
+  "exact_ppu_contexts": 612,
+  "exact_ppu_events": 702,
+  "executables": 0,
+  "frontend_selected": false,
+  "objects_per_toolchain": 678,
+  "oracle_used": false,
+  "pixels_claimed": false,
+  "ppu_dma_routes": 59,
+  "proved_bbad_writers": 61,
+  "runtime_decoder_used": false,
+  "schema": "theme-park-v11c-verification-v1",
+  "status": "PASS_V11C_PPU_STATE_SOURCE_DMA_JOIN_STATIC_LIBRARIES_NO_EXECUTABLE"
+}

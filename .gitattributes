@@ -1,0 +1,2 @@
+# Preserve exact source bytes used by generated-source and release manifests.
+* -text

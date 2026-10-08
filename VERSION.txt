@@ -1,0 +1,26 @@
+Theme Park (SNES) Static Recompilation
+Version: 1.0.0
+Platform: Native 64-bit Windows
+Executable: Launcher.exe
+Launcher title: Launcher
+Game title: Theme Park (SNES)
+ROM: Europe PAL; supplied separately, never included
+
+Version 1.0.0 features
+----------------------
+- First-run Welcome followed by Launcher.
+- Original 4:3 presentation, full-screen option and optional FPS display.
+- Original natural PAL pacing (approximately 50.007 frames per second),
+  enabled by default and configurable in Settings. The additional strict
+  per-frame spacing limiter was removed after an audio-underrun regression.
+- Configurable one-player keyboard and statically linked SDL3 gamepad input.
+- Complete-machine snapshot slots and screenshot capture.
+- Native static S-CPU/SPC700 core, PAL scheduler, DMA/HDMA, PPU and S-DSP.
+- In-frame stereo audio delivery, DirectSound output and Audio Settings.
+- Fail-closed core errors and normal runtime diagnostics.
+- Portable package without ROM, personal settings or development test tools.
+
+Widescreen is not included. It remains experimental and on hold while its
+audio stuttering/crackling is investigated. See README.txt for basic details.
+No claim is made that this build resolves every audible artifact or has
+been tested on another physical PC.

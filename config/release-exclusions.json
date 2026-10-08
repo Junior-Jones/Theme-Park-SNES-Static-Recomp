@@ -1,0 +1,11 @@
+{
+  "schema": "theme-park-release-exclusions-v1",
+  "exclude": [
+    "*.sfc", "*.smc", "*.rom", "*.sav", "*.srm", "*.state", "*.exe",
+    "*.dll", "*.obj", "*.o", "*.a", "*.lib", "*.wav", "*.png", "*.zip",
+    "build/**", "research/**", "oracle/**", "generated/archive/**", "frontend/**",
+    "tests/**", "**/__pycache__/**", ".git/**"
+  ],
+  "release_allowlist": "config/release-allowlist.txt"
+}
+

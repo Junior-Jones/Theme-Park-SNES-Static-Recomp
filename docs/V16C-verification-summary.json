@@ -1,0 +1,23 @@
+{
+  "schema": "theme-park-v16c-verification-summary-v1",
+  "status": "SUPERSEDED_STATIC_ONLY_NOT_ACTIVE_AUDIO_ACCEPTANCE",
+  "superseded_reason": "32,000 Hz profile was corrected to the independent 1,025,280 Hz S-SMP / 32,040 Hz DSP profile; current connected run produces zero nonzero PCM and must be requalified",
+  "exact_dsp_port_sites": 94,
+  "dsp_port_counts": {"f2_writes": 47, "f3_writes": 46, "f3_reads": 1},
+  "sdsp_phases": 32,
+  "voices": 8,
+  "gaussian_coefficients": 512,
+  "historical_native_rate_hz": 32000,
+  "corrected_native_rate_hz": 32040,
+  "pcm_channels": 2,
+  "pcm_fifo_frames": 8192,
+  "cold_reset_proof_frames": 1024,
+  "active_guest_audio_runs": 0,
+  "oracle_runs": 0,
+  "target_executable_runs": 0,
+  "executables_created": 0,
+  "compile_receipt": "docs/V16C-static-compile-receipt.json",
+  "symbol_audit": "docs/V16C-static-symbol-audit.json",
+  "verifier": "tools/verify_v16_sdsp.py",
+  "next_owner": "17C_WHOLE_CORE_RECONCILIATION_AND_NATURAL_PASS_A"
+}

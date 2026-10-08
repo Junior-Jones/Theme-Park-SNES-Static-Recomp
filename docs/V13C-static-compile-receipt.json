@@ -1,0 +1,29 @@
+{
+  "compile_action": "COMPILED_ALL_OBJECTS_AND_STATIC_LIBRARIES",
+  "executables_created": 0,
+  "gcc": {
+    "library": "build/v13c-static/gcc/libtheme_park_v13c.a",
+    "library_sha256": "0e917b1ef1c9c40d7a70f5484a8a90acc1076fb55c55c961c27971cdc293ff25",
+    "objects": 681
+  },
+  "inputs_sha256": {
+    "aot_header": "bbfefd1a71e2f47e163d173b329c90726eaaeec9dc547a69c8c93e71664d3a66",
+    "aot_receipt": "6632b0e842ab8a8b28e2f11015ab9e6aa069e00a8f74b848d3e05dbee9cff017",
+    "aot_source": "4c24db6e0380f9f7f799eeb29b24782d557743e01cc2cba095c11f08e3f123e7",
+    "apu": "03fc2599a92c4e639dc2b961881fdf827cd80f50d0e3d7fefa54743deed60e1e",
+    "apu_header": "085f77db8ac5d527acd0b64779948684b71944a1088f14d582dc36c4539fd6e9",
+    "discovery": "60132b9e2e53ec530d9edfcd3fb88c2bf80ce707c2820e4afde88efb71ae1bf3",
+    "semantic_header": "0a84692814f6fa92f94af522d59da07d74562ff719f9f9170fb7bb497469d138",
+    "semantic_helpers": "5479df8a18bd37e115b94a9c631f08437ffda78d21c062470126c972590962fe"
+  },
+  "msvc": {
+    "library": "build/v13c-static/msvc/theme_park_v13c.lib",
+    "library_sha256": "66f646bcb373d9cf5f148389160a76c2f8bdcfda7e7fa06e24da8bc3b0b51bb5",
+    "objects": 681
+  },
+  "schema": "theme-park-v13c-static-compile-v1",
+  "scpu_contexts": 71986,
+  "source_files": 681,
+  "ssmp_contexts": 1392,
+  "status": "PASS_STATIC_SSMP_AOT_LIBRARIES_NO_EXECUTABLE"
+}

@@ -1,0 +1,12 @@
+Hardware_Area,Implemented,Source_Reached,Source_Certified,Owner,Evidence,Open_Boundary
+STANDARD_PAD_PORT_1,YES,YES,YES_AUTOJOY_RESULT,runtime/src/theme_park_input.c,"Theme Park reads $4218/$4219; native JOY word layout",COLD_PASS_B_18C
+STANDARD_PAD_PORT_2,YES,NO_DIRECT_TARGET_READ,YES_GENERAL_15C_SURFACE,runtime/src/theme_park_input.c,"second standard serial/autojoy lane; no extra device",REOPEN_ON_NEW_DEVICE_PROOF
+MANUAL_SERIAL_4016_4017,YES,NO_EXACT_TARGET_EFFECT,YES_GENERAL_15C_SURFACE,runtime/src/theme_park_input.c,"effective CPU/auto strobe; MSB-first standard-pad shift; post-report ones; open-bus composition",COLD_PASS_B_18C
+AUTOJOY_TIMING,YES,YES,YES_22_NMITIMEN_WRITES,runtime/src/theme_park_scheduler.c,"phases 0-34 at 128 master-clock intervals; source values $00/$01/$81",COLD_PASS_B_18C
+AUTOJOY_RESULTS,YES,YES_4218_4219,YES_SOURCE_DOMAIN,runtime/src/theme_park_input.c,"separate live latch shift and four result words",CLOSED_SOURCE_DOMAIN
+INPUT_RESET,YES,YES_MACHINE_RESET,YES_TRANSITION,runtime/src/theme_park_input.c,"preserve external live reports; clear guest strobe shift result and counters",COLD_PASS_B_18C
+HOST_KEY_MAPPING,NO,NO,YES_EXCLUDED,POST_18C_FRONTEND,"core accepts native report words only",DO_NOT_ADD_TO_15C
+SRAM,ABSENT,NO,YES_ZERO_BYTES,docs/V01C-cartridge-profile.json,"header-declared SRAM bytes zero and 08C has no SRAM window",REOPEN_ONLY_IF_CARTRIDGE_PROOF_CHANGES
+RTC_SPECIAL_PERSISTENCE,ABSENT,NO,YES_NO_DEVICE_PROOF,docs/V15C-input-source-domain.json,"no target-required persistent special device",REOPEN_ON_NEW_SOURCE_OR_BOARD_PROOF
+PPU_RENDERER,YES,YES,YES_14C,runtime/src/theme_park_renderer.c,"input owner does not alter raster or publication semantics",17C_RECONCILIATION
+SDSP_AUDIO,NO,YES_BOUNDARY,NO_FAIL_CLOSED,16C_PENDING,"$F3 remains deliberate boundary",NEXT_OWNER

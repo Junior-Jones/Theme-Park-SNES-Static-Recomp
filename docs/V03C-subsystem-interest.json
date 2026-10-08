@@ -1,0 +1,79 @@
+{
+  "authority": "LEXICAL_INTEREST_ONLY_NOT_REACHABILITY",
+  "counts": {
+    "APUIO_LOW16_DBR_UNPROVED": 2,
+    "APUIO_LOW16_EXACT_BANK0": 18,
+    "CPU_IO_LOW16_DBR_UNPROVED": 616,
+    "CPU_IO_LOW16_EXACT_BANK0": 2,
+    "DMA_HDMA_LOW16_DBR_UNPROVED": 495,
+    "DMA_HDMA_LOW16_EXACT_BANK0": 2,
+    "PPU_LOW16_DBR_UNPROVED": 793,
+    "PPU_LOW16_EXACT_BANK0": 28,
+    "WRAM_WRITE_EXACT_BANK": 189
+  },
+  "examples_are_non_authoritative": {
+    "APUIO_LOW16_DBR_UNPROVED": [
+      "0C:8871",
+      "1C:B707"
+    ],
+    "APUIO_LOW16_EXACT_BANK0": [
+      "0B:DFD2",
+      "0E:8051",
+      "0E:8059",
+      "0E:8061",
+      "0E:806B",
+      "0E:806F",
+      "0E:8249",
+      "0E:825A"
+    ],
+    "CPU_IO_LOW16_DBR_UNPROVED": [
+      "00:8002",
+      "00:8005",
+      "00:8008",
+      "00:8212",
+      "00:8223",
+      "00:8349",
+      "00:8350",
+      "00:83A8"
+    ],
+    "CPU_IO_LOW16_EXACT_BANK0": [
+      "0D:ABCA",
+      "1E:AF22"
+    ],
+    "DMA_HDMA_LOW16_DBR_UNPROVED": [
+      "00:83D5",
+      "00:83DA",
+      "00:83E0",
+      "00:83E5",
+      "00:83EB",
+      "00:8402",
+      "00:8407",
+      "00:840D"
+    ],
+    "DMA_HDMA_LOW16_EXACT_BANK0": [
+      "0E:8E2D",
+      "1B:80BA"
+    ],
+    "PPU_LOW16_DBR_UNPROVED": [
+      "00:800D",
+      "00:802F",
+      "00:803E",
+      "00:81D6",
+      "00:81DB",
+      "00:81E0",
+      "00:81E5",
+      "00:81EA"
+    ],
+    "PPU_LOW16_EXACT_BANK0": [
+      "01:CB00",
+      "0B:DFD2",
+      "0E:8051",
+      "0E:8059",
+      "0E:8061",
+      "0E:806B",
+      "0E:806F",
+      "0E:8249"
+    ]
+  },
+  "row_digest_sha256": "14eecb508bbd32999276818f348ffb421c989f094965e175673b881ef91a8794"
+}

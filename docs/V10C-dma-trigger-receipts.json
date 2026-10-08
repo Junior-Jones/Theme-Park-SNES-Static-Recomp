@@ -1,0 +1,5579 @@
+[
+  {
+    "access_width": 1,
+    "context": "00:8002:1:1:1",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F509"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$420C"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-92CA07802E4162BDAC54",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-92CA07802E4162BDAC54",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "00:8005:1:1:1",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F509"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$420C"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-7D340F42041FBDC1C92B",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420C",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-7D340F42041FBDC1C92B",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "00:8349:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F510",
+      "TP07F511",
+      "TP07F512",
+      "TP07F513"
+    ],
+    "family_register_surface": [
+      "$420C"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-13B2C529652D8054E581",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420C",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-13B2C529652D8054E581",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "00:8350:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4300": [
+        "TPHW-CFD5B63C9E56E5C62696"
+      ],
+      "$4301": [
+        "TPHW-AFE6ED5B4AECC55BA7C8"
+      ],
+      "$4302": [
+        "TPHW-F745015ACA715C4893BC"
+      ],
+      "$4303": [
+        "TPHW-A4EB7499736C3E7BBCC5"
+      ],
+      "$4304": [
+        "TPHW-4C7C133D1E2DD6661F1B"
+      ]
+    },
+    "families": [
+      "TP07F510",
+      "TP07F511",
+      "TP07F512",
+      "TP07F513"
+    ],
+    "family_register_surface": [
+      "$420C"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-3ACAED498D3A54585809",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420C",
+    "required_payload_registers": [
+      "$4300",
+      "$4301",
+      "$4302",
+      "$4303",
+      "$4304"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 1,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-3ACAED498D3A54585809",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "00:83D0:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F236"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-5E76AA46B83E19C217E0",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-5E76AA46B83E19C217E0",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "00:83F0:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-BF1BB68F2BDACF1B14AB"
+      ],
+      "$4331": [
+        "TPHW-8164DB58F508AD01328E"
+      ],
+      "$4332": [
+        "TPHW-5DCBE7EA0C81C70F810E"
+      ],
+      "$4333": [
+        "TPHW-642E600F170499283269"
+      ],
+      "$4334": [
+        "TPHW-BAF22E7D8A9EE8F3B21C"
+      ],
+      "$4335": [
+        "TPHW-3C72EA3DE011E77E8BB8"
+      ],
+      "$4336": [
+        "TPHW-42B767EDBA97A7A69D18"
+      ]
+    },
+    "families": [
+      "TP07F236"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-D5DB73EAC5B3BA58F83C",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-D5DB73EAC5B3BA58F83C",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "00:83FD:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F236"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-F45F3475AF1E5B1960C3",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-F45F3475AF1E5B1960C3",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "00:841D:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-9C3A8B78F5A7DA02492B"
+      ],
+      "$4331": [
+        "TPHW-113355093EE211A65F5C"
+      ],
+      "$4332": [
+        "TPHW-382D5AD85474E9FC99BC"
+      ],
+      "$4333": [
+        "TPHW-B08583481C807AB5BE65"
+      ],
+      "$4334": [
+        "TPHW-C3FD0EC1654EF97B4EF7"
+      ],
+      "$4335": [
+        "TPHW-F9CEDE2DB557B87DBE65"
+      ],
+      "$4336": [
+        "TPHW-D2162326562FAB4C713A"
+      ]
+    },
+    "families": [
+      "TP07F236"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-8BB98A719A7C3911E4B9",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-8BB98A719A7C3911E4B9",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "00:8436:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F256"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-463E5C84EFDE8EA86CE3",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-463E5C84EFDE8EA86CE3",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "00:8463:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-0D0475FBE6E38E3FECC9"
+      ],
+      "$4331": [
+        "TPHW-3F1E15E53B4F903919AD"
+      ],
+      "$4332": [
+        "TPHW-84339F5AEA01D83CB63A"
+      ],
+      "$4333": [
+        "TPHW-B2653FC0F984BAB20E4B"
+      ],
+      "$4334": [
+        "TPHW-48428F2CA157E77F066A"
+      ],
+      "$4335": [
+        "TPHW-095D77E8FC23DF8425AF"
+      ],
+      "$4336": [
+        "TPHW-CA4690F9E0E69FB62F3A"
+      ]
+    },
+    "families": [
+      "TP07F256"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-D42CE4BFC6D8664A280B",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-D42CE4BFC6D8664A280B",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "00:848A:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F256"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-5DED49AA2A6A706DFA8F",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-5DED49AA2A6A706DFA8F",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "00:84AA:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-18CB14A51676DB9BEB41"
+      ],
+      "$4331": [
+        "TPHW-35BF5274CE2BD0AF7EA8"
+      ],
+      "$4332": [
+        "TPHW-A39D47F29B20496C1EFB"
+      ],
+      "$4333": [
+        "TPHW-80A50ED9238FAF0BD89E"
+      ],
+      "$4334": [
+        "TPHW-517568B2A47835A0760A"
+      ],
+      "$4335": [
+        "TPHW-656E4DC6D47A7EEDF6BF"
+      ],
+      "$4336": [
+        "TPHW-E1C1A77F23C250070147"
+      ]
+    },
+    "families": [
+      "TP07F256"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-0ED7DDE580C8514C4563",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-0ED7DDE580C8514C4563",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "00:84C9:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F215"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-560B7B2F709B802F9D22",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-560B7B2F709B802F9D22",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "00:84E9:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-894EDAEB8653210F450C"
+      ],
+      "$4331": [
+        "TPHW-821CE556C4B7B39EC26E"
+      ],
+      "$4332": [
+        "TPHW-C5FE7E079147173CEDC6"
+      ],
+      "$4333": [
+        "TPHW-259607074F1087E10ADD"
+      ],
+      "$4334": [
+        "TPHW-675D26142F1AD1AEAC01"
+      ],
+      "$4335": [
+        "TPHW-57029BA3742F09E9DB6D"
+      ],
+      "$4336": [
+        "TPHW-59EAAAC270F4477BED8D"
+      ]
+    },
+    "families": [
+      "TP07F215"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-38AA5B8F7FDB82E6B9C3",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-38AA5B8F7FDB82E6B9C3",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "00:84FF:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F231"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-76D924A2C979BB004F9F",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-76D924A2C979BB004F9F",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "00:851D:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-6BCDB5BE0A8931C1D27E"
+      ],
+      "$4331": [
+        "TPHW-F7EC054DBCB61EC43755"
+      ],
+      "$4332": [
+        "TPHW-9FC4DD761326B1D57DCD"
+      ],
+      "$4333": [
+        "TPHW-50ECB3470F2D673D422D"
+      ],
+      "$4334": [
+        "TPHW-09D5ABFCA2614E199B34"
+      ],
+      "$4335": [
+        "TPHW-39064EA09410678B39E9"
+      ],
+      "$4336": [
+        "TPHW-874BCD760D8C486C1AE5"
+      ]
+    },
+    "families": [
+      "TP07F231"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-A3F1ACBDDEE3DE3BC87E",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-A3F1ACBDDEE3DE3BC87E",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "00:852B:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F231"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-804A578120F840FC1F3A",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-804A578120F840FC1F3A",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "00:8549:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-A91EE5191C61428ABD30"
+      ],
+      "$4331": [
+        "TPHW-DB4E6B9F6D6B9AD96D39"
+      ],
+      "$4332": [
+        "TPHW-654B21C4C111CD3087B8"
+      ],
+      "$4333": [
+        "TPHW-3769517114F3B1E750F0"
+      ],
+      "$4334": [
+        "TPHW-514338A9500E54ECC2B9"
+      ],
+      "$4335": [
+        "TPHW-B461B2857165B7E63DE4"
+      ],
+      "$4336": [
+        "TPHW-239E05FD6CF2322615D5"
+      ]
+    },
+    "families": [
+      "TP07F231"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-8F009F988DAF454F617F",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-8F009F988DAF454F617F",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "04:D984:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-5AF87F7C2DD54349EE5D",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-5AF87F7C2DD54349EE5D",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "04:D9A4:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-DB509D61A6E14E786648"
+      ],
+      "$4341": [
+        "TPHW-1F628779DE044EC3B315"
+      ],
+      "$4342": [
+        "TPHW-1B5616E8E8105BED1376"
+      ],
+      "$4343": [
+        "TPHW-E79B5BA2D5AAB723E6D7"
+      ],
+      "$4344": [
+        "TPHW-30DC497E49F5D31E1BD3"
+      ],
+      "$4345": [
+        "TPHW-FC2F1D932DB0213BD00E"
+      ],
+      "$4346": [
+        "TPHW-AFF8768460AD0B528225"
+      ]
+    },
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-DC6AA468569476556317",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-DC6AA468569476556317",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "04:D9D9:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-854D56E0BADA6B60E3D3",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-854D56E0BADA6B60E3D3",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "04:D9F9:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-C10FADA74A64315EF94E"
+      ],
+      "$4341": [
+        "TPHW-AA5E64BC1C3D7BDFA454"
+      ],
+      "$4342": [
+        "TPHW-AA34E7E551AE6448E6B9"
+      ],
+      "$4343": [
+        "TPHW-62679BC7F7F6BA444497"
+      ],
+      "$4344": [
+        "TPHW-1CC644B09E01EE84A520"
+      ],
+      "$4345": [
+        "TPHW-5D59A669ACC30561259B"
+      ],
+      "$4346": [
+        "TPHW-BBF71317002553837E7C"
+      ]
+    },
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-3315AB0409F0C7A74B21",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-3315AB0409F0C7A74B21",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DA28:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-A249C39E9100217E7318",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-A249C39E9100217E7318",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DA48:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-ED99F5DEE7C72AFE765E"
+      ],
+      "$4341": [
+        "TPHW-AF4E393622955104BC05"
+      ],
+      "$4342": [
+        "TPHW-CCE104993E138AEB3969"
+      ],
+      "$4343": [
+        "TPHW-0BD5803C6AD7530B91FD"
+      ],
+      "$4344": [
+        "TPHW-E228D462C8FF03044152"
+      ],
+      "$4345": [
+        "TPHW-18D27EA7952D253D61A1"
+      ],
+      "$4346": [
+        "TPHW-928FAF7A8CBBE0C14805"
+      ]
+    },
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-3841E1BC2559D2E68AA5",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-3841E1BC2559D2E68AA5",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DA77:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-B65F50234F98BA82C832",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-B65F50234F98BA82C832",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DA97:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-DA68F23F24FC9D54DC33"
+      ],
+      "$4341": [
+        "TPHW-EA151C29BE5D8A802189"
+      ],
+      "$4342": [
+        "TPHW-202B6DFB70B8D04865E7"
+      ],
+      "$4343": [
+        "TPHW-1F63748BAA67914BEF63"
+      ],
+      "$4344": [
+        "TPHW-8C70DFBC4224AED38FD7"
+      ],
+      "$4345": [
+        "TPHW-BA3E15FB4D4314D3F4F7"
+      ],
+      "$4346": [
+        "TPHW-67CBECF056F6187E6AEE"
+      ]
+    },
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-CE8F7D42CCD465080246",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-CE8F7D42CCD465080246",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DAC6:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-07E79D9B85611C154895",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-07E79D9B85611C154895",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DAE6:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-E90600BA80411F7C8F3B"
+      ],
+      "$4341": [
+        "TPHW-B741493FCE57BD16566C"
+      ],
+      "$4342": [
+        "TPHW-4EB51B0D7A81C0AF4A20"
+      ],
+      "$4343": [
+        "TPHW-E5FC26270491B2C304A3"
+      ],
+      "$4344": [
+        "TPHW-B4C09294C181BBA64F5B"
+      ],
+      "$4345": [
+        "TPHW-1FB9E61EBD7AEFD95E9E"
+      ],
+      "$4346": [
+        "TPHW-04863A812A1B6ED2D65B"
+      ]
+    },
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-158D60BFE5D732AC16D8",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-158D60BFE5D732AC16D8",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DB15:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-886CEC3D4075C89C4C41",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-886CEC3D4075C89C4C41",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DB35:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-7D85DD1FB08A9EA79292"
+      ],
+      "$4341": [
+        "TPHW-55A9202627FF766E7803"
+      ],
+      "$4342": [
+        "TPHW-CABE68091931DF35CE8E"
+      ],
+      "$4343": [
+        "TPHW-1B2A1671801791F5ED39"
+      ],
+      "$4344": [
+        "TPHW-16591776DB292C6BB381"
+      ],
+      "$4345": [
+        "TPHW-A8163B6F86459B619A45"
+      ],
+      "$4346": [
+        "TPHW-EFE303D82814EFAAEFFD"
+      ]
+    },
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-85C5F74C28F8E526EA34",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-85C5F74C28F8E526EA34",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DB6D:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-41C75A294CA605DBD40D",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-41C75A294CA605DBD40D",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DB8D:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-915EBE9615B6E78978CD"
+      ],
+      "$4341": [
+        "TPHW-C184C6269F1C17E33502"
+      ],
+      "$4342": [
+        "TPHW-C08B70FEDF0E683BF979"
+      ],
+      "$4343": [
+        "TPHW-62267C10D2B90B66F8D1"
+      ],
+      "$4344": [
+        "TPHW-008A71CEF0236EE048D9"
+      ],
+      "$4345": [
+        "TPHW-6B91A9CE144E51744139"
+      ],
+      "$4346": [
+        "TPHW-32BD389877D54594B6C5"
+      ]
+    },
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-419B160840EBA1062750",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-419B160840EBA1062750",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DBBC:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-0061CDC237BE912372C6",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-0061CDC237BE912372C6",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DBDC:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-CB4D0AC86148657EDF36"
+      ],
+      "$4341": [
+        "TPHW-0D7ECF858CC6434B0156"
+      ],
+      "$4342": [
+        "TPHW-486B7763A98ADB5170BB"
+      ],
+      "$4343": [
+        "TPHW-821A6F422BB8E4141A54"
+      ],
+      "$4344": [
+        "TPHW-850E8A38C0FBCC3177F0"
+      ],
+      "$4345": [
+        "TPHW-889C75952B9FD25069AA"
+      ],
+      "$4346": [
+        "TPHW-7460281AB001FE84A60F"
+      ]
+    },
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-2609BB339FE4C2DEE977",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-2609BB339FE4C2DEE977",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DC0B:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-796F3079398FF2AEEE72",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-796F3079398FF2AEEE72",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DC2B:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-D9E6FA3E3115DD39B196"
+      ],
+      "$4341": [
+        "TPHW-89F3BFADD38D70632C16"
+      ],
+      "$4342": [
+        "TPHW-C7324F7084CCA74C533A"
+      ],
+      "$4343": [
+        "TPHW-3A58C441CE286187C97D"
+      ],
+      "$4344": [
+        "TPHW-631C9EF0309C7DF952E4"
+      ],
+      "$4345": [
+        "TPHW-D94C4206B9CAC1208365"
+      ],
+      "$4346": [
+        "TPHW-FA4ABA8FB9E42A2E6C37"
+      ]
+    },
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-E505710A88B0FE431958",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-E505710A88B0FE431958",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DC5A:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-56EAAC73FED6F452B54F",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-56EAAC73FED6F452B54F",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DC7A:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-C1D9BCCE4897E671CCB8"
+      ],
+      "$4341": [
+        "TPHW-077195FB99551204BB5A"
+      ],
+      "$4342": [
+        "TPHW-9AD24C85CC0235602DD3"
+      ],
+      "$4343": [
+        "TPHW-29566D172CA72B78250B"
+      ],
+      "$4344": [
+        "TPHW-45F50FC19046548AD0E0"
+      ],
+      "$4345": [
+        "TPHW-8003811766CA36F0DB53"
+      ],
+      "$4346": [
+        "TPHW-E92B554C712E29AD5FD9"
+      ]
+    },
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-F0D2076BE11379C07A37",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-F0D2076BE11379C07A37",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DCB2:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-D3D8B26A6070200292EB",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-D3D8B26A6070200292EB",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DCD2:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-05AB95FA2BB4BED2F3BF"
+      ],
+      "$4341": [
+        "TPHW-5E83AC7181F29C8CE347"
+      ],
+      "$4342": [
+        "TPHW-42C8F100C7A35D62944C"
+      ],
+      "$4343": [
+        "TPHW-6685A9A1F08EC4EE3A54"
+      ],
+      "$4344": [
+        "TPHW-003358EA93E00C4DF7EC"
+      ],
+      "$4345": [
+        "TPHW-1EE898CE8CCEC401EB4E"
+      ],
+      "$4346": [
+        "TPHW-66E393F3A9B40813E3CD"
+      ]
+    },
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-AB9F33F9033E268463EA",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-AB9F33F9033E268463EA",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DD01:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-4B42075EDE9E2FDEC039",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-4B42075EDE9E2FDEC039",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DD21:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-3F43616F6A46192DCCD3"
+      ],
+      "$4341": [
+        "TPHW-13408760D78302F13F8C"
+      ],
+      "$4342": [
+        "TPHW-C34A0A8434FE6C9F6701"
+      ],
+      "$4343": [
+        "TPHW-AC4412312E4D5FC07862"
+      ],
+      "$4344": [
+        "TPHW-E950DD5373110DFB23D8"
+      ],
+      "$4345": [
+        "TPHW-1A43F56F2C574E5A4A6C"
+      ],
+      "$4346": [
+        "TPHW-4B0F68FD82D77EB90464"
+      ]
+    },
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-5213A36FE5F2A5E7A1B6",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-5213A36FE5F2A5E7A1B6",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DD59:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-2F2A18667CE184C6B285",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-2F2A18667CE184C6B285",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "04:DD79:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-D5CDA3BAE4B4C8FA12F2"
+      ],
+      "$4341": [
+        "TPHW-5F1A04A9B986CA4E2ECB"
+      ],
+      "$4342": [
+        "TPHW-CE3B2FE5907A1F70F7C8"
+      ],
+      "$4343": [
+        "TPHW-6ED898DDA764CA2B3C56"
+      ],
+      "$4344": [
+        "TPHW-A451FF923FCCF6021F25"
+      ],
+      "$4345": [
+        "TPHW-13362B051F7B0FEDF42F"
+      ],
+      "$4346": [
+        "TPHW-54618F09D7E1B7164981"
+      ]
+    },
+    "families": [
+      "TP07F392"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-2E06DBCAC8DCEFCD05C9",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-2E06DBCAC8DCEFCD05C9",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "06:BA5D:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F328"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-1C829E75791695D3BF58",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-1C829E75791695D3BF58",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "06:BA7D:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-85FE3EA5FC41CB28DCAF"
+      ],
+      "$4341": [
+        "TPHW-D8D3E3C166CC7C8D18B3"
+      ],
+      "$4342": [
+        "TPHW-740E0CA0E65D29D23447"
+      ],
+      "$4343": [
+        "TPHW-EDD1BA4B1BD90D4EF6BE"
+      ],
+      "$4344": [
+        "TPHW-5F140D1BA4C6B99CB4E9"
+      ],
+      "$4345": [
+        "TPHW-3AD73237EEB5AF6E467D"
+      ],
+      "$4346": [
+        "TPHW-12DF3BC142F4C75464F8"
+      ]
+    },
+    "families": [
+      "TP07F328"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-6799AE90850A5F53D90A",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-6799AE90850A5F53D90A",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "06:BAA3:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F328"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-4696D218649CE5D404A7",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-4696D218649CE5D404A7",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "06:BAC3:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-AB8734A921E63C0904DB"
+      ],
+      "$4341": [
+        "TPHW-FF83260ED4FF2C11C2BE"
+      ],
+      "$4342": [
+        "TPHW-A540966B8D0961F6160D"
+      ],
+      "$4343": [
+        "TPHW-826A0F0A03B824E4B751"
+      ],
+      "$4344": [
+        "TPHW-5A12312EA9BE7CEA5B91"
+      ],
+      "$4345": [
+        "TPHW-C70087675AB1724E7B1B"
+      ],
+      "$4346": [
+        "TPHW-8362BC3A92E86E3A81EE"
+      ]
+    },
+    "families": [
+      "TP07F328"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-9F2C4D644112C357DED6",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-9F2C4D644112C357DED6",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "06:BAEC:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F328"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-CE601C503C4DB8F6387D",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-CE601C503C4DB8F6387D",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "06:BB0C:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-8B98F550906F55BEB803"
+      ],
+      "$4341": [
+        "TPHW-6C77444BCD51458E7AB8"
+      ],
+      "$4342": [
+        "TPHW-9184F0193B51510E24F4"
+      ],
+      "$4343": [
+        "TPHW-338061B5C3A77CD7F26A"
+      ],
+      "$4344": [
+        "TPHW-E863247BF7FD169BDEE2"
+      ],
+      "$4345": [
+        "TPHW-14B34561CFF29CCC4D1F"
+      ],
+      "$4346": [
+        "TPHW-FE2CA1211B8AA74F2B57"
+      ]
+    },
+    "families": [
+      "TP07F328"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-59BF057726DAE8736E44",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-59BF057726DAE8736E44",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "06:BB35:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F328"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-AFD5BA109BFE4D63527A",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-AFD5BA109BFE4D63527A",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "06:BB55:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-001E50D2CC684C0DA758"
+      ],
+      "$4341": [
+        "TPHW-450BC36C961E249CAA17"
+      ],
+      "$4342": [
+        "TPHW-A7C1FCEBE7AC6202E128"
+      ],
+      "$4343": [
+        "TPHW-12D3521BE223DE571846"
+      ],
+      "$4344": [
+        "TPHW-3B78084FD987AD26949B"
+      ],
+      "$4345": [
+        "TPHW-392F069B5D6794C669FB"
+      ],
+      "$4346": [
+        "TPHW-BDEF82D42D868D006563"
+      ]
+    },
+    "families": [
+      "TP07F328"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-1B9E221AB2F873E477E6",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-1B9E221AB2F873E477E6",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "06:BB7E:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F328"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-96F8D3CE823AD2CA7C15",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-96F8D3CE823AD2CA7C15",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "06:BB9E:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-40E70829E7508DE86F6F"
+      ],
+      "$4341": [
+        "TPHW-343D276FD278F06A2D8C"
+      ],
+      "$4342": [
+        "TPHW-0E5DBFE19A4CCE9DDE68"
+      ],
+      "$4343": [
+        "TPHW-F331C417C543FD541EE6"
+      ],
+      "$4344": [
+        "TPHW-18A119C1954A2A261FFC"
+      ],
+      "$4345": [
+        "TPHW-F9ADFA944155459A7B83"
+      ],
+      "$4346": [
+        "TPHW-F497FD3B844F44D104BC"
+      ]
+    },
+    "families": [
+      "TP07F328"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-7E3B2A8F78066CEF668D",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-7E3B2A8F78066CEF668D",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "06:E146:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F305"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-0B08C36FD067ED69F5B3",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-0B08C36FD067ED69F5B3",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "06:E166:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-49B11D6F79CE8F2F07C4"
+      ],
+      "$4331": [
+        "TPHW-C174D6119393A68FD076"
+      ],
+      "$4332": [
+        "TPHW-03664CB153C6A245A015"
+      ],
+      "$4333": [
+        "TPHW-8752B3B1EFCFE1781904"
+      ],
+      "$4334": [
+        "TPHW-92F77FAA36468E315CD9"
+      ],
+      "$4335": [
+        "TPHW-39CEE333901273F16687"
+      ],
+      "$4336": [
+        "TPHW-44538663F87961D044B2"
+      ]
+    },
+    "families": [
+      "TP07F305"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-C0D65821637A7F719717",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-C0D65821637A7F719717",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "06:FBF7:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F002"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-0D0AC744358A02D3BF97",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-0D0AC744358A02D3BF97",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "06:FC17:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-0F655E841FD46F766197"
+      ],
+      "$4341": [
+        "TPHW-2638BB81400144D9224E"
+      ],
+      "$4342": [
+        "TPHW-039543F2E6415A02C295"
+      ],
+      "$4343": [
+        "TPHW-735682492994A261D9B2"
+      ],
+      "$4344": [
+        "TPHW-08E02FAE5A311D7BF9FF"
+      ],
+      "$4345": [
+        "TPHW-759A0A44DAA4A9509ACC"
+      ],
+      "$4346": [
+        "TPHW-F3892FEC0813E0D3658C"
+      ]
+    },
+    "families": [
+      "TP07F002"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-6455E8F79A7964ADB4F2",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-6455E8F79A7964ADB4F2",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "07:8030:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F012",
+      "TP07F023"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4370",
+      "$4371",
+      "$4372",
+      "$4373",
+      "$4374",
+      "$4375",
+      "$4376"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-06726C47A1412101655B",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-06726C47A1412101655B",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "07:8050:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4370": [
+        "TPHW-45995D0D878A94AD499E"
+      ],
+      "$4371": [
+        "TPHW-3DC205F6F0395559DF88"
+      ],
+      "$4372": [
+        "TPHW-AF460D201A784C29D694"
+      ],
+      "$4373": [
+        "TPHW-B0706CC959E5B350D253"
+      ],
+      "$4374": [
+        "TPHW-B0D232EF357DC9EFB1F9"
+      ],
+      "$4375": [
+        "TPHW-671A3005C25C02AB6398"
+      ],
+      "$4376": [
+        "TPHW-B361F3C323DE5BE40B36"
+      ]
+    },
+    "families": [
+      "TP07F012",
+      "TP07F023"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4370",
+      "$4371",
+      "$4372",
+      "$4373",
+      "$4374",
+      "$4375",
+      "$4376"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-2671B1E70E750EE09D3E",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4370",
+      "$4371",
+      "$4372",
+      "$4373",
+      "$4374",
+      "$4375",
+      "$4376"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 128,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-2671B1E70E750EE09D3E",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "07:809C:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F016",
+      "TP07F296"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-21DE6F7AF8C64724D809",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-21DE6F7AF8C64724D809",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "07:80BC:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-99DD45007924D7F80855"
+      ],
+      "$4341": [
+        "TPHW-079E4424617D6FCEBF91"
+      ],
+      "$4342": [
+        "TPHW-99C0347752CB699EC33F"
+      ],
+      "$4343": [
+        "TPHW-658D6FF339B667AC7C7A"
+      ],
+      "$4344": [
+        "TPHW-DC1C29E40DDCEEFE9E2B"
+      ],
+      "$4345": [
+        "TPHW-E236F3E168C8DDD53698"
+      ],
+      "$4346": [
+        "TPHW-7638BC5142C3D905323A"
+      ]
+    },
+    "families": [
+      "TP07F016",
+      "TP07F296"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-0FB232CC2EEB4E651B8A",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-0FB232CC2EEB4E651B8A",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "07:80D7:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F016",
+      "TP07F296"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-6F94114771CA07B672C4",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-6F94114771CA07B672C4",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "07:80F7:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-D1CF57AE69AB0C081ED0"
+      ],
+      "$4341": [
+        "TPHW-700449B326F71854899F"
+      ],
+      "$4342": [
+        "TPHW-3C1625E9424169DA73B0"
+      ],
+      "$4343": [
+        "TPHW-B01B901287F6AF5409A9"
+      ],
+      "$4344": [
+        "TPHW-C5D2B9893F74A2F2D218"
+      ],
+      "$4345": [
+        "TPHW-118715512FEDA8DED4E2"
+      ],
+      "$4346": [
+        "TPHW-1518859F31158CD1A71F"
+      ]
+    },
+    "families": [
+      "TP07F016",
+      "TP07F296"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-725CE692A874A2C0F192",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-725CE692A874A2C0F192",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "07:80FA:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F016",
+      "TP07F296"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-2796C35433866552BE08",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-2796C35433866552BE08",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "07:811A:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-2FF0DF1923140CE14C3F"
+      ],
+      "$4341": [
+        "TPHW-E47A64DAF99972ABB8F6"
+      ],
+      "$4342": [
+        "TPHW-1F06E70A887003C7E5BE"
+      ],
+      "$4343": [
+        "TPHW-6D4CF10D76278528E982"
+      ],
+      "$4344": [
+        "TPHW-5A733380095BA553AD7D"
+      ],
+      "$4345": [
+        "TPHW-C05E0E4DA77EB057510E"
+      ],
+      "$4346": [
+        "TPHW-7875A0E3371817A37136"
+      ]
+    },
+    "families": [
+      "TP07F016",
+      "TP07F296"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-3454DE60EEDD8420FD29",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-3454DE60EEDD8420FD29",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "07:81F0:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F015"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-7E81E6418B53FC1B41CE",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-7E81E6418B53FC1B41CE",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "07:8211:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-523F95DC23C4207C7667"
+      ],
+      "$4341": [
+        "TPHW-7834390023F89A807CE6"
+      ],
+      "$4342": [
+        "TPHW-49DC794E4D6192E95BB8"
+      ],
+      "$4343": [
+        "TPHW-B249C03A0C238D65C124"
+      ],
+      "$4344": [
+        "TPHW-E3E2AD2976C6D084994E"
+      ],
+      "$4345": [
+        "TPHW-9E0BBFFC2CB74F4D376A"
+      ],
+      "$4346": [
+        "TPHW-6632B56F90102E25E87C"
+      ]
+    },
+    "families": [
+      "TP07F015"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-964198FF92A3EC11A9CC",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-964198FF92A3EC11A9CC",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "07:8271:0:0:1",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F026",
+      "TP07F271"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-2A1076413B859B5DA6E5",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-2A1076413B859B5DA6E5",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "07:828C:0:0:1",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-8C6F10420A8E0D54062C"
+      ],
+      "$4341": [
+        "TPHW-758A670757D57D58D7A6"
+      ],
+      "$4342": [
+        "TPHW-BB0DBB425C03C9EA4F0D"
+      ],
+      "$4343": [
+        "TPHW-E0B3F804D054F63F344C"
+      ],
+      "$4344": [
+        "TPHW-3F0E8DA426B380A60D7C"
+      ],
+      "$4345": [
+        "TPHW-2605BB47C3AECEB02894"
+      ],
+      "$4346": [
+        "TPHW-5A1EBE270F19812B14C8"
+      ]
+    },
+    "families": [
+      "TP07F026",
+      "TP07F271"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-6AA81ACA63E89012DF87",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-6AA81ACA63E89012DF87",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "07:82C4:0:0:1",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-8C6F10420A8E0D54062C"
+      ],
+      "$4341": [
+        "TPHW-758A670757D57D58D7A6"
+      ],
+      "$4342": [
+        "TPHW-55FDD1870190BC2A8ABA"
+      ],
+      "$4343": [
+        "TPHW-D80425D85169C062601B"
+      ],
+      "$4344": [
+        "TPHW-D1211F3FB3D8B5F6D36C"
+      ],
+      "$4345": [
+        "TPHW-D3F78D6E5BD5750C77F4"
+      ],
+      "$4346": [
+        "TPHW-F4E2E9903B09062A34A4"
+      ]
+    },
+    "families": [
+      "TP07F026",
+      "TP07F271"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-8FD3D6F1DC2D67B21326",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-8FD3D6F1DC2D67B21326",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "07:83C2:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F206"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-D8478BD756C9F4A38537",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-D8478BD756C9F4A38537",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "07:83E2:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-ABA6868CC9E5A0122056"
+      ],
+      "$4331": [
+        "TPHW-DA3C1B7BC7E8AECD5E8D"
+      ],
+      "$4332": [
+        "TPHW-1E968F9AE84F3C29D6B0"
+      ],
+      "$4333": [
+        "TPHW-88200B31840C0F8CD05E"
+      ],
+      "$4334": [
+        "TPHW-A6FDB365BC24A47AA6DD"
+      ],
+      "$4335": [
+        "TPHW-394E9C7AFEC67C637FC5"
+      ],
+      "$4336": [
+        "TPHW-F69B06B83BF64983FD92"
+      ]
+    },
+    "families": [
+      "TP07F206"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-B6307ACDF6EFAA71FFE2",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-B6307ACDF6EFAA71FFE2",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "07:83F4:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F207"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-A15ADC6A3C8251C840E1",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-A15ADC6A3C8251C840E1",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "07:8414:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-6451A6A43300593EDAD6"
+      ],
+      "$4331": [
+        "TPHW-17E05A8537E44A1EEA89"
+      ],
+      "$4332": [
+        "TPHW-4373F3F3E20AA3551A54"
+      ],
+      "$4333": [
+        "TPHW-01036C7DC78A4A64A9DE"
+      ],
+      "$4334": [
+        "TPHW-F7E63E89B4413FCCBFD4"
+      ],
+      "$4335": [
+        "TPHW-10830F11845C126E830D"
+      ],
+      "$4336": [
+        "TPHW-9DF376653D9BEE40FD4B"
+      ]
+    },
+    "families": [
+      "TP07F207"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-8110B796A629FA5CDEBA",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-8110B796A629FA5CDEBA",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8006:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F018"
+    ],
+    "family_register_surface": [
+      "$420C",
+      "$4300",
+      "$4301",
+      "$4302",
+      "$4303",
+      "$4304"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-A01AD0EE676C13FF4A09",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420C",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-A01AD0EE676C13FF4A09",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:827E:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F353"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-13FEDADB093D1366D5BC",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-13FEDADB093D1366D5BC",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:829F:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-7ADEC099F9F2BE004F61"
+      ],
+      "$4331": [
+        "TPHW-5D4F4EA52AC991B67AC0"
+      ],
+      "$4332": [
+        "TPHW-457B04010B578AF891A3"
+      ],
+      "$4333": [
+        "TPHW-D7A37675F04D13780901"
+      ],
+      "$4334": [
+        "TPHW-EC5FE4E082220B49DD7D"
+      ],
+      "$4335": [
+        "TPHW-8A308C7B7D1A15A73673"
+      ],
+      "$4336": [
+        "TPHW-42C46EE3887B27C85BE6"
+      ]
+    },
+    "families": [
+      "TP07F353"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-91F9A54B9CDDC45C6C95",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-91F9A54B9CDDC45C6C95",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:82F7:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F242"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-50C49B0B02EE5AA8E1B6",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-50C49B0B02EE5AA8E1B6",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8318:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-3B4781CC110BCF79EA6B"
+      ],
+      "$4331": [
+        "TPHW-CA7565EDC4FCA32871B1"
+      ],
+      "$4332": [
+        "TPHW-4BA21D9847058C20858D"
+      ],
+      "$4333": [
+        "TPHW-6D7452441BBE97980D68"
+      ],
+      "$4334": [
+        "TPHW-42ACD863D4182C86622D"
+      ],
+      "$4335": [
+        "TPHW-734F19712557BB17FC55"
+      ],
+      "$4336": [
+        "TPHW-4A3D9FF8515C6CD0CACB"
+      ]
+    },
+    "families": [
+      "TP07F242"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-50EED815D7BA1D9E7B39",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-50EED815D7BA1D9E7B39",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:844E:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F013",
+      "TP07F264"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4370",
+      "$4371",
+      "$4372",
+      "$4373",
+      "$4374",
+      "$4375",
+      "$4376"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-6D2E40D5716DDEBBAF91",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-6D2E40D5716DDEBBAF91",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:846E:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4370": [
+        "TPHW-F3B44280ACDD4342678F"
+      ],
+      "$4371": [
+        "TPHW-5ABCB1973AB525CE7463"
+      ],
+      "$4372": [
+        "TPHW-9F0865D56D8F5FDD2158"
+      ],
+      "$4373": [
+        "TPHW-ABDA8BBC189FED4A6998"
+      ],
+      "$4374": [
+        "TPHW-34D600DAD5C311923EEE"
+      ],
+      "$4375": [
+        "TPHW-F972EC736A183C46D586"
+      ],
+      "$4376": [
+        "TPHW-7A162FE1493EF0587DB5"
+      ]
+    },
+    "families": [
+      "TP07F013",
+      "TP07F264"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4370",
+      "$4371",
+      "$4372",
+      "$4373",
+      "$4374",
+      "$4375",
+      "$4376"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-63655F5FC6C96F29ACBA",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4370",
+      "$4371",
+      "$4372",
+      "$4373",
+      "$4374",
+      "$4375",
+      "$4376"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 128,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-63655F5FC6C96F29ACBA",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8484:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F013",
+      "TP07F264"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4370",
+      "$4371",
+      "$4372",
+      "$4373",
+      "$4374",
+      "$4375",
+      "$4376"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-CF7048CF8D2DB7D4FA35",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-CF7048CF8D2DB7D4FA35",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:84A4:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4370": [
+        "TPHW-CB2AD263FC0C2871EB52"
+      ],
+      "$4371": [
+        "TPHW-7C3FFB27299F55E3C907"
+      ],
+      "$4372": [
+        "TPHW-C5B783799D84524D0987"
+      ],
+      "$4373": [
+        "TPHW-E1E815CAE121126FE2E4"
+      ],
+      "$4374": [
+        "TPHW-18CD658F00A35DB49524"
+      ],
+      "$4375": [
+        "TPHW-2D861CADC7516DDB1157"
+      ],
+      "$4376": [
+        "TPHW-99CA861BDB7AB6EA453F"
+      ]
+    },
+    "families": [
+      "TP07F013",
+      "TP07F264"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4370",
+      "$4371",
+      "$4372",
+      "$4373",
+      "$4374",
+      "$4375",
+      "$4376"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-EEA997AF3BAA895ADCCD",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4370",
+      "$4371",
+      "$4372",
+      "$4373",
+      "$4374",
+      "$4375",
+      "$4376"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 128,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-EEA997AF3BAA895ADCCD",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8594:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F232"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-E6B739BE96B9BA717CF3",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-E6B739BE96B9BA717CF3",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:85B5:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-49055A990986B50120EE"
+      ],
+      "$4331": [
+        "TPHW-9A15C7B9D9AEE24702F0"
+      ],
+      "$4332": [
+        "TPHW-9150D775333E0BDCDFC8"
+      ],
+      "$4333": [
+        "TPHW-11739B2521490887F3B5"
+      ],
+      "$4334": [
+        "TPHW-DE4344BDB108FDB23F46"
+      ],
+      "$4335": [
+        "TPHW-6CE98574E992102D52F7"
+      ],
+      "$4336": [
+        "TPHW-527407DA990D09F1EFB9"
+      ]
+    },
+    "families": [
+      "TP07F232"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-CFA1EF0EAC69F291497E",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-CFA1EF0EAC69F291497E",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:85DE:0:0:1",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F209"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-7A76A0E62ABFC8959DF6",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-7A76A0E62ABFC8959DF6",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:85FE:0:0:1",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-64660AC4AE1359651A32"
+      ],
+      "$4331": [
+        "TPHW-872B9A0F6EF496CE8393"
+      ],
+      "$4332": [
+        "TPHW-8E7A48F7F6D2CBC626B9"
+      ],
+      "$4333": [
+        "TPHW-A6A7289FBAAE16EB5728"
+      ],
+      "$4334": [
+        "TPHW-A643863DEB6695CCB111"
+      ],
+      "$4335": [
+        "TPHW-1FF1D7DE2741DF8489B6"
+      ],
+      "$4336": [
+        "TPHW-B1BD551DEBD82FF48C88"
+      ]
+    },
+    "families": [
+      "TP07F209"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-83A70D2BDDC01A5B1FEA",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-83A70D2BDDC01A5B1FEA",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:891C:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F014",
+      "TP07F262"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-BACD67B58DCFE76125D8",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-BACD67B58DCFE76125D8",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:895E:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-E3AF3EEDC10982CE42C6"
+      ],
+      "$4341": [
+        "TPHW-34F999F340177B537F9A"
+      ],
+      "$4342": [
+        "TPHW-192724E6B5F58F4C2E03"
+      ],
+      "$4343": [
+        "TPHW-4B9AF159FA9BA48D8CF0"
+      ],
+      "$4344": [
+        "TPHW-21B47036F6E2061E32C9"
+      ],
+      "$4345": [
+        "TPHW-90F5B354F96CA6AD4771"
+      ],
+      "$4346": [
+        "TPHW-B3C109A6593CBCE4D65E"
+      ]
+    },
+    "families": [
+      "TP07F014",
+      "TP07F262"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-D8F817CA43F5B64BD757",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-D8F817CA43F5B64BD757",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:896B:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F014",
+      "TP07F262"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-2284A4F2B774D36AC2BB",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-2284A4F2B774D36AC2BB",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:898B:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-F4E20F1EEA115C190B49"
+      ],
+      "$4341": [
+        "TPHW-BFB74E8E08549AA257B8"
+      ],
+      "$4342": [
+        "TPHW-A88A7CC3A7B494362D1F"
+      ],
+      "$4343": [
+        "TPHW-489B9EA5EF76A5CE161F"
+      ],
+      "$4344": [
+        "TPHW-044F41BC9EE1690D4882"
+      ],
+      "$4345": [
+        "TPHW-418F0B238D7608DD27D6"
+      ],
+      "$4346": [
+        "TPHW-12A3A42A367B21AA8F32"
+      ]
+    },
+    "families": [
+      "TP07F014",
+      "TP07F262"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-B483CF36C0393068ED18",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-B483CF36C0393068ED18",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:89A4:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F245"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-33018D30C753204A222A",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-33018D30C753204A222A",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:89C4:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-7F530AED23D0EF4B249B"
+      ],
+      "$4331": [
+        "TPHW-ECF5E853DFFD33913520"
+      ],
+      "$4332": [
+        "TPHW-5877223C606BE80A2364"
+      ],
+      "$4333": [
+        "TPHW-EEB1D980173E897E589C"
+      ],
+      "$4334": [
+        "TPHW-DE01998B508F62936F73"
+      ],
+      "$4335": [
+        "TPHW-A15EB4F9DBCE9C07D465"
+      ],
+      "$4336": [
+        "TPHW-5CC790748A8833978436"
+      ]
+    },
+    "families": [
+      "TP07F245"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-6D351A47E84EBBD52E44",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-6D351A47E84EBBD52E44",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:89C7:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F245"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-0B5DBB817811688DC03C",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-0B5DBB817811688DC03C",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:89E7:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-788087460CB5C04D7C3C"
+      ],
+      "$4331": [
+        "TPHW-1AC6A864AB263663A442"
+      ],
+      "$4332": [
+        "TPHW-C0E537BDE34B63DA90CE"
+      ],
+      "$4333": [
+        "TPHW-4488571861F06A19101B"
+      ],
+      "$4334": [
+        "TPHW-D2630F19A736B67D3449"
+      ],
+      "$4335": [
+        "TPHW-259DFD5C80DFCD1DA0F4"
+      ],
+      "$4336": [
+        "TPHW-5C1AB0BE4B4C00EECCE3"
+      ]
+    },
+    "families": [
+      "TP07F245"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-CF00BD4FB2E09D58E047",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-CF00BD4FB2E09D58E047",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:89EA:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F245"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-E9E479FC022100577204",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-E9E479FC022100577204",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8A0A:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-741EDB48A0347F9A7CF7"
+      ],
+      "$4331": [
+        "TPHW-B99636F8274CE7611386"
+      ],
+      "$4332": [
+        "TPHW-C72417A62963C2B70F93"
+      ],
+      "$4333": [
+        "TPHW-684B72F4CADD69AE6473"
+      ],
+      "$4334": [
+        "TPHW-81FA950A7B99BC39FAA6"
+      ],
+      "$4335": [
+        "TPHW-B65CA468D7E443C49A28"
+      ],
+      "$4336": [
+        "TPHW-70C65687C686B88DFCE8"
+      ]
+    },
+    "families": [
+      "TP07F245"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-70D17170C1885A193067",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-70D17170C1885A193067",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8A49:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F237"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-1C3F0BA237649BF3C408",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-1C3F0BA237649BF3C408",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8A66:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-F7E6823DA8A3FFC59560"
+      ],
+      "$4331": [
+        "TPHW-DB76323037872E040B98"
+      ],
+      "$4332": [
+        "TPHW-D2BA8FBCD2BAB883C7A0"
+      ],
+      "$4333": [
+        "TPHW-58E55E2292533685B580"
+      ],
+      "$4334": [
+        "TPHW-25E42F34DA856DD275EB"
+      ],
+      "$4335": [
+        "TPHW-D9F392A8D6D85CF7B04C"
+      ],
+      "$4336": [
+        "TPHW-83316BD08DFC1ED44F85"
+      ]
+    },
+    "families": [
+      "TP07F237"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-2C9A25BF22D0BD0B6DE8",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-2C9A25BF22D0BD0B6DE8",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8AE8:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F058"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-3E1154044E30A1521723",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-3E1154044E30A1521723",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8B08:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-0156BC5DB5903E65E6B4"
+      ],
+      "$4341": [
+        "TPHW-7631C6BFB82BC51B4DA7"
+      ],
+      "$4342": [
+        "TPHW-AC7936024CC011E5F4F9"
+      ],
+      "$4343": [
+        "TPHW-0D4DF2A9D98F5442847A"
+      ],
+      "$4344": [
+        "TPHW-4301AD5A2B9D143ABA10"
+      ],
+      "$4345": [
+        "TPHW-DB36C637E6E376B82867"
+      ],
+      "$4346": [
+        "TPHW-640E6434F7A8F2D9AF76"
+      ]
+    },
+    "families": [
+      "TP07F058"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-7C73B55F15FBAB493AFA",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-7C73B55F15FBAB493AFA",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8C12:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F058"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-1EC9D44E4DCC2F57280D",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-1EC9D44E4DCC2F57280D",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8C32:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4330": [
+        "TPHW-342AEEEAE7E9F5B48DB2"
+      ],
+      "$4331": [
+        "TPHW-3582084DBF9C6A3FE5B4"
+      ],
+      "$4332": [
+        "TPHW-540F3475088E46CA3D27"
+      ],
+      "$4333": [
+        "TPHW-6020FF42C411527E3406"
+      ],
+      "$4334": [
+        "TPHW-146EA038DC3EE6966C2B"
+      ],
+      "$4335": [
+        "TPHW-81E2A0119DD11B1ED1DA"
+      ],
+      "$4336": [
+        "TPHW-DD6D2C8E613BD7FEC7C3"
+      ]
+    },
+    "families": [
+      "TP07F058"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-1B2A58B1281C1FBB923B",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4330",
+      "$4331",
+      "$4332",
+      "$4333",
+      "$4334",
+      "$4335",
+      "$4336"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 8,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-1B2A58B1281C1FBB923B",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8CB7:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F024"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-478CE57A68CEC3F8A49E",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-478CE57A68CEC3F8A49E",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8CD7:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-2ABEB1586740169691B1"
+      ],
+      "$4341": [
+        "TPHW-8A8F7703A1CEBA9BEA2F"
+      ],
+      "$4342": [
+        "TPHW-C7B3DEAC6ECD74E9DE45"
+      ],
+      "$4343": [
+        "TPHW-EC1F5C7538BF89A2A54E"
+      ],
+      "$4344": [
+        "TPHW-05FB47321CF0080A3AE5"
+      ],
+      "$4345": [
+        "TPHW-B17FEDB7FF983B274FCF"
+      ],
+      "$4346": [
+        "TPHW-06EB1EA20C7928F85948"
+      ]
+    },
+    "families": [
+      "TP07F024"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-3686A8D1D54725EE1F8F",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-3686A8D1D54725EE1F8F",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8CDA:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F024"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-5C985321FE7E8F149032",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-5C985321FE7E8F149032",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8CFA:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-3F7D3EDFAC402374420F"
+      ],
+      "$4341": [
+        "TPHW-B0BA1775D8ABCC31B9A7"
+      ],
+      "$4342": [
+        "TPHW-81C6AE01715E04D2E1B6"
+      ],
+      "$4343": [
+        "TPHW-55735EAE89400E9730E2"
+      ],
+      "$4344": [
+        "TPHW-023F994877A5A9FCC085"
+      ],
+      "$4345": [
+        "TPHW-CAE88743337FA7F9A0AE"
+      ],
+      "$4346": [
+        "TPHW-84BF948E3C53E1E4D6FC"
+      ]
+    },
+    "families": [
+      "TP07F024"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-4D773C9729789CB8F851",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-4D773C9729789CB8F851",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8D0A:0:0:1",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F025"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-9805E1CB352F249C5FC1",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-9805E1CB352F249C5FC1",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:8D2A:0:0:1",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-303149CF9E3F19CB0CFF"
+      ],
+      "$4341": [
+        "TPHW-F8AA89BCFE57951219ED"
+      ],
+      "$4342": [
+        "TPHW-85E6D1DE8C71AF7B10EE"
+      ],
+      "$4343": [
+        "TPHW-EBD35209319F980634DF"
+      ],
+      "$4344": [
+        "TPHW-88FB31532207CFA71272"
+      ],
+      "$4345": [
+        "TPHW-581728C5150B851FECFB"
+      ],
+      "$4346": [
+        "TPHW-14E71CFF7B21AA694CC4"
+      ]
+    },
+    "families": [
+      "TP07F025"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-EF1F6081DE0237999798",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-EF1F6081DE0237999798",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:A6FF:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F351"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-E9D2F4D5E7B3958DB424",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-E9D2F4D5E7B3958DB424",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:A720:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-69AA58BD771BEA49380E"
+      ],
+      "$4341": [
+        "TPHW-E8B70292494DF9F46694"
+      ],
+      "$4342": [
+        "TPHW-C8A2D05D9481F6C99C08"
+      ],
+      "$4343": [
+        "TPHW-B73E99D8D165C8091FC8"
+      ],
+      "$4344": [
+        "TPHW-6A7660565045985EE83B"
+      ],
+      "$4345": [
+        "TPHW-D0BE3A1B716DE46E8EEB"
+      ],
+      "$4346": [
+        "TPHW-00AEDA80EF8EB858D83A"
+      ]
+    },
+    "families": [
+      "TP07F351"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-FA49C7C6278D0383DC2B",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-FA49C7C6278D0383DC2B",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:E196:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F246",
+      "TP07F247",
+      "TP07F248"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4370",
+      "$4371",
+      "$4372",
+      "$4373",
+      "$4374",
+      "$4375",
+      "$4376"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-F1031FC5087D1AA8DDAC",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-F1031FC5087D1AA8DDAC",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:E1B6:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4370": [
+        "TPHW-E1DAA82FBCCE763F41B3"
+      ],
+      "$4371": [
+        "TPHW-70A6D14B35561D7270A8"
+      ],
+      "$4372": [
+        "TPHW-231FFDF66B3B34CB7961"
+      ],
+      "$4373": [
+        "TPHW-730FCA1694007DC0CC23"
+      ],
+      "$4374": [
+        "TPHW-870DF441C19D8432D711"
+      ],
+      "$4375": [
+        "TPHW-8543987441D10430FC7C"
+      ],
+      "$4376": [
+        "TPHW-934982E911E119471138"
+      ]
+    },
+    "families": [
+      "TP07F246",
+      "TP07F247",
+      "TP07F248"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4370",
+      "$4371",
+      "$4372",
+      "$4373",
+      "$4374",
+      "$4375",
+      "$4376"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-C2B2A30EC2F191823176",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4370",
+      "$4371",
+      "$4372",
+      "$4373",
+      "$4374",
+      "$4375",
+      "$4376"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 128,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-C2B2A30EC2F191823176",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:E1D1:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F219",
+      "TP07F246",
+      "TP07F247",
+      "TP07F248"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4370",
+      "$4371",
+      "$4372",
+      "$4373",
+      "$4374",
+      "$4375",
+      "$4376"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-519691253C20C40C62AB",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-519691253C20C40C62AB",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:E1F1:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4370": [
+        "TPHW-3C4F484921DC799EA722"
+      ],
+      "$4371": [
+        "TPHW-7F572A5A6471C7E8698E"
+      ],
+      "$4372": [
+        "TPHW-93F4C5690394BB6B51E5"
+      ],
+      "$4373": [
+        "TPHW-9CF3711E28CA1C54E191"
+      ],
+      "$4374": [
+        "TPHW-A9230B00BEC27F97F6DC"
+      ],
+      "$4375": [
+        "TPHW-6204E32EF1B01CFE8183"
+      ],
+      "$4376": [
+        "TPHW-AE25E30E69D5C33128B9"
+      ]
+    },
+    "families": [
+      "TP07F219",
+      "TP07F246",
+      "TP07F247",
+      "TP07F248"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4370",
+      "$4371",
+      "$4372",
+      "$4373",
+      "$4374",
+      "$4375",
+      "$4376"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-5901016BBCB48623B5E9",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4370",
+      "$4371",
+      "$4372",
+      "$4373",
+      "$4374",
+      "$4375",
+      "$4376"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 128,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-5901016BBCB48623B5E9",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:E223:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F284"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-8B72BD45CD4A523DCC38",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-8B72BD45CD4A523DCC38",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:E244:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-805373DB91A7A1AEF769"
+      ],
+      "$4341": [
+        "TPHW-F4769DE371C8A26CF1A8"
+      ],
+      "$4342": [
+        "TPHW-6963A1FA82141A4A1675"
+      ],
+      "$4343": [
+        "TPHW-35204D4B60C1AC04107B"
+      ],
+      "$4344": [
+        "TPHW-8ADCFC4C90384277A214"
+      ],
+      "$4345": [
+        "TPHW-F8ED1CDD95CAFCC3C885"
+      ],
+      "$4346": [
+        "TPHW-01A1B59FED9514C6CE26"
+      ]
+    },
+    "families": [
+      "TP07F284"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-23469E31C44FA8B2149C",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-23469E31C44FA8B2149C",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:E285:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F284"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-1901BA48D0BD7BE6E8C5",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-1901BA48D0BD7BE6E8C5",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:E2A5:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-8816331A33BD76CC155D"
+      ],
+      "$4341": [
+        "TPHW-A256003405EF6A438F64"
+      ],
+      "$4342": [
+        "TPHW-E0E752FAE70032400FEE"
+      ],
+      "$4343": [
+        "TPHW-057E18FECFB75BA8E41C"
+      ],
+      "$4344": [
+        "TPHW-3CB5BA613959B18143DD"
+      ],
+      "$4345": [
+        "TPHW-325F44327949F3E914CE"
+      ],
+      "$4346": [
+        "TPHW-DCA3474C4685C73FDDF3"
+      ]
+    },
+    "families": [
+      "TP07F284"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-EF0AC6D534955391BA4C",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-EF0AC6D534955391BA4C",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:E3EE:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F320"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-CCAC0A76395B87864E0C",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-CCAC0A76395B87864E0C",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:E40E:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-517B94815E38B03900E9"
+      ],
+      "$4341": [
+        "TPHW-DBA20F6EA3EDAA89E29C"
+      ],
+      "$4342": [
+        "TPHW-D42B1AE3FF5B6871293B"
+      ],
+      "$4343": [
+        "TPHW-9FAF034F6C6A79C81DDE"
+      ],
+      "$4344": [
+        "TPHW-7A148B9CC75ED0AE909F"
+      ],
+      "$4345": [
+        "TPHW-9F117B2B0FD6D93FED60"
+      ],
+      "$4346": [
+        "TPHW-129429A0BD60CDEF3EEE"
+      ]
+    },
+    "families": [
+      "TP07F320"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-01B18744B7AA07257431",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-01B18744B7AA07257431",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:E43E:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {},
+    "families": [
+      "TP07F243"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "NOT_APPLICABLE_DISABLE",
+    "receipt_id": "TP10-BC0FFB17A2B406C82CF3",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 0,
+    "status": "DISABLE_ONLY_PROVED",
+    "trigger_event": "TPHW-BC0FFB17A2B406C82CF3",
+    "value_authority": "EXACT_ZERO"
+  },
+  {
+    "access_width": 1,
+    "context": "0C:E45F:0:1:0",
+    "controller_owner": "runtime/src/theme_park_dma.c",
+    "dominating_payload_events": {
+      "$4340": [
+        "TPHW-5A5053C120E9D5411667"
+      ],
+      "$4341": [
+        "TPHW-DF551669EA4CAB020E45"
+      ],
+      "$4342": [
+        "TPHW-064565A79652C10745D3"
+      ],
+      "$4343": [
+        "TPHW-F979932F76E9168752BC"
+      ],
+      "$4344": [
+        "TPHW-FD7F2C7BBC572D9F37E4"
+      ],
+      "$4345": [
+        "TPHW-CE3B5CA0E6532845FE62"
+      ],
+      "$4346": [
+        "TPHW-D018C65D0721C20692C1"
+      ]
+    },
+    "families": [
+      "TP07F243"
+    ],
+    "family_register_surface": [
+      "$420B",
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "missing_dominating_payload_registers": [],
+    "payload_initialization_authority": "UNIQUE_PREDECESSOR_INITIALIZATION_PROVED",
+    "receipt_id": "TP10-D05553ECA552944EEE32",
+    "receiver_owner": "11C_PPU_OR_LATER_COMPONENT_PENDING",
+    "register": "$420B",
+    "required_payload_registers": [
+      "$4340",
+      "$4341",
+      "$4342",
+      "$4343",
+      "$4344",
+      "$4345",
+      "$4346"
+    ],
+    "scheduler_owner": "runtime/src/theme_park_scheduler.c",
+    "static_trigger_value": 16,
+    "status": "TRIGGER_AND_PAYLOAD_WRITERS_PROVED_RECEIVER_PENDING",
+    "trigger_event": "TPHW-D05553ECA552944EEE32",
+    "value_authority": "EXACT_IMMEDIATE_DOMINATING_PREDECESSOR"
+  }
+]

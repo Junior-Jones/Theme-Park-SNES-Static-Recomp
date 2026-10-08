@@ -1,0 +1,15 @@
+{
+  "cold_regeneration_proven": false,
+  "compaction_receipt_sha256": "4c9c20ae1b2df49b69bfe381fccd2bb15a83975f880289c4a42f9d7f7a624761",
+  "contexts_removed": 0,
+  "full_pass_b_proven": false,
+  "production_manifest_comparison": {
+    "regenerated_sha256": "ebba62e08d778ee9c58ac648248447c701f6636358d202c892b8b7b8a9a2dd7a",
+    "rows": 71986,
+    "status": "PASS_ALL_AUTHORITY_FIELDS_IDENTICAL_ONLY_HISTORICAL_ADMISSION_LABEL_DIFFERS"
+  },
+  "schema": "theme-park-selected-representation-chain-v1",
+  "shards": 670,
+  "status": "PASS_SELECTED_BYTES_MATCH_ORIGINAL_COMPACTION_CHAIN",
+  "token_receipt_sha256": "3d778dcc417354f3870016f4a515d130c18b76a076991891cb464e03917628e0"
+}

@@ -1,0 +1,47 @@
+{
+  "authority": "WDC W65C816S datasheet, March 13 2024",
+  "counts": {
+    "addressing_modes": 30,
+    "contradictory_emulation_rows_rejected": 768,
+    "decoded_semantics": 92,
+    "legal_e_m_x_contexts": 1280,
+    "mnemonics": 92,
+    "native_lowerers": 0,
+    "opcodes": 256,
+    "production_reached": 0,
+    "raw_opcode_e_m_x_rows": 2048
+  },
+  "decoder_semantic_sha256": "914698dc0b12dea54229d3b319c9463d4a0c2d8211977dc655239935e954ddf9",
+  "emulator_semantic_inputs": [],
+  "oracle_inputs": [],
+  "production": {
+    "generic_decoder_selectable": false,
+    "native_lowering_owner": "07C",
+    "production_reachability_owner": "04C-07C",
+    "runtime_opcode_switch": false
+  },
+  "schema": "theme-park-v02c-semantic-manifest-v1",
+  "semantic_source_sha256": {
+    "analysis/w65c816/access.py": "d74961ad86c246169f33f9a8820e6ffd65a361c274bada1c44910667a248c112",
+    "analysis/w65c816/addressing.py": "420bb23d58f30a09bee45afbb036035e985b0961eeee090cf2e6c3d5a013a0ce",
+    "analysis/w65c816/alu.py": "983e1c9a8cb886e845b717f9ee899b8de74e24dddee55a035e7f3f13c5e43fac",
+    "analysis/w65c816/control.py": "ead712203022d6830dbac6063fb717bc481c24661d2771550b02b674389ca935",
+    "analysis/w65c816/coverage.py": "9d95f4221140395e52ce3bebe5fcebee518e27f528812104c3d69004bcad89bb",
+    "analysis/w65c816/cpu_state.py": "11523429bca389c05621c83b1019127ba5c9f3027f75310bb7c7ff9e980ea393",
+    "analysis/w65c816/data_transfer.py": "af6685643643ed887cc4e50dc002d1d2405474e0eff858089b4110baeeedc1d2",
+    "analysis/w65c816/decoder.py": "0809a363673166ff8df177e6c2714781ed4a436f1853955fd5a959d162bf3734",
+    "analysis/w65c816/misc.py": "02ada623e92d23f293c7d2a358f776db447d05b42f5fc4c25776b2246e1e4ee2",
+    "analysis/w65c816/opcodes.py": "a45f3a448f303a5cb998b2b63991b165906b4062749d1ec722b7e6002bc6433a",
+    "analysis/w65c816/operations.py": "1bef73227a09f1dd33671a0625fbc76bb2281afb54850e89588174ff8f259809",
+    "analysis/w65c816/stack_interrupt.py": "18a424866cd7957bb65b1b5cd8d0c291ea38caf6c24a1b34448955f1ddf0cc4e",
+    "analysis/w65c816/stack_ops.py": "16d8e4d960a5285d05d8812d10f7237f6cf157ad3050b49ddd77c1d75c4a2026",
+    "analysis/w65c816/state.py": "23eb635fcef3876a2fb17e6ef906310d50bad5883f1ef0124be5db2ad8882764",
+    "analysis/w65c816/timing.py": "bab4b979e75d9c42fb580dab80c488f2e1fefb271511ad80406ea6b2b2bcb7ce"
+  },
+  "specification": {
+    "official_url": "https://www.westerndesigncenter.com/wdc/documentation/w65c816s.pdf",
+    "path": "research/w65c816s-2024-03-13.pdf",
+    "sha256": "b9177e1b045d2c8a801d1b23619abb4e5b29b88868fa491df7296dbc0b13447e"
+  },
+  "status": "OFFLINE_SEMANTIC_FOUNDATION"
+}

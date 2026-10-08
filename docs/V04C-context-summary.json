@@ -1,0 +1,58 @@
+{
+  "admitted_production_contexts": 0,
+  "artifacts_sha256": {
+    "V04C-byte-conflicts.csv": "6e6908d4a0a9bcad514d152b1db6172afb406f0659c862dc9274d205475fcfb9",
+    "V04C-context-intelligence.csv": "b911a9c6945e41bd294622b092beaf1f6220a473ebb6cb4445e97751484d4378",
+    "V04C-contexts.csv": "44dd488c74eab2da3e55f2688cba8e45f9695ccd8fff1627155d6232e866f434",
+    "V04C-direct-edges.csv": "31b8f05ba41ab8df7ba1c9b1610ee71d896e1433142b4b3e1f454764531c7615",
+    "V04C-frontiers.csv": "1327be7cd021a0db150df0bb215c91096e83d91a5374ca7932f02627cdf26c27"
+  },
+  "byte_conflict_rows": 0,
+  "contexts_by_emx": {
+    "000": 5,
+    "010": 30,
+    "011": 11,
+    "111": 8
+  },
+  "decoder_semantic_sha256": "914698dc0b12dea54229d3b319c9463d4a0c2d8211977dc655239935e954ddf9",
+  "direct_edges": 57,
+  "exact_direct_contexts": 54,
+  "frontiers": 2,
+  "frontiers_by_kind": {
+    "RETURN_CONTINUATION": 1,
+    "RETURN_OR_REENTRY": 1
+  },
+  "mnemonic_counts": {
+    "BEQ": 3,
+    "BNE": 1,
+    "BRA": 2,
+    "CLC": 1,
+    "CMP": 3,
+    "CPX": 1,
+    "INX": 3,
+    "JSL": 1,
+    "LDA": 7,
+    "LDX": 4,
+    "PHA": 1,
+    "PLB": 1,
+    "REP": 3,
+    "RTL": 1,
+    "SEI": 1,
+    "SEP": 5,
+    "STA": 8,
+    "STZ": 5,
+    "TCD": 1,
+    "TXS": 1,
+    "XCE": 1
+  },
+  "native_lowered_contexts": 0,
+  "oracle_promotions": 0,
+  "root_count": 1,
+  "root_policy": "EMULATION_RESET_ONLY; interrupt modes and re-entry deferred to 05C",
+  "root_sha256": "1a1761d4246d7acdc2848bdf503eafeceb6ae97c82c67c7f29f4cf465ec3c5bf",
+  "schema": "theme-park-v04c-context-summary-v1",
+  "status": "DISCOVERY_IN_PROGRESS_NOT_PRODUCTION_ADMITTED",
+  "trace_promotions": 0,
+  "unique_cpu_addresses": 54,
+  "v03_row_digest_sha256": "e339825d1e7e3bc6aecf6104e9101fef92207ac0e375133e169bde85ff09d50e"
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "theme-park-oracle-policy-v1",
+  "status": "DISABLED_UNTIL_STATIC_CORE_COMPLETE",
+  "permitted_before_static_core_completion": [],
+  "permitted_after_static_core_completion": [
+    "confirm missing behavior in an independently completed core",
+    "confirm broken behavior in an independently completed core"
+  ],
+  "forbidden": [
+    "author CPU or device semantics",
+    "discover or admit contexts or targets",
+    "author lowering or generated bodies",
+    "supply captured machine state, framebuffer, audio, or future memory",
+    "link, invoke, or ship with production"
+  ]
+}
+

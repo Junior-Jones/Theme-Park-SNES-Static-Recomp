@@ -1,0 +1,15 @@
+{
+  "schema": "theme-park-v14c-verification-summary-v1",
+  "status": "PASS_V14C_THEME_PARK_MODES_2_3_RASTER_PUBLICATION_STATIC_LIBRARIES_NO_EXECUTABLE",
+  "source_modes": [2, 3],
+  "frame_width": 256,
+  "frame_height": 224,
+  "work_and_published_frames_separate": true,
+  "selected_unknown_pixel_policy": "FAIL_CLOSED",
+  "oracle_runs": 0,
+  "target_executable_runs": 0,
+  "executables_created": 0,
+  "compile_receipt": "docs/V14C-static-compile-receipt.json",
+  "verifier": "tools/verify_v14_renderer.py",
+  "next_owner": "15C_INPUT_CONTROLLER_AND_PERSISTENCE_TRANSITIONS"
+}

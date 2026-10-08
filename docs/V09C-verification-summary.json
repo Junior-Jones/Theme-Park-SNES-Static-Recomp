@@ -1,0 +1,13 @@
+{
+  "autojoy_busy_master_clocks": 4224,
+  "autojoy_phase_0_to_34_master_clocks": 4352,
+  "contexts": 71986,
+  "executables_created": 0,
+  "milestone": "09C",
+  "pal_base_field_master_clocks": 425568,
+  "pal_interlace_long_field_master_clocks": 426936,
+  "result": "PASS_STATIC_EVENT_ORDER_AND_PAL_PROFILE_GATE",
+  "schema": 1,
+  "sdsp_samples_per_pal_second": 32000,
+  "ssmp_ticks_per_pal_second": 1024000
+}

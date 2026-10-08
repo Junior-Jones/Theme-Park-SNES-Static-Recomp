@@ -1,0 +1,21 @@
+{
+  "schema": "theme-park-post18-starter-v11-frontend-handoff-v1",
+  "status": "SOURCE_IDENTIFIED_COPY_DEFERRED_UNTIL_18C",
+  "starter_archive": "Starter Snes v11.zip (external workflow reference; not a runtime dependency)",
+  "starter_archive_sha256": "8de51711ebc3c6a421dec661c02a7d76a26108774c59e2b5e37831a054e04fff",
+  "starter_archive_entries": 253,
+  "frontend_source_prefix": "templates/Frontend/Jungle-Strike-1.0.0-Reference/",
+  "porting_guide": "templates/Frontend/PORTING-JUNGLE-STRIKE-1.0.0-FRONTEND.md",
+  "copy_policy": "AFTER_18C_COPY_THIS_STARTER_V11_JUNGLE_STRIKE_DERIVED_FRONTEND_THEN_REPLACE_ONLY_GAME_BINDING_AND_CORE_CONNECTOR_WITH_THEME_PARK_OWNERS",
+  "must_not_source_frontend_code_from": [
+    "Rock n Roll Racing",
+    "Top Gear",
+    "SimCity",
+    "Civilization",
+    "Gundam Wing"
+  ],
+  "frontend_selected_now": false,
+  "frontend_files_copied_now": 0,
+  "executable_created_or_run": false,
+  "reason_deferred": "Project AGENTS.md requires the 18C static-core certificate before frontend work starts."
+}

@@ -1,0 +1,148 @@
+{
+  "context_count": 247,
+  "dbr_proof": "V05C closed DBR=0 theorem; absolute accesses fail closed if DBR differs",
+  "dependencies": {
+    "family_plan_sha256": "2d9b721ef5ef4179e409f03f6acccd7c62847b358e602f150a2e2f9f3bd7b20c",
+    "v05_contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "v05_dynamic_proofs_sha256": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "v05_edges_sha256": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "v05_summary_sha256": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "v06_summary_sha256": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577"
+  },
+  "executable_memory_epoch": "IMMUTABLE_CANONICAL_LOROM; V06C proves zero RAM epochs",
+  "family_id": "TP07F439",
+  "instruction_form_counts": {
+    "ADC:ABS": 3,
+    "ADC:IMM_M": 3,
+    "AND:IMM_M": 5,
+    "ASL:ACC": 5,
+    "BCC:REL8": 2,
+    "BEQ:REL8": 2,
+    "BNE:REL8": 6,
+    "BRL:REL16": 7,
+    "CLC:IMP": 6,
+    "CMP:ABS": 3,
+    "CMP:IMM_M": 5,
+    "DEC:ACC": 1,
+    "INC:ABS": 1,
+    "INC:ACC": 2,
+    "INY:IMP": 1,
+    "JSL:ABSL_JUMP": 10,
+    "LDA:ABS": 19,
+    "LDA:ABSL_X": 1,
+    "LDA:DP_IND_LONG_Y": 10,
+    "LDA:IMM_M": 4,
+    "LDX:ABS": 11,
+    "LDX:IMM_X": 1,
+    "LDY:IMM_X": 11,
+    "ORA:IMM_M": 1,
+    "PHA:IMP": 10,
+    "PHX:IMP": 5,
+    "PLA:IMP": 10,
+    "PLX:IMP": 5,
+    "REP:IMM8": 19,
+    "RTL:IMP": 1,
+    "SEP:IMM8": 18,
+    "STA:ABS": 28,
+    "STA:DP_IND_LONG_Y": 6,
+    "STX:ABS": 14,
+    "STZ:ABS": 1,
+    "TAX:IMP": 2,
+    "TAY:IMP": 4,
+    "TXA:IMP": 1,
+    "TYA:IMP": 2,
+    "XBA:IMP": 1
+  },
+  "internal_edge_count": 246,
+  "kind": "SHARED_LEAF_PROCEDURE",
+  "mode_set": [
+    "0:0:0",
+    "0:0:1",
+    "0:1:1"
+  ],
+  "nested_call_count": 10,
+  "nested_calls": [
+    {
+      "call_source": "04:EE8C:0:0:1",
+      "call_target": "00:C342:0:0:1"
+    },
+    {
+      "call_source": "04:EEE6:0:0:0",
+      "call_target": "00:C29D:0:0:0"
+    },
+    {
+      "call_source": "04:EF09:0:0:1",
+      "call_target": "07:87DA:0:0:1"
+    },
+    {
+      "call_source": "04:EF09:0:1:1",
+      "call_target": "07:87DA:0:1:1"
+    },
+    {
+      "call_source": "04:EF48:0:0:1",
+      "call_target": "04:F05C:0:0:1"
+    },
+    {
+      "call_source": "04:EF53:0:0:0",
+      "call_target": "00:C29D:0:0:0"
+    },
+    {
+      "call_source": "04:EF75:0:0:1",
+      "call_target": "04:F1EC:0:0:1"
+    },
+    {
+      "call_source": "04:EF8E:0:0:1",
+      "call_target": "04:8D06:0:0:1"
+    },
+    {
+      "call_source": "04:EFBF:0:0:0",
+      "call_target": "07:87DA:0:0:0"
+    },
+    {
+      "call_source": "04:EFE4:0:0:0",
+      "call_target": "07:87DA:0:0:0"
+    }
+  ],
+  "parent_calls": [
+    {
+      "call_source": "04:9264:0:0:0",
+      "proof_id": "V05P00674"
+    },
+    {
+      "call_source": "04:96DD:0:0:0",
+      "proof_id": "V05P00689"
+    },
+    {
+      "call_source": "04:9E6B:0:0:0",
+      "proof_id": "V05P00719"
+    }
+  ],
+  "products": {
+    "contexts_sha256": "500023fc5f6a1f71702c8d8cf719a169d8ebdaef927d42d92ec80f3159937fdd",
+    "edges_sha256": "84d3f1af18930d94754570b2f7da0e3f650cd3729675939a2c3ce0cbd104b658"
+  },
+  "return_relations": [
+    {
+      "call_source": "04:9264:0:0:0",
+      "return_source": "04:F05B:0:0:1",
+      "return_target": "04:9268:0:0:1"
+    },
+    {
+      "call_source": "04:96DD:0:0:0",
+      "return_source": "04:F05B:0:0:1",
+      "return_target": "04:96E1:0:0:1"
+    },
+    {
+      "call_source": "04:9E6B:0:0:0",
+      "return_source": "04:F05B:0:0:1",
+      "return_target": "04:9E6F:0:0:1"
+    }
+  ],
+  "root_context": "04:EE33:0:0:0",
+  "runtime_decoder_required": false,
+  "runtime_return_edge_count": 4,
+  "runtime_return_edges_sha256": "4e79a96009a0ee9ed56ffa99f00551e46e49bfc2a2cfe195e1f3684b0d3a0e1f",
+  "schema": "theme-park-v07c-family-understanding-v1",
+  "status": "UNDERSTOOD_SOURCE_PROVED_NOT_YET_ADMITTED",
+  "trace_or_oracle_inputs": []
+}

@@ -1,0 +1,133 @@
+{
+  "aggregate_sha256": "d843ccc7541997bf767841513c6a896f700a02bda75096041e0785c5406348bc",
+  "file_count": 25,
+  "files": [
+    {
+      "path": "core-api/jungle_static_recomp.h",
+      "sha256": "c177e759711319c7fc38e19ec808dd7b0bd026a597b3e4b5f11ddee5c6d9d0f7",
+      "size": 4420
+    },
+    {
+      "path": "frontend/common/jungle_input_contract_test.c",
+      "sha256": "102c595789077ab3944004e1ebcb8bc2f86263ce807839c1f6269e10e6626f83",
+      "size": 2124
+    },
+    {
+      "path": "frontend/common/jungle_input_latch.c",
+      "sha256": "ffe8cfb3b5e0e542318a1278e0405d670f6aa33a953a4250c8d308758cea6614",
+      "size": 1382
+    },
+    {
+      "path": "frontend/common/jungle_input_latch.h",
+      "sha256": "ce8a22a2bb600560fba5d9be4f0a5f3e0dc0d13a4336bb62844ec3f2254dd880",
+      "size": 655
+    },
+    {
+      "path": "frontend/windows/CMakeLists.txt",
+      "sha256": "dd2190ef721a7bb00a73170e0b437471e72341f67597c02401d53b018b09ddf5",
+      "size": 8082
+    },
+    {
+      "path": "frontend/windows/jungle_app_core.c",
+      "sha256": "33d0299501c27014de8d67dd80ad9c4d5c0f6d74d8f259f95239f41d82155ce1",
+      "size": 25973
+    },
+    {
+      "path": "frontend/windows/jungle_app_core.h",
+      "sha256": "02044d078898bd0c96a8ab7202667ebe888c41086ebd2870f43667f52cc78322",
+      "size": 499
+    },
+    {
+      "path": "frontend/windows/jungle_audio_output_dsound_win32.c",
+      "sha256": "602f550eacb187c6ad8e4daf0170d7c11e96de029d5b1980d0ed2781b45e9c66",
+      "size": 38169
+    },
+    {
+      "path": "frontend/windows/jungle_audio_output_dsound_win32.h",
+      "sha256": "296d96e13802cc21be6c820a9bd86122a9e8583277c7eb868bea5b53f0010483",
+      "size": 5233
+    },
+    {
+      "path": "frontend/windows/jungle_audio_resampler.c",
+      "sha256": "34507d7fbcd3a2f573cdd48b04a58daebd008fbf57f20058ec2ba998cbbcb175",
+      "size": 7147
+    },
+    {
+      "path": "frontend/windows/jungle_audio_resampler.h",
+      "sha256": "90f86cab6aa06fd87c8e5a5f0de46d507e11283802c3a4087abb475520dc4ad2",
+      "size": 1569
+    },
+    {
+      "path": "frontend/windows/jungle_audio_resampler_test.c",
+      "sha256": "d38317195a0c61089ab1dae1c780c429138660d2b95c1f82323bab2f57b47b0f",
+      "size": 2828
+    },
+    {
+      "path": "frontend/windows/jungle_audio_settings_contract_test.c",
+      "sha256": "216c157a3b86f35b70d7202aa499230862babc851d981ddb648e27d0a3a622c2",
+      "size": 4516
+    },
+    {
+      "path": "frontend/windows/jungle_frontend_core_test.c",
+      "sha256": "47260721ed50f851eb125a5fe7617152c1769c2f125ccb465debb58d78e0a747",
+      "size": 12787
+    },
+    {
+      "path": "frontend/windows/jungle_frontend_settings_win32.c",
+      "sha256": "d80524bca1d9699672eb714699dc29204487c91a83d10c77764d9900bed92a0a",
+      "size": 33971
+    },
+    {
+      "path": "frontend/windows/jungle_frontend_settings_win32.h",
+      "sha256": "86a876029e46362f316a25833827c80bc904826ab8692768c1b8c51d4e083a5a",
+      "size": 2303
+    },
+    {
+      "path": "frontend/windows/jungle_launcher_win32.c",
+      "sha256": "7f4f6ca308465fb73875f99714f2b5e8604b6c8f1e1dc5dedbafab736dc07693",
+      "size": 155556
+    },
+    {
+      "path": "frontend/windows/jungle_settings_input_contract_test.c",
+      "sha256": "b7824a468fe5d7a47e5236ad8e44e097faf41923ba32b400e91161885d67a37f",
+      "size": 4587
+    },
+    {
+      "path": "frontend/windows/jungle_static_recomp.h",
+      "sha256": "c177e759711319c7fc38e19ec808dd7b0bd026a597b3e4b5f11ddee5c6d9d0f7",
+      "size": 4420
+    },
+    {
+      "path": "frontend/windows/launcher_version.rc",
+      "sha256": "9671c4f3b1f9bc6aaa5c5c056b2bb3c8187f9e5d5f42b77ad0c395a31c7709e7",
+      "size": 822
+    },
+    {
+      "path": "licenses/SDL-LICENSE.txt",
+      "sha256": "0a036265127ddd9cabe2a8f02ed87e8754d8ded83cf3722831225aecf0388df9",
+      "size": 883
+    },
+    {
+      "path": "README.md",
+      "sha256": "8b511175203848936b95e37936445906b557a942fdc3ccbfba26388363d54f30",
+      "size": 1893
+    },
+    {
+      "path": "SOURCE-RECEIPT.txt",
+      "sha256": "b2d87d38a46049368c05dcd75955b8da2a238796e639fb14d3dd2b1193c420a8",
+      "size": 724
+    },
+    {
+      "path": "third_party/jungle-gamepad/jungle_gamepad_input_win32.c",
+      "sha256": "df0de427ff6973fd35592c21c4d85f4b045bdf93b6473ab03d7f935f823278fa",
+      "size": 10612
+    },
+    {
+      "path": "third_party/jungle-gamepad/jungle_gamepad_input_win32.h",
+      "sha256": "46e126f1d35aebbbb802a61f403028e96e03f10eaffe22d66ae8c8336c347ce0",
+      "size": 2119
+    }
+  ],
+  "schema": 1,
+  "total_size": 333274
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "theme-park-target-contract-v1",
+  "supported_rom_sha256": "c0a7e27131a7d8c9ef52a5227329e6de5846c045a9da1f3f84845e3be8e4efba",
+  "supported_rom_size_bytes": 1048576,
+  "workflow_authority": "Starter SNES v10",
+  "canonical_owner_sequence": "01C-18C",
+  "context_key": ["PBR", "PC", "E", "M", "X"],
+  "unknown_context_policy": "FAIL_CLOSED",
+  "runtime_cpu_decoder_allowed": false,
+  "runtime_spc700_decoder_allowed": false,
+  "oracle_allowed_before_static_core_completion": false,
+  "frontend_allowed_before_18c": "USER_OVERRIDE_2026_10_04_CONNECT_FOR_USER_TEST_BEFORE_COMPACTION",
+  "executable_build_or_test_allowed": "17C_THEME_PARK_NATURAL_VALIDATION_AND_STARTER_V11_FRONTEND_USER_TEST",
+  "power_on_profiles": {
+    "production_default": "STRICT_UNKNOWN",
+    "validation_profile": "DETERMINISTIC_ZERO_WRAM_V1",
+    "validation_profile_is_source_authority": false
+  },
+  "current_claim": "01C_TO_16C_RETAINED_17C_REOPENED_BLACK_SILENT_CORE_OUTPUT_18C_COMPACTION_NOT_APPLIED"
+}
+

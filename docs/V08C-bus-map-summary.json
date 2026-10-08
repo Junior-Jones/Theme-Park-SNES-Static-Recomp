@@ -1,0 +1,40 @@
+{
+  "address_space_classified": 16777216,
+  "deferred_address_class_events_preserved": 32750,
+  "open_bus_policy": "CPU_INTERNAL_IO_DOES_NOT_UPDATE_MDR; EXTERNAL_READ_WRITE_DOES",
+  "oracle_inputs": [],
+  "persistence": "NO_SRAM_PROVED_BY_01C_PROFILE; NO_LOAD_WRITE_FLUSH_SURFACE",
+  "power_on_wram_policy": "UNKNOWN_BITS_WITH_ZERO_REPRESENTATIVE_NOT_AUTHORITY",
+  "region_address_counts": {
+    "APUIO": 8192,
+    "CPU_IO": 4096,
+    "DMA": 16384,
+    "INPUT": 256,
+    "OPEN_BUS": 3108096,
+    "PPU": 8192,
+    "ROM": 12451840,
+    "WRAM": 1179648,
+    "WRAM_PORT": 512
+  },
+  "reset_policy": "PRESERVE_WRAM_MDR_WRIO_TIMERS_MEMSEL_WMADD_MATH; CLEAR_NMITIMEN",
+  "rom_alias_distribution": {
+    "10": 65536,
+    "12": 983040
+  },
+  "rom_sha256": "c0a7e27131a7d8c9ef52a5227329e6de5846c045a9da1f3f84845e3be8e4efba",
+  "rom_size": 1048576,
+  "scheduler_boundary": "ACCESS_CLOCK_CLASS_EXPOSED; 09C_OWNS_MASTER_TIME_AND_EVENT_ORDER",
+  "schema": "theme-park-v08c-bus-map-v1",
+  "source_reached_events_reconciled": 1912,
+  "source_reached_owner_counts": {
+    "08C_BUS_MEMORY": 6,
+    "08C_CPU_IO": 609,
+    "09C_SCHEDULER_INTERRUPTS": 24,
+    "10C_DMA_HDMA": 548,
+    "11C_PPU_STATE": 702,
+    "12C_SSMP_APUIO": 21,
+    "15C_INPUT": 2
+  },
+  "sram_bytes": 0,
+  "status": "PASS_EXHAUSTIVE_SOURCE_CONTRACT_RECONCILED"
+}

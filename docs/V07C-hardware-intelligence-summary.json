@@ -1,0 +1,54 @@
+{
+  "authority_state_counts": {
+    "DEFERRED_SIDE_OBLIGATION_NOT_HARDWARE_REACHED": 32750,
+    "SOURCE_REACHED_REGISTER_EVENT_NOT_IMPLEMENTED_OR_CERTIFIED": 1912
+  },
+  "backfill_coverage": {
+    "all_planned_families_rechecked": true,
+    "families_with_hardware_events": 393,
+    "families_without_hardware_events": 120,
+    "planned_family_count": 513,
+    "selected_context_count": 71986,
+    "selected_family_count": 513
+  },
+  "checklist_rows": 105,
+  "checklist_sha256": "fd12148931c9d494e44f0fa99d827462f8ecbde726af8b2585a6eef8a3085dd7",
+  "context_policy": "PBR:PC:E:M:X",
+  "dependencies": {
+    "selected_contexts_sha256": "730eb93020f81a59f80b5567a19abf540af562ec60e9e95fb0e772c6805f4222",
+    "v05_contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "v05_flow_summary_sha256": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "v06_executable_memory_sha256": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577"
+  },
+  "event_count": 34662,
+  "events_sha256": "5b792a005afac868d2799e90af61fd735aeb2343726c7e60a3e6d89cb9550af3",
+  "gates": [
+    "EXACT_INSTRUCTION_START",
+    "EFFECTIVE_BANK_ADDRESS_PROOF",
+    "WIDTH_EXPANDED_BYTE_EVENTS"
+  ],
+  "oracle_or_trace_inputs": [],
+  "runtime_policy": {
+    "compiled_into_runtime": false,
+    "runtime_context_key_extension_allowed": false,
+    "sidecar_may_authorize_context_by_itself": false
+  },
+  "schema": "theme-park-v07c-hardware-intelligence-v1",
+  "status": "OFFLINE_SIDECAR_RECONCILED_NOT_RUNTIME_AUTHORITY",
+  "subsystem_counts": {
+    "APUIO": 5478,
+    "CPU_IO": 6218,
+    "DMA_HDMA": 5883,
+    "INPUT": 5457,
+    "PPU": 6163,
+    "WRAM_IO": 5463
+  },
+  "timing_contract": {
+    "exact_master_clock_raster_profile": "UNRESOLVED_OWNED_BY_09C",
+    "frontend_or_wall_clock_is_guest_authority": false,
+    "independent_domain_join": "INTEGER_RATIONAL_WITH_PRESERVED_REMAINDER",
+    "instruction_cycle_completion": "OWNED_BY_07C_NATIVE_BODIES",
+    "scheduler_requirement": "ONE_MONOTONIC_INTEGER_MASTER_TIMELINE",
+    "source_proved_video_standard": "PAL"
+  }
+}

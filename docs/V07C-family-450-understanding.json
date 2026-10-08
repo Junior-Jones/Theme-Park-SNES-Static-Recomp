@@ -1,0 +1,147 @@
+{
+  "context_count": 304,
+  "dbr_proof": "V05C closed DBR=0 theorem; absolute accesses fail closed if DBR differs",
+  "dependencies": {
+    "family_plan_sha256": "2d9b721ef5ef4179e409f03f6acccd7c62847b358e602f150a2e2f9f3bd7b20c",
+    "v05_contexts_sha256": "6c93ed78768320bbeec6fe8a89a87a5bb18327d7608ec3633a07953687b26d1b",
+    "v05_dynamic_proofs_sha256": "1ab33ceb0d4defac9aba7c7181c0726f610c7a6c732a1dd39eb23a21769a4440",
+    "v05_edges_sha256": "00f63304c762ded68538db9481936ed902e7f1de3cfaa81c88bf42ee08f226b5",
+    "v05_summary_sha256": "1446ef32e95ba79ca2fef11aaa0146296c1c1fb013b780eccdd09348b8553812",
+    "v06_summary_sha256": "45d053218fadfae8478698e57c038b41e53acdf9f9535e2071c36c7184754577"
+  },
+  "executable_memory_epoch": "IMMUTABLE_CANONICAL_LOROM; V06C proves zero RAM epochs",
+  "family_id": "TP07F450",
+  "instruction_form_counts": {
+    "ADC:IMM_M": 5,
+    "AND:IMM_M": 6,
+    "ASL:ACC": 6,
+    "BCC:REL8": 1,
+    "BEQ:REL8": 10,
+    "BNE:REL8": 2,
+    "BRA:REL8": 3,
+    "BRL:REL16": 8,
+    "CLC:IMP": 5,
+    "CMP:IMM_M": 5,
+    "CPX:IMM_X": 2,
+    "EOR:IMM_M": 2,
+    "INC:ACC": 1,
+    "JMP:ABS_JUMP": 1,
+    "JSL:ABSL_JUMP": 13,
+    "LDA:ABS": 18,
+    "LDA:ABSL_X": 3,
+    "LDA:ABS_Y": 7,
+    "LDA:DP_IND_LONG_Y": 7,
+    "LDA:IMM_M": 23,
+    "LDX:ABS": 5,
+    "LDX:IMM_X": 2,
+    "LDY:ABS": 11,
+    "LDY:IMM_X": 11,
+    "NOP:IMP": 16,
+    "PHA:IMP": 3,
+    "PHX:IMP": 1,
+    "PLA:IMP": 3,
+    "PLX:IMP": 1,
+    "REP:IMM8": 31,
+    "RTL:IMP": 1,
+    "SBC:ABS": 1,
+    "SEC:IMP": 1,
+    "SEP:IMM8": 18,
+    "STA:ABS": 26,
+    "STA:ABS_Y": 1,
+    "STA:DP_IND_LONG_Y": 8,
+    "STX:ABS": 5,
+    "STZ:ABS": 1,
+    "TAX:IMP": 4,
+    "TAY:IMP": 14,
+    "TXA:IMP": 1,
+    "TYA:IMP": 10,
+    "TYX:IMP": 1
+  },
+  "internal_edge_count": 303,
+  "kind": "LEAF_PROCEDURE_REACHED_FROM_RESET_BOOTSTRAP",
+  "mode_set": [
+    "0:0:0",
+    "0:0:1",
+    "0:1:0",
+    "0:1:1"
+  ],
+  "nested_call_count": 13,
+  "nested_calls": [
+    {
+      "call_source": "00:F924:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "00:F94C:0:0:0",
+      "call_target": "05:8640:0:0:0"
+    },
+    {
+      "call_source": "00:F961:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "00:F96F:0:0:0",
+      "call_target": "0C:B151:0:0:0"
+    },
+    {
+      "call_source": "00:F9F2:0:1:1",
+      "call_target": "00:8732:0:1:1"
+    },
+    {
+      "call_source": "00:FA07:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "00:FA24:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "00:FA35:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "00:FAF1:0:0:1",
+      "call_target": "07:8530:0:0:1"
+    },
+    {
+      "call_source": "00:FAFE:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "00:FB3E:0:0:0",
+      "call_target": "04:80A7:0:0:0"
+    },
+    {
+      "call_source": "00:FB59:0:0:0",
+      "call_target": "07:9FB9:0:0:0"
+    },
+    {
+      "call_source": "00:FB66:0:1:1",
+      "call_target": "04:ED0A:0:1:1"
+    }
+  ],
+  "parent_calls": [
+    {
+      "call_source": "00:C1CC:0:0:0",
+      "proof_id": "V05P00227"
+    }
+  ],
+  "products": {
+    "contexts_sha256": "8b6e51c5304a3754e474e5a6c582639d1c0954e293c5418eca87f95269973f04",
+    "edges_sha256": "c89d9e7017ef1eb2b46c79291022df66800689c26f1e1772b31259d33025b16f"
+  },
+  "return_relations": [
+    {
+      "call_source": "00:C1CC:0:0:0",
+      "return_source": "00:FBA0:0:0:1",
+      "return_target": "00:C1D0:0:0:1"
+    }
+  ],
+  "root_context": "00:F8EF:0:0:0",
+  "runtime_decoder_required": false,
+  "runtime_return_edge_count": 1,
+  "runtime_return_edges_sha256": "4dc36fd1571f2695977a1a7d97660173909f4c2ae5c361549f932851ab619e0d",
+  "schema": "theme-park-v07c-family-understanding-v1",
+  "status": "UNDERSTOOD_SOURCE_PROVED_NOT_YET_ADMITTED",
+  "trace_or_oracle_inputs": []
+}

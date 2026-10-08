@@ -1,0 +1,50 @@
+name: Windows CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: windows-ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  windows-build-test:
+    name: windows-build-test
+    runs-on: windows-2022
+    timeout-minutes: 60
+    steps:
+      - name: Preserve committed source bytes
+        run: git config --global core.autocrlf false
+      - name: Check out source
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Verify source inventory and distribution exclusions
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $manifest = Get-Content SOURCE-MANIFEST.json -Raw | ConvertFrom-Json
+          foreach ($entry in $manifest.files.PSObject.Properties) {
+            if ((Get-FileHash -LiteralPath $entry.Name -Algorithm SHA256).Hash.ToLowerInvariant() -ne $entry.Value.sha256) {
+              throw "Source manifest mismatch: $($entry.Name)"
+            }
+          }
+          $forbidden = @(git ls-files | Where-Object { $_ -match '(?i)\.(sfc|smc|srm|sav|state|scsnap|exe|dll|pdb|log|bmp|wav)$|(^|/)settings\.ini$' })
+          if ($forbidden.Count) { throw "Forbidden distribution files: $forbidden" }
+      - name: Configure Visual Studio 2022 x64
+        run: cmake -S frontend/frontend/windows -B "$env:RUNNER_TEMP/static-recomp-build" -G "Visual Studio 17 2022" -A x64
+      - name: Compile production core and Launcher
+        run: cmake --build "$env:RUNNER_TEMP/static-recomp-build" --config Release --target theme-park-launcher --parallel 4
+      - name: Verify release executable
+        shell: pwsh
+        run: |
+          $exe = Get-Item "$env:RUNNER_TEMP/static-recomp-build/release/Launcher.exe"
+          if ($exe.VersionInfo.FileVersion -ne '1.0.0') { throw 'Incorrect release version' }
+          Get-FileHash -LiteralPath $exe.FullName -Algorithm SHA256
+          Write-Output 'Production compile and ROM-free packaging checks passed. Gameplay and audio are not tested by this workflow.'
