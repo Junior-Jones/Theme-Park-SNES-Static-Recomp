@@ -1,6 +1,6 @@
 {
   "schema": "theme-park-release-source-v1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "files": {
     ".gitattributes": {
       "sha256": "2a41069fc1a4d9eb21ba39f04e035171edad9d4a070fed5f07464d39a4e19170",
@@ -11,12 +11,12 @@
       "bytes": 16
     },
     ".github/workflows/windows-ci.yml": {
-      "sha256": "102100faa6ea4cdfc1c8fce0da97c84522cfa8d65b6ce7d4f24b241e79930b5f",
-      "bytes": 2143
+      "sha256": "2fb6b24e005f95f71630ddfb5e626d76a1a41dd0a992d4976175bd92548826a1",
+      "bytes": 3036
     },
     ".gitignore": {
-      "sha256": "b4e03552d86a4fca196ebc4d4cd92ac41fe16abb149837e8280fd8d994deab0f",
-      "bytes": 179
+      "sha256": "a90207ab880bfef86746d93da61363a14a87493f754013744dc88e413ee4fc59",
+      "bytes": 188
     },
     ".recomp.json": {
       "sha256": "03d0a5e83ff05fdb7b4215797b532de855c1fc34f1bd49c838e598642e89fb53",
@@ -187,8 +187,8 @@
       "bytes": 2933
     },
     "docs/CURRENT-RUNTIME-STATUS.md": {
-      "sha256": "7c3215c0b92add7caef792d792ae4d755c8cba5f552e16406dc22a0b432e43d7",
-      "bytes": 3194
+      "sha256": "c80cbfd84412fa48482a6d29ecf3640e724a719eb025efcfa6013a52770fdd86",
+      "bytes": 3807
     },
     "docs/FRONTEND-six-recomp-connection-review.md": {
       "sha256": "9bf258b2f552f6894876390576dd3b8407f9e9ae20705911156fc70281aabba1",
@@ -9059,8 +9059,8 @@
       "bytes": 655
     },
     "frontend/frontend/windows/CMakeLists.txt": {
-      "sha256": "a15f65489b98d2d55f89bc35a5ecbb9460cb9e8d4ed13a05377b9e02aab0b525",
-      "bytes": 2704
+      "sha256": "7ffe529be104427a48c43d0d0018bf2bccf22001499ce9d7ed986af5949fa4ac",
+      "bytes": 4661
     },
     "frontend/frontend/windows/jungle_app_core.c": {
       "sha256": "463976e09ddb3b320d6b3a1db93b95b4f554ff4bdb9708fa321a2531c37aa050",
@@ -9095,15 +9095,15 @@
       "bytes": 2306
     },
     "frontend/frontend/windows/jungle_launcher_win32.c": {
-      "sha256": "151e142b259fc7f24e40868e9e79c2463470cd0d4c55bbe2243fd9bd9817ca46",
-      "bytes": 159997
+      "sha256": "960a937824dee2ee84ac313827c19c145bccd4acb8c61bbc6d624a04d26b79ab",
+      "bytes": 164041
     },
     "frontend/frontend/windows/jungle_static_recomp.h": {
       "sha256": "810c52729111890e09477a0b53a8fa159760585d836ae43ee797a6b23b576608",
       "bytes": 4416
     },
     "frontend/frontend/windows/launcher_version.rc": {
-      "sha256": "d72d156453862a59b1d978fbda4b1f1cffa56ee8f2abf55730ebc89fd280e88e",
+      "sha256": "729441486bcae89f19aa2b5a2b691d028383cd678e9b852517d9a40665152b2e",
       "bytes": 816
     },
     "frontend/licenses/SDL-LICENSE.txt": {
@@ -9175,16 +9175,16 @@
       "bytes": 4633
     },
     "PORTABLE-BUILD.md": {
-      "sha256": "de3d1abe86b58b9b91ef6d5da4ea08feb92f25be3f1e5a3e92e542d7f51f22f4",
-      "bytes": 1447
+      "sha256": "1b0bd665e6ff94a5c5f9136563af082f21500aa9d81a02c894093b828ddca681",
+      "bytes": 2057
     },
     "README.md": {
-      "sha256": "0014fdb8431373246640b3bbff732846c27b5182b0487d6d7b6fbff481e371bc",
-      "bytes": 966
+      "sha256": "3d0d252ad406d2741f5047bbf32f4b46f7c10b66f206482e07467297600b9361",
+      "bytes": 1770
     },
     "README.txt": {
-      "sha256": "9254443cf90eab90c83e4d8edd48251f07bef3d01ba5a4697d3b92107a2117b3",
-      "bytes": 3295
+      "sha256": "4b458f582e82c492154c81675666e56e350d99631631501c92729a1b3113eb55",
+      "bytes": 3878
     },
     "runtime/generated/theme_park_spc700_aot.c": {
       "sha256": "4c24db6e0380f9f7f799eeb29b24782d557743e01cc2cba095c11f08e3f123e7",
@@ -9255,8 +9255,8 @@
       "bytes": 12430
     },
     "runtime/src/theme_park_renderer.c": {
-      "sha256": "71bd47c94dee6bf96ad509191ba3f8709ab5b9ef5791d18bdce54646491e23cc",
-      "bytes": 13453
+      "sha256": "9ed2e5e11dd640d08302eaf3040919b8bdee6e224d02b13470ab597d68f335b5",
+      "bytes": 14033
     },
     "runtime/src/theme_park_scheduler.c": {
       "sha256": "782ec90c0e8ec7375e4cc37b39459e5d90ade20222197a195fe1add71f93e738",
@@ -12131,8 +12131,60 @@
       "bytes": 3303
     },
     "VERSION.txt": {
-      "sha256": "8dd4825d6fc1710ccdcd37729e27e3079207de902b0e9b15288f1fc12a858c0c",
-      "bytes": 1282
+      "sha256": "04abc0be5261235d6330bdeaa71ed507bdd21e063a6e11f5eedb01aeb23a35d6",
+      "bytes": 2043
+    },
+    "docs/V1.0.1-GRAPHICS-VERIFICATION.md": {
+      "sha256": "255c3dcc85113d1258b1445d8c7e1524555933f62507f0e794e1f842187b006c",
+      "bytes": 3529
+    },
+    "docs/V1.0.1-LAUNCHER-INTEGRATION.md": {
+      "sha256": "3910831597ecbf1290b99d94fa9a306f006831445caa85e6d8c7f010493c004f",
+      "bytes": 2212
+    },
+    "frontend/frontend/common/theme_park_launch_options.c": {
+      "sha256": "aaca57f82082aa1c92d6bfbf87d898841d0b4af875292bed022d88dddb63160d",
+      "bytes": 4272
+    },
+    "frontend/frontend/common/theme_park_launch_options.h": {
+      "sha256": "b08743617c7c1e94cc9d53b0ca163b0251ea62b21f534edafe4d7445d64e6420",
+      "bytes": 1373
+    },
+    "recomplauncher.json": {
+      "sha256": "30522beb1d5d50c0ef23395ca6896848432d1e30cc1a3e39bad715a4609b1100",
+      "bytes": 1822
+    },
+    "tests/graphics/README.md": {
+      "sha256": "5ab799d7ad3a3450c5007997c0ebcab37d69abcd3a602c8c864fa8c2cf4576b1",
+      "bytes": 3013
+    },
+    "tests/graphics/test_bg_sampling.c": {
+      "sha256": "fc534e95e3a2675cabf7ac45f640ba247ee87c98f4fa4c89d286a405b2078418",
+      "bytes": 4435
+    },
+    "tests/graphics/test_mode2_offsets.c": {
+      "sha256": "938c181c8c22111414c84c093b8b2bd5c931f07b11106bffb89e5312cb146721",
+      "bytes": 4122
+    },
+    "tests/graphics/test_obj_cache.c": {
+      "sha256": "eba689bcdfd10556a3d657baa8a225061a4c1e0462909980b275ca97cae64493",
+      "bytes": 4050
+    },
+    "tests/graphics/test_priority.c": {
+      "sha256": "ab2e5b67ec179b8ddfd4248fb8a45d728065398eac94e61fc251ab136fbc38f6",
+      "bytes": 2107
+    },
+    "tools/test_launch_options.c": {
+      "sha256": "a78681823850f44a504b80ce847263f02fe4d6a56fe86c29bdf2bef0ba4318ae",
+      "bytes": 7280
+    },
+    "tools/update_source_manifest.py": {
+      "sha256": "f4136c293644f864ab0246715bc0a4a237d3146e4682a721a3b883f5a8996c33",
+      "bytes": 1434
+    },
+    "tools/verify_launcher_release.py": {
+      "sha256": "4892ef0d058ab129f4c35dca184b5b5cd6f398aa5e87abd452d49cf20258ad62",
+      "bytes": 4640
     }
   }
 }

@@ -39,6 +39,7 @@ add_executable(theme-park-launcher WIN32
   jungle_audio_resampler.c
   jungle_frontend_settings_win32.c
   ../common/jungle_input_latch.c
+  ../common/theme_park_launch_options.c
   "${THEME_PARK_GAMEPAD_ADAPTER_DIR}/jungle_gamepad_input_win32.c")
 target_include_directories(theme-park-launcher PRIVATE
   "${CMAKE_CURRENT_LIST_DIR}"
@@ -65,5 +66,44 @@ add_custom_command(TARGET theme-park-launcher POST_BUILD
     "$<TARGET_FILE_DIR:theme-park-launcher>/Rom"
   COMMAND "${CMAKE_COMMAND}" -E make_directory
     "$<TARGET_FILE_DIR:theme-park-launcher>/Screenshots"
+    "$<TARGET_FILE_DIR:theme-park-launcher>/Saves"
+    "$<TARGET_FILE_DIR:theme-park-launcher>/Logs"
+  COMMAND "${CMAKE_COMMAND}" -E copy_if_different
+    "${THEME_PARK_SOURCE_ROOT}/recomplauncher.json"
+    "${THEME_PARK_SOURCE_ROOT}/README.txt"
+    "${THEME_PARK_SOURCE_ROOT}/VERSION.txt"
+    "${THEME_PARK_SOURCE_ROOT}/SDL-LICENSE.txt"
+    "${THEME_PARK_SOURCE_ROOT}/THIRD-PARTY-NOTICES.txt"
+    "$<TARGET_FILE_DIR:theme-park-launcher>"
   VERBATIM)
+
+option(THEME_PARK_BUILD_TESTS "Build ROM-free launcher and graphics regression tests" OFF)
+if(THEME_PARK_BUILD_TESTS)
+  enable_testing()
+  add_executable(theme-park-launch-options-test
+    "${THEME_PARK_SOURCE_ROOT}/tools/test_launch_options.c"
+    ../common/theme_park_launch_options.c)
+  target_include_directories(theme-park-launch-options-test PRIVATE ../common)
+  target_link_libraries(theme-park-launch-options-test PRIVATE shell32)
+  set_target_properties(theme-park-launch-options-test PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/tests/$<CONFIG>")
+  if(MSVC)
+    target_compile_options(theme-park-launch-options-test PRIVATE /W4 /WX)
+  endif()
+  add_test(NAME launch-options COMMAND theme-park-launch-options-test)
+  foreach(graphics_case IN ITEMS priority mode2_offsets bg_sampling obj_cache)
+    set(graphics_target "theme-park-graphics-${graphics_case}-test")
+    add_executable(${graphics_target}
+      "${THEME_PARK_SOURCE_ROOT}/tests/graphics/test_${graphics_case}.c")
+    target_include_directories(${graphics_target} PRIVATE
+      "${THEME_PARK_SOURCE_ROOT}/runtime/include"
+      "${THEME_PARK_SOURCE_ROOT}/static-core/internal")
+    set_target_properties(${graphics_target} PROPERTIES
+      RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/tests/$<CONFIG>")
+    if(MSVC)
+      target_compile_options(${graphics_target} PRIVATE /W4 /WX)
+    endif()
+    add_test(NAME "graphics-${graphics_case}" COMMAND ${graphics_target})
+  endforeach()
+endif()
 

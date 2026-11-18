@@ -1,5 +1,5 @@
 Theme Park (SNES) Static Recompilation
-Version 1.0.0
+Version 1.0.1
 
 Running the application
 -----------------------
@@ -71,3 +71,16 @@ Feedback
 Please report gameplay issues to Junior Jones on X: https://x.com/JJ_Retro
 Include what happened and how to reproduce it. Screenshots and a same-build
 snapshot can help. Please do not share the game ROM.
+
+RecompLauncher and direct launch
+-------------------------------
+The release includes recomplauncher.json beside Launcher.exe. RecompLauncher
+can install/update it, set the ROM path and full-screen preference, back up
+Saves, and collect Logs. The game still requires the exact Europe PAL ROM.
+
+Launcher.exe --game "C:\Games\Theme Park.sfc" --fullscreen
+Launcher.exe --game --windowed
+
+Bare --game uses the saved settings.ini ROM/Path. The ROM still passes the
+normal size/SHA-256 checks. Ordinary startup without arguments is unchanged.
+Widescreen is not supported in this release.
