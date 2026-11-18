@@ -12183,8 +12183,8 @@
       "bytes": 1434
     },
     "tools/verify_launcher_release.py": {
-      "sha256": "e5008de9524b24630288684c30b8c61bbff4aee1e99ac6e6f6db6930be6e79cf",
-      "bytes": 3436
+      "sha256": "4892ef0d058ab129f4c35dca184b5b5cd6f398aa5e87abd452d49cf20258ad62",
+      "bytes": 4640
     }
   }
 }
