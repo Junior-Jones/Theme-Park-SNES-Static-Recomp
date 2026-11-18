@@ -10,6 +10,7 @@
 *.sav
 *.state
 *.scsnap
+*.tpsnap
 *.exe
 *.dll
 *.pdb

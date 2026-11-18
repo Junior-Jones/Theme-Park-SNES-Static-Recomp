@@ -1,3 +1,15 @@
+# Graphics update status — 18 November 2026
+
+Local version 1.0.1 has completed the production build and headless boot,
+construction and open-park graphics comparisons. See V1.0.1-GRAPHICS-VERIFICATION.md.
+The renderer changes correct OBJ byte addressing, BG/mosaic vertical origin,
+BG/OBJ priority, Mode 2 offset-map columns and overflow-line cache completion.
+The earlier graphics/no-fault statement below is historical and superseded by
+reproduced renderer defects. Publication status is recorded on the repository release page.
+The full audit and package receipts record verification scope and limits.
+
+---
+
 # Current runtime status
 
 Updated: 2026-10-06

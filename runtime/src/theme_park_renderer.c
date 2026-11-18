@@ -52,7 +52,9 @@ static unsigned bpp(unsigned mode, unsigned layer) {
 }
 
 static uint8_t bg_priority(unsigned layer, unsigned high) {
-    static const uint8_t priority[2][2] = {{3u, 9u}, {1u, 7u}};
+    /* Modes 2/3, back to front: BG2.0, OBJ0, BG1.0, OBJ1,
+     * BG2.1, OBJ2, BG1.1, OBJ3. Keep the highest OBJ above BG1.1. */
+    static const uint8_t priority[2][2] = {{3u, 7u}, {1u, 5u}};
     return priority[layer][high != 0u];
 }
 
@@ -86,16 +88,22 @@ static int apply_mode2_offset(const TPPpu *p, unsigned layer, unsigned sx,
                               unsigned sy, unsigned *wx, unsigned *wy) {
     uint16_t horizontal, vertical;
     unsigned enable = 1u << (13u + layer);
-    if (!opt_word(p, sx, 0u, &horizontal) || !opt_word(p, sx, 8u, &vertical)) return 0;
+    unsigned column_x = sx + (p->bg_hofs[layer] & 7u);
+    /* The first partial 8-dot column uses ordinary scroll. Each subsequent
+       column receives the preceding BG3 offset-map entry. BG3 independently
+       retains its 8/16-dot map geometry and coarse scroll. */
+    if (column_x < 8u) return 1;
+    if (!opt_word(p, column_x - 8u, 0u, &horizontal) ||
+        !opt_word(p, column_x - 8u, 8u, &vertical)) return 0;
     if ((horizontal & enable) != 0u)
-        *wx = sx + (horizontal & 0xFFF8u) + (p->bg_hofs[layer] & 7u);
+        *wx = column_x + (horizontal & 0xFFF8u);
     if ((vertical & enable) != 0u) *wy = sy + vertical;
     return 1;
 }
 
 static int bg_pixel(const TPPpu *p, unsigned layer, unsigned x, unsigned y, TPPixel *pixel) {
     unsigned mode = p->registers[5] & 7u, depth = bpp(mode, layer);
-    unsigned sx = x, sy = y, mosaic = (p->registers[6] >> 4u) + 1u;
+    unsigned sx = x, sy = y + 1u, mosaic = (p->registers[6] >> 4u) + 1u;
     unsigned tile_size, wx, wy, px, py, bit, plane;
     uint8_t nba, value, color = 0u;
     uint16_t entry, palette_color;
@@ -103,7 +111,7 @@ static int bg_pixel(const TPPpu *p, unsigned layer, unsigned x, unsigned y, TPPi
     memset(pixel, 0, sizeof(*pixel)); pixel->transparent = 1u;
     if (depth == 0u) return 1;
     if ((p->registers[6] & (1u << layer)) != 0u && mosaic > 1u) {
-        sx -= sx % mosaic; sy -= sy % mosaic;
+        sx -= sx % mosaic; sy = ((sy - 1u) / mosaic) * mosaic + 1u;
     }
     tile_size = (p->registers[5] & (uint8_t)(0x10u << layer)) != 0u ? 16u : 8u;
     wx = sx + p->bg_hofs[layer]; wy = sy + p->bg_vofs[layer];
@@ -182,7 +190,7 @@ static int prepare_objects(TPPpu *p, unsigned y) {
         for (tile_x = 0u; tile_x < tile_count; ++tile_x) {
             unsigned tile_screen_x = (object.x + tile_x * 8u) & 511u;
             unsigned logical_x = object.hflip ? tile_count - 1u - tile_x : tile_x;
-            unsigned base = (p->registers[1] & 7u) << 13u;
+            unsigned base = (p->registers[1] & 7u) << 14u;
             unsigned tile = ((object.tile & 0xF0u) + (((unsigned)object.y >> 3u) << 4u) +
                              ((object.tile + logical_x) & 15u)) & 255u;
             unsigned row = object.y & 7u, px;
@@ -190,10 +198,14 @@ static int prepare_objects(TPPpu *p, unsigned y) {
             uint32_t address;
             if (object.x != 256u && tile_screen_x >= 256u && tile_screen_x + 7u < 512u)
                 continue;
-            if (object.name) base += (1u + ((p->registers[1] >> 3u) & 3u)) << 12u;
+            if (object.name) base += (1u + ((p->registers[1] >> 3u) & 3u)) << 13u;
             address = (base + tile * 32u + row * 2u) & 0xFFFFu;
             if (!vr16(p,address,&p01)||!vr16(p,address+16u,&p23)) return 0;
-            if (++tiles > 34u) { p->obj_time_over = 1u; return 1; }
+            if (++tiles > 34u) {
+                p->obj_time_over = 1u;
+                p->obj_line = (uint16_t)y; p->obj_line_ready = 1u;
+                return 1;
+            }
             for (px = 0u; px < 8u; ++px) {
                 unsigned screen_x = (object.x + tile_x * 8u + px) & 511u;
                 unsigned bit = object.hflip ? px : 7u - px;

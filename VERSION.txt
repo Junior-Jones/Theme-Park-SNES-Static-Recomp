@@ -1,12 +1,27 @@
 Theme Park (SNES) Static Recompilation
-Version: 1.0.0
+Version: 1.0.1
 Platform: Native 64-bit Windows
 Executable: Launcher.exe
 Launcher title: Launcher
 Game title: Theme Park (SNES)
 ROM: Europe PAL; supplied separately, never included
 
-Version 1.0.0 features
+Version 1.0.1 graphics corrections
+---------------------------------
+- Correct OBJ character base and name-select byte addresses.
+- Correct background visible scanline and mosaic block origins.
+- Correct Mode 2/3 background and sprite priority ordering.
+- Correct Mode 2 first-column and preceding offset-map selection.
+- Retain the prepared OBJ line cache when the sliver limit is reached.
+
+Version 1.0.1 launcher integration
+----------------------------------
+- Include recomplauncher.json beside Launcher.exe for install/update support.
+- Direct Play with --game, including saved-ROM and explicit-path launches.
+- Composable --fullscreen/--windowed options and unchanged ordinary startup.
+- RecompLauncher full-screen settings, Saves backup and Logs collection.
+
+Baseline features
 ----------------------
 - First-run Welcome followed by Launcher.
 - Original 4:3 presentation, full-screen option and optional FPS display.

@@ -5,11 +5,13 @@
 #include <windows.h>
 #include <commdlg.h>
 #include <commctrl.h>
+#include <shellapi.h>
 
 #include "jungle_audio_output_dsound_win32.h"
 #include "jungle_frontend_settings_win32.h"
 #include "jungle_app_core.h"
 #include "jungle_input_latch.h"
+#include "theme_park_launch_options.h"
 
 #include <stdint.h>
 #include <stdio.h>
@@ -182,6 +184,9 @@ static WINDOWPLACEMENT g_saved_placement = {0};
 static int g_resume_after_failed_load;
 static int g_play_after_load;
 static int g_adjacent_rom_found;
+static ThemeParkLaunchOptions g_launch_options;
+static int g_direct_startup_loading;
+static wchar_t g_configured_rom_path[PATH_CAPACITY];
 static JungleStrikeInputLatch g_keyboard_input;
 static uint16_t g_gamepad_input;
 static JungleStrikeGamepadInputWin32 g_gamepad;
@@ -598,11 +603,14 @@ static void report_audio_diagnostic_events(void) {
             (uint64_t)fps_now.QuadPart - g_audio_log_last_qpc >=
                 (uint64_t)g_qpc_frequency.QuadPart) {
             wchar_t path[PATH_CAPACITY];
+            wchar_t logs_directory[PATH_CAPACITY];
             FILE *file;
-            (void)_snwprintf_s(path, ARRAY_COUNT(path), _TRUNCATE,
-                               L"%s\\audio-runtime.log",
-                               g_executable_directory);
-            file = _wfopen(path, L"ab");
+            join_wide_path(logs_directory, ARRAY_COUNT(logs_directory),
+                           g_executable_directory, L"Logs");
+            join_wide_path(path, ARRAY_COUNT(path), logs_directory,
+                           L"audio-runtime.log");
+            file = ensure_directory_tree(logs_directory) ?
+                   _wfopen(path, L"ab") : NULL;
             if (file) {
                 (void)fprintf(file,
                     "frame=%u open=%d paused=%d playing=%d priming=%d "
@@ -3236,6 +3244,8 @@ static void initialize_paths_and_settings(void) {
         L"ROM", L"Path", L"", default_rom,
         (DWORD)(sizeof(default_rom) / sizeof(default_rom[0])),
         g_settings_ini_path);
+    copy_wide(g_configured_rom_path, ARRAY_COUNT(g_configured_rom_path),
+              default_rom);
     attributes = default_rom[0] ? GetFileAttributesW(default_rom) :
                                  INVALID_FILE_ATTRIBUTES;
     if ((attributes != INVALID_FILE_ATTRIBUTES &&
@@ -3280,6 +3290,47 @@ static void continue_startup_after_welcome(void) {
         set_status(L"Welcome closed, but its one-time setting could not be saved; it will appear again next launch.");
         g_getting_started_save_failed = 0;
     }
+}
+
+static void begin_regular_startup(void) {
+    if (!g_frontend_settings.welcome_shown)
+        show_getting_started_window(1);
+    else
+        continue_startup_after_welcome();
+}
+
+static void finish_failed_direct_startup(void) {
+    if (!g_direct_startup_loading) return;
+    g_direct_startup_loading = 0;
+    /* Leave manual Browse/Run available, without automatically retrying a
+       rejected command-line ROM when Welcome closes. */
+    g_adjacent_rom_found = 0;
+    begin_regular_startup();
+}
+
+static int begin_direct_startup(void) {
+    wchar_t path[PATH_CAPACITY];
+    wchar_t error[512];
+    if (!g_launch_options.game) return 0;
+    if (!theme_park_launch_rom_path(&g_launch_options,
+                                    g_configured_rom_path,
+                                    path, ARRAY_COUNT(path),
+                                    error, ARRAY_COUNT(error))) {
+        MessageBoxW(g_window, error, APP_TITLE, MB_OK | MB_ICONERROR);
+        g_adjacent_rom_found = 0;
+        return 0;
+    }
+    SetWindowTextW(g_rom_path, path);
+    g_direct_startup_loading = 1;
+    /* The ordinary loader still verifies the exact ROM/core identity. Only a
+       successful completion reveals the game and bypasses first-run Welcome. */
+    start_rom_load(1);
+    if (InterlockedCompareExchange(&g_loading, 0, 0) == 0) {
+        g_direct_startup_loading = 0;
+        g_adjacent_rom_found = 0;
+        return 0;
+    }
+    return 1;
 }
 
 static void save_current_settings_on_exit(void) {
@@ -3454,7 +3505,7 @@ static LRESULT CALLBACK window_proc(HWND window, UINT message,
                         static const wchar_t about[] =
                             L"F1 - Open the Welcome window\r\n\r\n"
                             L"Theme Park (SNES) Static Recompilation\r\n"
-                            L"Version 1.0.0\r\n\r\n"
+                            L"Version 1.0.1\r\n\r\n"
                             L"Title: Theme Park\r\n"
                             L"Region: Europe PAL\r\n"
                             L"File type: .sfc";
@@ -3547,6 +3598,7 @@ static LRESULT CALLBACK window_proc(HWND window, UINT message,
                 (void)open_audio(1);
                 if (g_resume_after_failed_load) play_game();
                 else update_controls();
+                finish_failed_direct_startup();
                 return 0;
             }
             if (!result->game) {
@@ -3559,6 +3611,7 @@ static LRESULT CALLBACK window_proc(HWND window, UINT message,
                 (void)open_audio(1);
                 if (g_resume_after_failed_load) play_game();
                 else update_controls();
+                finish_failed_direct_startup();
                 return 0;
             }
             close_audio();
@@ -3584,6 +3637,12 @@ static LRESULT CALLBACK window_proc(HWND window, UINT message,
             g_paused = 1;
             jungle_input_latch_reset(&g_keyboard_input);
             (void)open_audio(1);
+            if (g_direct_startup_loading) {
+                g_direct_startup_loading = 0;
+                g_startup_pending = 0;
+                ShowWindow(window, SW_SHOWNORMAL);
+                UpdateWindow(window);
+            }
             InvalidateRect(window, NULL, TRUE);
             update_controls();
             if (g_play_after_load) {
@@ -3647,6 +3706,41 @@ int WINAPI wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE previous,
     WNDCLASSEXW getting_started_class;
     MSG message;
     (void)previous;
+
+    {
+        int argument_count = 0;
+        wchar_t **arguments = CommandLineToArgvW(GetCommandLineW(),
+                                                 &argument_count);
+        wchar_t error[512];
+        int parsed;
+        if (!arguments || argument_count < 1) {
+            if (arguments) LocalFree(arguments);
+            return 2;
+        }
+        parsed = theme_park_launch_options_parse(
+            argument_count - 1, (const wchar_t *const *)(arguments + 1),
+            &g_launch_options, error, ARRAY_COUNT(error));
+        LocalFree(arguments);
+        if (!parsed) {
+            MessageBoxW(NULL, error, APP_TITLE, MB_OK | MB_ICONERROR);
+            return 2;
+        }
+        if (g_launch_options.rom_path[0]) {
+            wchar_t absolute_path[PATH_CAPACITY];
+            DWORD length = GetFullPathNameW(g_launch_options.rom_path,
+                                           (DWORD)ARRAY_COUNT(absolute_path),
+                                           absolute_path, NULL);
+            if (!length || length >= ARRAY_COUNT(absolute_path)) {
+                MessageBoxW(NULL, L"The command-line ROM path cannot be resolved.",
+                            APP_TITLE, MB_OK | MB_ICONERROR);
+                return 2;
+            }
+            /* Resolve relative paths before initialization changes the working
+               directory to the executable's portable settings directory. */
+            copy_wide(g_launch_options.rom_path,
+                      ARRAY_COUNT(g_launch_options.rom_path), absolute_path);
+        }
+    }
 
     g_instance = instance;
     {
@@ -3731,12 +3825,15 @@ int WINAPI wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE previous,
     if (!g_window) return 1;
 
     initialize_paths_and_settings();
-    g_startup_pending = 1;
-    if (!g_frontend_settings.welcome_shown) {
-        show_getting_started_window(1);
-    } else {
-        continue_startup_after_welcome();
+    if (g_launch_options.fullscreen_override != -1) {
+        g_frontend_settings.fullscreen_on_play =
+            g_launch_options.fullscreen_override;
+        SendMessageW(g_fullscreen_checkbox, BM_SETCHECK,
+                     g_launch_options.fullscreen_override ?
+                     BST_CHECKED : BST_UNCHECKED, 0);
     }
+    g_startup_pending = 1;
+    if (!begin_direct_startup()) begin_regular_startup();
 
     {
         int running = 1;

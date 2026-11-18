@@ -1,0 +1,93 @@
+{
+  "$schema": "https://recomplauncher.com/schema/recomplauncher.json",
+  "format": 1,
+  "name": "Theme Park (SNES)",
+  "repo": "Junior-Jones/Theme-Park-SNES-Static-Recomp",
+  "game": {
+    "kind": "iso",
+    "label": "Your own unheadered Theme Park Europe PAL SNES ROM (.sfc or .smc). Required SHA-256: C0A7E27131A7D8C9EF52A5227329E6DE5846C045A9DA1F3F84845E3BE8E4EFBA."
+  },
+  "start": {
+    "program": [
+      "Launcher.exe"
+    ],
+    "args": [
+      "--game",
+      "{game}"
+    ]
+  },
+  "config": [
+    {
+      "id": "main",
+      "format": "ini",
+      "file": [
+        {
+          "path": "{install}/settings.ini"
+        }
+      ],
+      "game_path": "ROM/Path"
+    }
+  ],
+  "saves": [
+    "{install}/Saves"
+  ],
+  "folders": {
+    "saves": [
+      {
+        "path": "{install}/Saves"
+      }
+    ],
+    "logs": [
+      {
+        "path": "{install}/Logs"
+      },
+      {
+        "path": "{install}/audio-runtime.log"
+      }
+    ]
+  },
+  "settings": [
+    {
+      "id": "fullscreen",
+      "label": "Full screen on Play",
+      "help": "Start the game in full screen when Play is selected.",
+      "in": "main",
+      "choices": [
+        {
+          "label": "On",
+          "set": {
+            "General/FullScreenOnPlay": "1"
+          }
+        },
+        {
+          "label": "Off",
+          "set": {
+            "General/FullScreenOnPlay": "0"
+          }
+        }
+      ],
+      "defaults": {
+        "General/FullScreenOnPlay": "0"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "id": "saves",
+      "label": "Saves",
+      "help": "Open snapshot and game-save storage.",
+      "open": "saves"
+    },
+    {
+      "id": "logs",
+      "label": "Logs",
+      "help": "Open runtime diagnostics.",
+      "open": "logs"
+    }
+  ],
+  "requires": [
+    "start",
+    "settings.ini",
+    "settings.choices"
+  ]
+}
